@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Concept-Map.git/static/css/main.b824485f.css",
-    "main.js": "/Concept-Map.git/static/js/main.1e37ccc2.js",
-    "index.html": "/Concept-Map.git/index.html",
-    "main.b824485f.css.map": "/Concept-Map.git/static/css/main.b824485f.css.map",
-    "main.1e37ccc2.js.map": "/Concept-Map.git/static/js/main.1e37ccc2.js.map"
+    "main.css": "/Concept-Map/static/css/main.b824485f.css",
+    "main.js": "/Concept-Map/static/js/main.1e37ccc2.js",
+    "index.html": "/Concept-Map/index.html",
+    "main.b824485f.css.map": "/Concept-Map/static/css/main.b824485f.css.map",
+    "main.1e37ccc2.js.map": "/Concept-Map/static/js/main.1e37ccc2.js.map"
   },
   "entrypoints": [
     "static/css/main.b824485f.css",
