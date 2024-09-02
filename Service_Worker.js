@@ -1,21 +1,21 @@
 const CACHE_NAME = 'my-app-cache-v2';
 const urlsToCache = [
 
-  '%PUBLIC_URL%/static/css/main.668d5cc5.css',
-  '%PUBLIC_URL%/static/css/main.668d5cc5.css.map',
+  '/static/css/main.668d5cc5.css',
+  '/static/css/main.668d5cc5.css.map',
   
-  '%PUBLIC_URL%/static/js/main.5288fb11.js',
-  '%PUBLIC_URL%/static/js/main.5288fb11.js.LICENSE.txt',
-  '%PUBLIC_URL%/static/js/main.5288fb11.js.map',
+  '/static/js/main.5288fb11.js',
+  '/static/js/main.5288fb11.js.LICENSE.txt',
+  '/static/js/main.5288fb11.js.map',
 
-  '%PUBLIC_URL%/asset-manifest.json',
-  '%PUBLIC_URL%/favicon.ico',
-  '%PUBLIC_URL%/index.html',
-  '%PUBLIC_URL%/logo192.png',
-  '%PUBLIC_URL%/logo512.png',
-  '%PUBLIC_URL%/manifest.json',
-  '%PUBLIC_URL%/robots.txt',
-  '%PUBLIC_URL%/Show_Description.png'
+  '/asset-manifest.json',
+  '/favicon.ico',
+  '/index.html',
+  '/logo192.png',
+  '/logo512.png',
+  '/manifest.json',
+  '/robots.txt',
+  '/Show_Description.png'
 ];
 
 self.addEventListener('install', event => {
