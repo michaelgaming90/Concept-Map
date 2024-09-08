@@ -1,6 +1,6 @@
 import "./../css/Authentication.css";
 import React, { useState, useRef } from "react";
-const Server = "https://concept-map-server.onrender.com";
+const Server = "https://concept-map.onrender.com";
 
 function Authentication(Props)
 {
