@@ -1,0 +1,50 @@
+.Authentication_Div{
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: end;
+    gap: 5px 1px;
+}
+
+.Authentication_Div label{
+    margin-left: 10px;
+}
+
+.Authentication_Div input{
+    margin-right: 10px;
+}
+
+.Authentication_Div .Title{
+    margin: 0px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: orange;
+    grid-column: span 2;
+}
+
+.Authentication_Div button{
+    margin-top: 10px;
+    grid-column: span 2;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    padding: 10px;
+    background-color: cyan;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.Authentication_Div :last-child{
+    margin-bottom: 10px;
+}

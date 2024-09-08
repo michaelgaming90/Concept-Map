@@ -1,0 +1,42 @@
+.Settings{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Settings label{
+    margin-bottom: 10px;
+}
+
+.Settings .Switch{
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Settings .Switch.on{
+    background-color: #4CAF50;
+}
+
+.Settings .Switch .Switch_Knob{
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s ease;
+}
+
+.Settings .Switch.on .Switch_Knob{
+    left: 32px;
+}

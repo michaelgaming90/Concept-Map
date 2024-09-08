@@ -1,0 +1,59 @@
+.Description_Div{
+    border: 1px solid black;
+    position: fixed;
+    z-index: 20;
+    left: 30%;
+    top: 15%;
+    min-height: 50vh;
+    max-height: 90vh;
+    width: 68%;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    transition: transform 1s ease-in-out;
+}
+
+.Description_Div.Unmounted{
+    transform: translateX(110%);
+}
+
+.Description_Div.Mounted{
+    transform: translateX(0);
+}
+
+.Description_Div button img{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+
+.Description_Div .Title{
+    background-color: orange;
+    text-align: center;
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.Description_Div textarea{
+    height: auto;
+    width: 96%;
+    margin: 0px;
+    text-align: justify;
+    resize: none;
+    border: none;
+}
+
+.Description_Div button{
+    display: inline-block;
+    margin: 5px;
+    position: absolute;
+    padding: 0px;
+    bottom: 2px;  
+    right: 2px; 
+    border-radius: 10px;
+    overflow: hidden;
+}

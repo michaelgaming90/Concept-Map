@@ -1,0 +1,46 @@
+.Overview_Div{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.Overview_Div .Overview_Title{
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    background-color: orange;
+    padding: 5px 31px;
+    border-radius: 10px;
+    color: white
+}
+
+.Overview_Div .Draggable{
+    position: absolute;
+    font-size: 10px;
+    max-width: 75px;
+    background-color: chartreuse;
+    touch-action: none;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+}
+
+.Overview_Div .Draggable.on{
+    cursor: move;
+}
+
+.Overview_Div svg{
+    width: 100%;
+    height: 100vh;
+}
+
+.Overview_Div svg line{
+    width: 100%;
+    height: 100vh;
+}
