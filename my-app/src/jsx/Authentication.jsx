@@ -111,7 +111,7 @@ async function Saved_Data()
 	try
 	{
 		 // eslint-disable-next-line
-		const response = await fetch("http://10.0.0.12:5000/save",
+		const response = await fetch(`${Server}/save`,
 			{
 				method: "PUT",
 				headers: {"Content-Type": "application/json"},
