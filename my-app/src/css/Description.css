@@ -4,8 +4,7 @@
     z-index: 20;
     left: 30%;
     top: 15%;
-    min-height: 50vh;
-    max-height: 90vh;
+    height: 45vh;
     width: 68%;
     border-radius: 5px;
     margin: 5px;

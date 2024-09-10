@@ -77,7 +77,7 @@ function Information_Choosing(Props)
   return (
     <div className = {`Option_Div ${Props.Switch_Value? "Edit": "Unedit"}`}>
 			<div>
-				<div className = "Header" onClick={() => {Set_Button_Topic_State((Prev) => !Prev); Set_Topic(Prev => Prev)}}>
+				<div className = "Header" onClick={() => {Set_Button_Topic_State((Prev) => !Prev); Set_Topic(() => "")}}>
 					<label>Topic: </label>
 					{Topic}
 					<span className = "arrow">{Button_Topic_State? '^' : 'v'}</span>
@@ -88,7 +88,7 @@ function Information_Choosing(Props)
 				</div>
 			</div>
 			<div>
-				<div className = "Header" onClick={() => {Set_Button_Subject_State((Prev) => !Prev); Set_Subject(Prev => Prev)}}>
+				<div className = "Header" onClick={() => {Set_Button_Subject_State((Prev) => !Prev); Set_Subject(() => "")}}>
 					<label>Subject: </label>
 					{Subject}
 					<span className = "arrow">{Button_Subject_State? '^' : 'v'}</span>
