@@ -35,6 +35,7 @@
     font-size: 1.25rem;
     font-weight: bold;
     padding: 10px 15px;
+    padding-right: 50px;
 }
 
 .Description_Div textarea{
@@ -49,9 +50,9 @@
 .Description_Div button{
     display: inline-block;
     margin: 5px;
-    position: absolute;
+    position: fixed;
     padding: 0px;
-    bottom: 2px;  
+    top: 2px;  
     right: 2px; 
     border-radius: 10px;
     overflow: hidden;

@@ -18,7 +18,7 @@ function Menu(Props)
       <div>
         <label>Name: </label>
         <input ref = {Name_Input}/>
-        <label>Childs: </label>
+        <label>Ids: </label>
         <input ref = {Child_Input}/>
         <button onClick = {Add_Information}>Create Element</button>
       </div>);
@@ -43,7 +43,7 @@ function Menu(Props)
     }
 
     const Childs = Child_Input.current.value.split(", ");
-    if(Name_Input.current.value !== Back_Up.Title)
+    if(Name_Input.current.value !== Back_Up.Data.Title)
     {
       Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.push({
       Title: Name_Input.current.value,
@@ -54,10 +54,10 @@ function Menu(Props)
     }
     else
     {
-      Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.push({
-      Title: Back_Up.Title,
-      Descriptions: Back_Up.Descriptions,
-      Position: Back_Up.Position,
+      Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Back_Up.Index, 0, {
+      Title: Back_Up.Data.Title,
+      Descriptions: Back_Up.Data.Descriptions,
+      Position: Back_Up.Data.Position,
       Branches: Childs
       })
     }
@@ -79,9 +79,10 @@ function Menu(Props)
         {
           if(!Option_State) Set_Option_State(() => true);
           if(!Name_Input.current || !Child_Input.current) return;
-          if(Information.Title !==  Label.textContent) return;
+          if(Information.Title !==  Label.textContent.slice(6)) return;
+
           Props.Set_Description_State(() => false); 
-          localStorage.setItem("Back_Up", JSON.stringify(Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index]));
+          localStorage.setItem("Back_Up", JSON.stringify({Data: Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index], Index: Index}));
       
           Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Index, 1);
           localStorage.setItem("Data", JSON.stringify(Props.Data));

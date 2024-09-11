@@ -70,6 +70,9 @@ function Description(Props)
 					Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index] &&
 					Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index].Title
 				}
+			<button className = "Display_Description" onClick = {() => Props.Set_Description_State(() => false)}>
+        <img src = "/Concept-Map/Show_Description.png" alt="Description_image"/>
+      </button>
 			</label>
 			{Props.Switch_Value?
 				<>
@@ -78,9 +81,6 @@ function Description(Props)
 				</>:
 					Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index].Descriptions.length !== 0 ? Display(): <textarea readOnly value = {"- No Description"}/>
 			}
-			<button className = "Display_Description" onClick = {() => Props.Set_Description_State(() => false)}>
-        <img src = "/Concept-Map/Show_Description.png" alt="Description_image"/>
-      </button>
 			{Adjust_TextArea()}
 		</div>);
 }

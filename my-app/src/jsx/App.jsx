@@ -100,6 +100,7 @@ function App()
 			/>
 			{/*eslint-disable-next-line */}
 			<	Information_Choosing 
+				Set_Information_Index = {Set_Information_Index}
 				Set_Subject_Index = {Set_Subject_Index} 
 				Set_Topic_Index = {Set_Topic_Index}
 				Set_Menu_Mode = {Set_Menu_Mode}
@@ -122,7 +123,6 @@ function App()
 	Set_Data(Data);
 	localStorage.setItem("Data", JSON.stringify(Data));
 	return null;
-		
 }
 
 export default App;

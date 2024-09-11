@@ -65,8 +65,10 @@ function Information_Choosing(Props)
 			key = {Index}
 			onClick = {() => 
 				{
-					Subject_Click_Event(Index); 
+					Subject_Click_Event(Index);
+					Set_Topic(() => "") 
 					Set_Add_Subject_State(() => false);
+					Props.Set_Information_Index(() => 0);
 					Props.Set_Choosen_Option({Mode: "Subject", Name: Data.Subject})
 				}}>
 			{Data.Subject}

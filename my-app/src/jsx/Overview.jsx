@@ -75,7 +75,6 @@ function Overview(Props)
 	{
 		return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
 			(
-				Props.Switch_Value?
 				<label
 					ref = {(Element) => Props.Draggable_Label.current[Index] = Element}
 					key = {Index} 
@@ -84,35 +83,21 @@ function Overview(Props)
 						top: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.y}px`
 					}}
 					className = "Draggable on" 
-					draggable 
-					onDragStart = {Drag_Start} 
-					onDrag = {Dragging}
-					onDragEnd = {Drag_End}
+					unique_id = {Index}
+					draggable = {Props.Switch_Value? true: false}
+					onDragStart = {Props.Switch_Value? Drag_Start: null} 
+					onDrag = {Props.Switch_Value? Dragging: null}
+					onDragEnd = {Props.Switch_Value? Drag_End: null}
 
-					onTouchStart = {Drag_Start}
-					onTouchMove = {Dragging}
-					onTouchEnd = {Drag_End}
-					onClick = {(e) => 
-						{
-							Change_Information_Index(e);
-							Props.Set_Description_State(() => true);
-							Props.Set_Menu_Mode(() => "Overview_Menu");
-						}}>{Information.Title} 
-				</label>:
-				<label 
-					ref = {(Element) => Props.Draggable_Label.current[Index] = Element} 
-					key = {Index}
-					style={{
-						left: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.x}px`,
-						top: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.y}px`
-					}}
+					onTouchStart = {Props.Switch_Value? Drag_Start: null}
+					onTouchMove = {Props.Switch_Value? Dragging: null}
+					onTouchEnd = {Props.Switch_Value? Drag_End: null}
 					onClick = {(e) => 
 					{
 						Change_Information_Index(e);
 						Props.Set_Description_State(() => true);
 						Props.Set_Menu_Mode(() => "Overview_Menu");
-					}}
-					className = "Draggable">{Information.Title}
+					}}>{Props.Switch_Value? <>Id: {Index} <br/></>: null}{Information.Title}
 				</label>
 			)
 		)	
@@ -129,7 +114,7 @@ function Overview(Props)
 				for(let k = 0; k < Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.length; k++)
 				{
 					if(!Props.Draggable_Label.current[k]) continue;
-					if(Information.Branches[i] !== Props.Draggable_Label.current[k].textContent) 
+					if(Information.Branches[i] !== Props.Draggable_Label.current[k].getAttribute("unique_id")) 
 						continue;
 					Parent_Index = k;
 					break;
