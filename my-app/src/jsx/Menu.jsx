@@ -79,7 +79,7 @@ function Menu(Props)
         {
           if(!Option_State) Set_Option_State(() => true);
           if(!Name_Input.current || !Child_Input.current) return;
-          if(Information.Title !==  Label.textContent.slice(6) || Information.Title !==  Label.textContent.slice(7)) return;
+          if(Information.Title !==  Label.textContent.slice(6)) return;
 
           Props.Set_Description_State(() => false); 
           localStorage.setItem("Back_Up", JSON.stringify({Data: Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index], Index: Index}));
