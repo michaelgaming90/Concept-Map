@@ -3,13 +3,13 @@
     position: fixed;
     z-index: 20;
     left: 30%;
-    top: 15%;
-    height: 45vh;
+    top: 10%;
+    height: 60vh;
     width: 68%;
     border-radius: 5px;
     margin: 5px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: grey;
     overflow-y: scroll;
     transition: transform 1s ease-in-out;
 }
@@ -29,31 +29,44 @@
 }
 
 .Description_Div .Title{
-    background-color: orange;
-    text-align: center;
+    background-color: hsl(204, 100%, 50%);
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    left: 0;
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: bold;
     padding: 10px 15px;
     padding-right: 50px;
+    margin-bottom: 15px;
 }
 
 .Description_Div textarea{
     height: auto;
-    width: 96%;
-    margin: 0px;
+    width: 90%;
+    margin: 0px 5px;
     text-align: justify;
     resize: none;
-    border: none;
+    background-color: rgb(58, 58, 58);
+    border-color: white;
+    box-shadow: 0px 0px 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 .Description_Div button{
     display: inline-block;
     margin: 5px;
-    position: fixed;
-    padding: 0px;
-    top: 2px;  
+    position: absolute;
+    padding: 0px 10px;
+    top: 50%;  
     right: 2px; 
+    transform: translateY(-50%);
     border-radius: 10px;
     overflow: hidden;
 }

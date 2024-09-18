@@ -97,7 +97,7 @@ function Overview(Props)
 						Change_Information_Index(e);
 						Props.Set_Description_State(() => true);
 						Props.Set_Menu_Mode(() => "Overview_Menu");
-					}}>{Props.Switch_Value? <>Id: {Index} <br/></>: null}{Information.Title}
+					}}>{Props.Switch_Value? <>Id: {Index} <br/></>: <>Order: {Index} <br/></>}{Information.Title}
 				</label>
 			)
 		)	

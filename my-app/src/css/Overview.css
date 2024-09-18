@@ -18,8 +18,8 @@
 
 .Overview_Div .Draggable{
     position: absolute;
-    font-size: 10px;
-    max-width: 75px;
+    font-size: 0.6rem;
+    max-width: 80px;
     background-color: chartreuse;
     touch-action: none;
     border-radius: 50%;
