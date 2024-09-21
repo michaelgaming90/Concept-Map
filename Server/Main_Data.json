@@ -1,59 +1,1554 @@
 [
   {
-    "Subject": "Sample_Subject",
+    "Subject": "PFPL",
     "Subject_Info": [
       {
-        "Topic": "Sample",
+        "Topic": "Pagsulat ng Iba't Ibang uri ng paglalagom",
         "Topic_Info": [
           {
-            "Title": "Sample",
+            "Title": "Lagom",
             "Descriptions": [
-              "hahahah",
-              "ahahah",
-              "hahaha"
-            ],
-            "Branches": [],
-            "Position": {
-              "x": 134.64584350585938,
-              "y": 83.27081298828125
-            }
-          },
-          {
-            "Title": "Sample 3",
-            "Descriptions": [
-              "juhybybggvgv g ggv gvgvgvgvg g g gghhbhb hh h h hb h h b  hh  g v v    b b b    hbuhhun"
+              "Ang pinasimple at pinaikling bersiyon ng isang sulatin o akda. Ito rin ang kabuoang kaisipang- nakapaloob sa paksang nilalaman ng sulatin o akda."
             ],
             "Position": {
-              "x": 13.322916746139526,
-              "y": 69.98959350585938
+              "x": 157.6666259765625,
+              "y": 73.66668701171875
             },
             "Branches": [
-              "Sample"
+              ""
+            ]
+          },
+          {
+            "Title": "Mga kasanayang nahuhubog sa isang mag-aaral sa pagsasagawa ng lagom",
+            "Descriptions": [],
+            "Position": {
+              "x": 55.47918701171875,
+              "y": 85.64583587646484
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "Natutuhan ang pagtitimbang- timbang ng mga kaisipang nakapaloob sa binabasa."
+            ],
+            "Position": {
+              "x": 15,
+              "y": 131
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Natutuhan ang pagsusuri ng nilalaman ng isang babasahin."
+            ],
+            "Position": {
+              "x": 39.5,
+              "y": 165.5
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Nahuhubog ang kasanayan ng mag-aaral sa pagsulat partikular ang tamang paghabi ng mga pangungusap sa talata."
+            ],
+            "Position": {
+              "x": 78.16668701171875,
+              "y": 187.16668701171875
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [
+              "Nakatutulong sa pagpapaunlad o pagpapayaman ng bokabularyo.\n\n"
+            ],
+            "Position": {
+              "x": 119.16668701171875,
+              "y": 177.66668701171875
+            },
+            "Branches": [
+              "1"
             ]
           }
         ]
       },
       {
-        "Topic": "hahah aha ha ha ha ha h aha ha ha h h h h h h h  h h h  ",
+        "Topic": "Abstak",
         "Topic_Info": [
           {
-            "Title": "Sample",
-            "Descriptions": [],
-            "Branches": [],
+            "Title": "Abstrak",
+            "Descriptions": [
+              "Isang uri ng lagom na karaniwang ginagamit sa pagsulat ng mga akademikong papel tulad ng tesis, papel na siyentipiko at teknikal, lektyur, at mga report. Ito ay kadalasang bahagi ng isang tesis o disertasyon na makikita sa unahan ng pananaliksik pagkatapos ng title page o pahina ng pamagat. Ito ang naglalaman ng pinakabuod ng buong akdang akademiko o ulat."
+            ],
             "Position": {
-              "x": 126,
-              "y": 80.65625
-            }
-          },
-          {
-            "Title": "mga hakbang sa paggawa ng bionote",
-            "Descriptions": [],
-            "Position": {
-              "x": 36.489585876464844,
-              "y": 138.3125
+              "x": 149.5,
+              "y": 181
             },
             "Branches": [
               ""
+            ]
+          },
+          {
+            "Title": "Philip Koopman (1997) How to Write an Abstract. ",
+            "Descriptions": [
+              "\"Bagama't ang abstrak ay maikli lamang, tinataglay nito ang mahahalagang elemento o bahagi ng sulating akademiko tulad ng introduksiyon, mga kaugnay na literatura, metodolohiya, resulta, at kongklusyon. Naiiba ito sa kongklusyon sapagkat ito ay naglalaman ng pinakabuod ng bawat bahagi ng sulatin o ulat.\""
+            ],
+            "Position": {
+              "x": 224.5,
+              "y": 101.5
+            },
+            "Branches": [
+              "Abstrak"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Gumamit ng mga simple, malinaw, at direktang mga pangungusap. Huwag maging maligoy sa pagsulat nito."
+            ],
+            "Position": {
+              "x": 77.5,
+              "y": 300.5
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "Mga Dapat Tandaan sa Pagsulat ng Abstrak",
+            "Descriptions": [],
+            "Position": {
+              "x": 35.5,
+              "y": 207
+            },
+            "Branches": [
+              "Abstrak"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Iwasan din ang paglalagay ng mga statistical figures o table sa abstrak sapagkat hindi ito nangangailangan ng detalyadong pagpapaliwanag na magiging dahilan para humaba ito."
+            ],
+            "Position": {
+              "x": 42.5,
+              "y": 288.5
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "Bilang bahagi ng alituntunin ng pagsulat ng mga akdang pang-akademiko, lahat ng mga detalye o kaisipang ilalagay rito ay dapat na makikita sa kabuoan ng papel; ibig sabihin, hindi maaaring maglagay ng mga kaisipan o datos na hindi binanggit sa ginawang pag-aaral o sulatin."
+            ],
+            "Position": {
+              "x": 9,
+              "y": 266
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [
+              "Maging obhetibo sa pagsulat. Ilahad lamang ang mga pangunahing kaisipan at hindi dapat ipaliwanag ang mga ito."
+            ],
+            "Position": {
+              "x": 118,
+              "y": 295
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "5.",
+            "Descriptions": [
+              "Higit sa lahat ay gawin lamang itong maikli ngunit komprehensibo kung saan mauunawan ng babasa ang pangkalahatang nilalaman at nilalayon ng pag-aaral na ginawa."
+            ],
+            "Position": {
+              "x": 143.5,
+              "y": 256.5
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "Mga Hakbang sa Pagsulat ng Abstrak",
+            "Descriptions": [],
+            "Position": {
+              "x": 232,
+              "y": 214.5
+            },
+            "Branches": [
+              "Abstrak"
+            ]
+          },
+          {
+            "Title": "1. ",
+            "Descriptions": [
+              "Basahing mabuti at pag-aralan ang papel o akademikong sulatin na gagawan ng abstrak."
+            ],
+            "Position": {
+              "x": 192,
+              "y": 250.5
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "2. ",
+            "Descriptions": [
+              "Hanapin at isulat ang mga pangunahing kaisipan o ideya ng bawat bahagi ng sulatin mula sa introduksiyon, kaugnay na literatura, metodolohiya, resulta, at kongklusyon."
+            ],
+            "Position": {
+              "x": 228.5,
+              "y": 272
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "3. ",
+            "Descriptions": [
+              "Buoin, gamit ang mga talata, ang mga pangunahing kaisipang taglay ng bawat bahagi ng sulatin. Isulat ito ayon sa pagkakasunod-sunod ng mga bahaging ito sa kabuoan ng papel."
+            ],
+            "Position": {
+              "x": 265,
+              "y": 279
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "4. ",
+            "Descriptions": [
+              "Iwasang maglagay ng mga ilustrasyon, graph, table, at iba pa maliban na lamang kung sadyang kinakailangan."
+            ],
+            "Position": {
+              "x": 300,
+              "y": 278.5
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "5. ",
+            "Descriptions": [
+              "Isulat ang pinal na sipi nito."
+            ],
+            "Position": {
+              "x": 325.5,
+              "y": 255.5
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Abstrak"
+            ]
+          },
+          {
+            "Title": "Paalala",
+            "Descriptions": [
+              "Hangga't maaari, ang abstrak ay kailangang maisulat gamit ang isang buong pahina ng bondpaper, subalit may mga gumagawa nitong lubhang detalyado kung saan ito ay hinabi batay sa pagkakalagom ng bawat bahagi ng sinulat na papel. Kadalasang makikita ang ganitong uri ng abstrak sa tesis at disertasyon."
+            ],
+            "Position": {
+              "x": 68,
+              "y": 115.5
+            },
+            "Branches": [
+              "Abstrak"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Sinopsis/ Buod",
+        "Topic_Info": [
+          {
+            "Title": "Sinopsis/ Buod",
+            "Descriptions": [
+              "ay isang uri ng lagom na kalimitang ginagamit sa mga akdang nasa tekstong naratibo tulad ng kuwento, salaysay, nobela, dula, parabula, talumpati, at iba pang anyo ng panitikan."
+            ],
+            "Position": {
+              "x": 237.5,
+              "y": 124
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Pagsulat ng Sinopsis/ Buod",
+            "Descriptions": [
+              "Sa pagsulat ng sinopsis, mahalagang maibuod ang nilalaman ng binasang akda gamit ang sariling salita.",
+              "Sa pagsulat ng sinopsis o buod, mahalagang maipakilala sa mga babasa nito kung anong akda ang iyong ginawan ng buod sa pamamagitan ng pagbanggit sa pamagat, may-akda, at pinanggalingan ng akda. Iwasan din ang magbigay ng iyong sariling pananaw o paliwanag tungkol sa akda. Maging obhetibo sa pagsulat nito."
+            ],
+            "Position": {
+              "x": 8,
+              "y": 114.5
+            },
+            "Branches": [
+              "Sinopsis/ Buod"
+            ]
+          },
+          {
+            "Title": "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod",
+            "Descriptions": [],
+            "Position": {
+              "x": 41,
+              "y": 202
+            },
+            "Branches": [
+              "Sinopsis/ Buod"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "Gumamit ng ikatlong panauhan sa pagsulat nito."
+            ],
+            "Position": {
+              "x": 4.5,
+              "y": 248.5
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Isulat ito batay sa tono ng pagkakasulat ng orihinal na sipi nito. Kung ang damdaming naghahari sa akda ay malungkot, dapat na maramdaman din ito sa buod na gagawin."
+            ],
+            "Position": {
+              "x": 34,
+              "y": 275
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Kailangang mailahad o maisama rito ang mga pangunahing tauhan maging ang kanilang mga gampanin at mga suliraning kanilang kinaharap."
+            ],
+            "Position": {
+              "x": 69.5,
+              "y": 283.5
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [
+              " Gumamit ng mga angkop na pang-ugnay sa paghabi ng mga pangyayari sa kuwentong binubuod lalo na kung ang sinopsis na ginawa ay binubuo ng dalawa o higit pang talata."
+            ],
+            "Position": {
+              "x": 109,
+              "y": 278.5
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+            ]
+          },
+          {
+            "Title": "5.",
+            "Descriptions": [
+              " Tiyaking wasto ang gramatika, pagbabaybay, at mga bantas na ginamit sa pagsulat."
+            ],
+            "Position": {
+              "x": 139,
+              "y": 265
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+            ]
+          },
+          {
+            "Title": "6.",
+            "Descriptions": [
+              "Huwag kalimutang isulat ang sangguniang ginamit kung saan hinango o kinuha ang orihinal na sipi ng akda."
+            ],
+            "Position": {
+              "x": 159,
+              "y": 235
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+            ]
+          },
+          {
+            "Title": "Mga Hakbang sa pagsulat ng sinopsis / Buod",
+            "Descriptions": [],
+            "Position": {
+              "x": 227,
+              "y": 211.5
+            },
+            "Branches": [
+              "Sinopsis/ Buod"
+            ]
+          },
+          {
+            "Title": "1. ",
+            "Descriptions": [
+              " Basahin ang buong seleksiyon o akda at unawaing mabuti hanggang makuha ang buong kaisipan o paksa ng diwa nito."
+            ],
+            "Position": {
+              "x": 191.5,
+              "y": 235
+            },
+            "Branches": [
+              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
+            ]
+          },
+          {
+            "Title": "2. ",
+            "Descriptions": [
+              "Suriin at hanapin ang pangunahin at di pangunahing kaisipan."
+            ],
+            "Position": {
+              "x": 211.5,
+              "y": 265
+            },
+            "Branches": [
+              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
+            ]
+          },
+          {
+            "Title": "3. ",
+            "Descriptions": [
+              "Habang nagbabasa, magtala at kung maaari ay magbalangkas."
+            ],
+            "Position": {
+              "x": 243,
+              "y": 278
+            },
+            "Branches": [
+              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
+            ]
+          },
+          {
+            "Title": "4. ",
+            "Descriptions": [
+              "Isulat sa sariling pangungusap at huwag lagyan ng sariling opinyon o kuro-kuro ang isinusulat."
+            ],
+            "Position": {
+              "x": 277,
+              "y": 280.5
+            },
+            "Branches": [
+              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
+            ]
+          },
+          {
+            "Title": "5. ",
+            "Descriptions": [
+              "Ihanay ang ideya sang-ayon sa orihinal."
+            ],
+            "Position": {
+              "x": 304.5,
+              "y": 269
+            },
+            "Branches": [
+              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
+            ]
+          },
+          {
+            "Title": "6. ",
+            "Descriptions": [
+              "Basahin ang unang ginawa, suriin, at kung mapaiikli pa ito nang hindi mababawasan ang kaisipan ay lalong magiging mabisa ang isinulat na buod."
+            ],
+            "Position": {
+              "x": 327.5,
+              "y": 238.5
+            },
+            "Branches": [
+              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Bionote",
+        "Topic_Info": [
+          {
+            "Title": "Bionote",
+            "Descriptions": [
+              "Ang bionote ay maituturing ding isang uri ng lagom na ginagamit sa pagsulat ng personal profile ng isang tao. Marahil ay nakasulat ka na ng yong talambuhay o tinatawag sa Ingles na autobiography o kayâ ng kathambuhay o katha sa buhay ng isang tao o biography. Parang ganito rin ang bionote ngunit ito ay higit na maikli kompara sa mga ito."
+            ],
+            "Position": {
+              "x": 62,
+              "y": 85
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Duenas at Sanz (2012)",
+            "Descriptions": [
+              "Ayon kay Duenas at Sanz (2012) sa kanilang aklat na Academic Writing for Health Sciences, ang bionote ay tala sa buhay ng isang tao na naglalaman ng buod ng kanyang academic career na madalas ay makikita o mababasa sa mga journal, aklat, abstrak ng mga sulating papel, web sites, at iba."
+            ],
+            "Position": {
+              "x": 182,
+              "y": 79
+            },
+            "Branches": [
+              "Bionote"
+            ]
+          },
+          {
+            "Title": "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote",
+            "Descriptions": [],
+            "Position": {
+              "x": 31,
+              "y": 141.5
+            },
+            "Branches": [
+              "Bionote"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "Sikaping maisulat lamang ito nang maikli. Kung ito ay gagamitin sa resumé kailangang maisulat ito gamit ang 200 salita. Kung to naman ay gagamitin para sa networking site, sikaping maisulat ito sa loob ng 5 hanggang 6 na pangungusap."
+            ],
+            "Position": {
+              "x": 8,
+              "y": 194
+            },
+            "Branches": [
+              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Magsimula sa pagbanggit ng mga personal na impormasyon o detalye tungkol sa iyong buhay. Maglagay rin ng mga detalye tungkol sa iyong mga interes. Itala rin ang yong mga tagumpay na nakamit, gayunman, kung ito ay marami, pilin lamang ang 2 o 3 na pinakamahalaga."
+            ],
+            "Position": {
+              "x": 36,
+              "y": 214
+            },
+            "Branches": [
+              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Isulat ito gamit ang ikatlong panauhan upang maging litaw na obhetibo ang pagkakasulat nito."
+            ],
+            "Position": {
+              "x": 74,
+              "y": 216
+            },
+            "Branches": [
+              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [
+              "Gawing simple ang pagkakasulat nito. Gumamit ng mga payak na salita upang madali itong maunawaan at makamit ang totoong layunin nitong maipakilala ang iyong sarili sa iba sa maikli at tuwirang paraan. May ibang gumagamit ng kaunting pagpapatawa para higit na maging kawili-wili ito sa mga babasa, gayunman iwasang maging labis sa paggamit nito. Tandaan na ito ang mismong maglalarawan kung ano at sino ka."
+            ],
+            "Position": {
+              "x": 111,
+              "y": 207
+            },
+            "Branches": [
+              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
+            ]
+          },
+          {
+            "Title": "5.",
+            "Descriptions": [
+              "5.) Bashing muli at muling isulat ang pinal na sipi ng iyong bionote. Maaaring ipabasa muna ito sa ba bago tuluyan itong gamitin upang matiyak ang katumpakan at kaayusan nito."
+            ],
+            "Position": {
+              "x": 138,
+              "y": 180
+            },
+            "Branches": [
+              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Memorandum o Memo",
+        "Topic_Info": [
+          {
+            "Title": "Pagpupulong o Miting",
+            "Descriptions": [
+              "May tatlong mahalagang elementong kailangan upang maging maayos, organisado, at epektibo ang isang pulong. Ito ay memorandum, adyenda, at katitikan ng pulong. Bilang isang mag-aaral mahalagang matutunan mo kung ano-ano at kung paano ginagawa ang mga ito."
+            ],
+            "Position": {
+              "x": 1,
+              "y": 175.5
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Memorandum o Memo",
+            "Descriptions": [],
+            "Position": {
+              "x": 1,
+              "y": 240.5
+            },
+            "Branches": [
+              "Pagpupulong o Miting"
+            ]
+          },
+          {
+            "Title": "Prof. Ma, Rovilla Sudprasert(2014)",
+            "Descriptions": [
+              "Ayon kay Prof. Ma, Rovilla Sudprasert (2014), sa kanyang aklat na English for the Workplace 3, ang memorandum ○ memo ay isang kasulatang nagbibigay kabatiran tungkol sa gagawing pulong o paalala tungkol sa isang mahalagang impormasyon, gawain, tungkulin, o utos. Sa memo nakasaad ang layunin o pakay ng gagawing miting.Sa pamamagitan nito, nagiging malinaw sa mga dadalo ng pulong kung ano ang inaasahan mula sa kanila. ",
+              "Ang pagsulat ng memo ay maituturing ding isang sining. Dapat tandaan na ang memo ay hindi isang liham. Kadalasan ay maikli lamang na ang pangunahing layunin ay pakilusin ang isang tao Sa isang tiyak na alituntuning dapat isakatuparan gaya halimbawa ng Pagdalo sa isang pulong, pagsasagawa, ○ pagsunod sa bagong sistema ng produksiyon ○ kompanya. Ito rin ay maaaring maglahad ng isang impormasyon tungkol sa isang mahalagang balita ○ pangyayari at pagbabago sa mga polisiya. "
+            ],
+            "Position": {
+              "x": -4,
+              "y": 313
+            },
+            "Branches": [
+              "Memorandum o Memo"
+            ]
+          },
+          {
+            "Title": "Dr. Darwin Bargo (2014)",
+            "Descriptions": [
+              "Ayon kay Dr. Darwin Bargo (2014) sa kanyang aklat na Writing in the Discipline, ang mga kilalâ at malalaking kompanya at mga institusyon ay kalimitang gumagamit ng mga colored stationery para sa kanilang mga memo tulad ng sumusunod:"
+            ],
+            "Position": {
+              "x": 95.5,
+              "y": 148
+            },
+            "Branches": [
+              "Memorandum o Memo"
+            ]
+          },
+          {
+            "Title": "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay",
+            "Descriptions": [
+              "Mula sa mga nakatalang halimbawa, mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay ng sumusunod na mga impormasyon Ang mga impormasyong ito ay hinango mula sa aklat ni Sudprasert (2014) na English for the Workplace 3."
+            ],
+            "Position": {
+              "x": 112.5,
+              "y": 298
+            },
+            "Branches": [
+              "Memorandum o Memo"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "Makikita sa letterhead ang logo at pangalan ng kompanya, institusyon, o organisasyon gayundin ang lugar kung saan matatagpuan ito at minsan maging ang bilang ng numero ng telepono."
+            ],
+            "Position": {
+              "x": 78.5,
+              "y": 353
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Ang bahaging Para sa/Para Kay/Kina ay naglalaman na pangalan ng tao mga tao, kayâ naman ay grupong pinag -uukulan ng memo. Para sa isang ımpormal na memo ang Para Kay: Ailene ay sapat na. ◦ pormal na memo, mahalagang isulat ang buong pangalan ng pinag-uukulan Ngunit Sa mga nito. Kung ang tatanggap ng memo ay kabilang sa ibang departamento, makatutulong kung ilalagay rin ang pangalan ng departamento. Hindi na rin kailangang lagyan ng G., Gng., Bb., at iba pa maliban na lamang na napakapormal ng memong ginawa."
+            ],
+            "Position": {
+              "x": 100,
+              "y": 386.5
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Ang bahagi namang ' Mula Kay' ay naglalaman ng pangalan ng gumawa Gaya rin ng bahaging Para sa/Para Kay/Kina ◦ nagpadala ng memo. maaaring gamitin na lamang ang unang Pangalan ng sumulat nito gaya halimbawa nito: Mula Kay: Nestor Ngunit kung ito ay pormal, isulat ang buong pangalan ng nagpadala, Gayundin, mahalagang ilagay ang pangalan ng departamento kung ang memo ay galing sa ibang seksiyon tanggapan. Hindi na rin kailangang lagyan ng G., Gng., Bb., at iba pa maliban na lamang na napakapormal ng memong ginawa. "
+            ],
+            "Position": {
+              "x": 132.5,
+              "y": 397.5
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [
+              "Sa bahaging Petsa, iwasan ang paggamit ng numero gaya ng 11/25/15 o 30/09/15. Sa halip, isulat ang buong pangalan ng buwan ang dinaglat na salita nito tulad halimbawa ng Nobyembre o Nob. kasama ang araw at taon upang maiwasan ang pagkalito. \n"
+            ],
+            "Position": {
+              "x": 174,
+              "y": 394.5
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "5.",
+            "Descriptions": [
+              "Ang bahaging Paksa ay mahalagang maisulat nang payak, malinaw, at tuwiran upang agad maunawaan ang nais ipabatid nito. "
+            ],
+            "Position": {
+              "x": 209,
+              "y": 371
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "6.",
+            "Descriptions": [
+              "Kadalasang ang Mensahe' ay maikli lamang ngunit kung ito ay isang detalyadong memo kailangang ito ay magtaglay ng sumusunod: "
+            ],
+            "Position": {
+              "x": 234,
+              "y": 336
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "7.",
+            "Descriptions": [
+              "Ang huling bahagi ay ang 'Lagda' ng nagpadala. Kadalasang inilalagay ito sa ibabaw ng kanyang pangalan sa bahaging Mula Kay…"
+            ],
+            "Position": {
+              "x": 210,
+              "y": 298.5
+            },
+            "Branches": [
+              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
+            ]
+          },
+          {
+            "Title": "Tatlong uring ng Memo",
+            "Descriptions": [
+              "Sa pangkalahatan, ayon din kay Bargo (2014), may tatlong uri ng memorandum ayon sa layunin nito."
+            ],
+            "Position": {
+              "x": 123.5,
+              "y": 216
+            },
+            "Branches": [
+              "Memorandum o Memo"
+            ]
+          },
+          {
+            "Title": "1.  ",
+            "Descriptions": [
+              "Memorandum para sa kahilingan \n"
+            ],
+            "Position": {
+              "x": 198,
+              "y": 181.5
+            },
+            "Branches": [
+              "Tatlong uring ng Memo"
+            ]
+          },
+          {
+            "Title": "2. ",
+            "Descriptions": [
+              "Memorandum para sa kabatiran \n"
+            ],
+            "Position": {
+              "x": 229,
+              "y": 206
+            },
+            "Branches": [
+              "Tatlong uring ng Memo"
+            ]
+          },
+          {
+            "Title": "3. ",
+            "Descriptions": [
+              "Memorandum para sa pagtugon"
+            ],
+            "Position": {
+              "x": 220,
+              "y": 245
+            },
+            "Branches": [
+              "Tatlong uring ng Memo"
+            ]
+          },
+          {
+            "Title": "1. ",
+            "Descriptions": [
+              "Puti-ginagamit sa mga pangkalahatang kautusan, direktiba, ○ impormasyon ."
+            ],
+            "Position": {
+              "x": 118.5,
+              "y": 106.5
+            },
+            "Branches": [
+              "Dr. Darwin Bargo (2014)"
+            ]
+          },
+          {
+            "Title": "2.  ",
+            "Descriptions": [
+              "Pink o rosas - ginagamit naman para sa request o order na nanggagaling sa purchasing department."
+            ],
+            "Position": {
+              "x": 162,
+              "y": 103.5
+            },
+            "Branches": [
+              "Dr. Darwin Bargo (2014)"
+            ]
+          },
+          {
+            "Title": "3.  ",
+            "Descriptions": [
+              "Dilaw o luntian- ginagamit naman para sa mga memo na nanggagaling sa marketing at accounting department."
+            ],
+            "Position": {
+              "x": 196.5,
+              "y": 128.5
+            },
+            "Branches": [
+              "Dr. Darwin Bargo (2014)"
+            ]
+          },
+          {
+            "Title": "Sitwasyon",
+            "Descriptions": [
+              "dito makikita ang panimula o layunin ng memo."
+            ],
+            "Position": {
+              "x": 267,
+              "y": 269
+            },
+            "Branches": [
+              "6."
+            ]
+          },
+          {
+            "Title": "Problema",
+            "Descriptions": [
+              "nakasaad ang suliraning dapat pagtuonan ng pansin. Hindi lahat ng memo ay nagtataglay nito."
+            ],
+            "Position": {
+              "x": 290.5,
+              "y": 306.5
+            },
+            "Branches": [
+              "6."
+            ]
+          },
+          {
+            "Title": "Solusyon",
+            "Descriptions": [
+              "nagsasaad ng inaasahang dapat gawin ng kinauukulan."
+            ],
+            "Position": {
+              "x": 290,
+              "y": 351
+            },
+            "Branches": [
+              "6."
+            ]
+          },
+          {
+            "Title": "Paggalang o Pasasalamat",
+            "Descriptions": [
+              "wakasan ang memo sa pamamagitan ng pagpapasalamat o pagpapakita ng paggalang."
+            ],
+            "Position": {
+              "x": 244.5,
+              "y": 395.5
+            },
+            "Branches": [
+              "6."
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Adyenda",
+        "Topic_Info": [
+          {
+            "Title": "Agenda o Adyenda",
+            "Descriptions": [],
+            "Position": {
+              "x": 115,
+              "y": 114
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Prof. Ma, Rovilla Sudprasert(2014)",
+            "Descriptions": [
+              "Ayon kay Sudprasert (2014), ang adyenda ang nagtatakda ng mga paksang tatalakayin sa pulong. Ang pagkakaroon ng maayos at sistematikong adyenda ang isa sa mga susi ng matagumpay na pulong. Napakahalagang maisagawa ito nang maayos at maipabatid sa mga taong kabahagi bago isagawa ang pulong. \n"
+            ],
+            "Position": {
+              "x": 258,
+              "y": 116
+            },
+            "Branches": [
+              "Agenda o Adyenda"
+            ]
+          },
+          {
+            "Title": "kahalagahan ng pagkakaroon ng adyenda",
+            "Descriptions": [],
+            "Position": {
+              "x": 213.5,
+              "y": 162
+            },
+            "Branches": [
+              "Agenda o Adyenda"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "Ito ang nagsasaad ng sumusunod na mga impormasyon:\n \na. mga paksang tatalakayin \nb. mga taong tatalakay o magpapaliwanag ng mga paksa \nc. oras na itinakda para sa bawat paksa\n"
+            ],
+            "Position": {
+              "x": 188,
+              "y": 216
+            },
+            "Branches": [
+              "kahalagahan ng pagkakaroon ng adyenda"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Ito rin ang nagtatakda ng balangkas ng pulong tulad ng pagkakasunod-sunod ng mga paksang tatalakayin at kung gaano katagal pag-uusapan ang mga ito."
+            ],
+            "Position": {
+              "x": 219,
+              "y": 236
+            },
+            "Branches": [
+              "kahalagahan ng pagkakaroon ng adyenda"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Ito ay nagsisilbing talaan o tseklist na lubhang mahalaga upang matiyak na ang lahat ng paksang tatalakayin ay kasama sa talaan.  "
+            ],
+            "Position": {
+              "x": 255,
+              "y": 240
+            },
+            "Branches": [
+              "kahalagahan ng pagkakaroon ng adyenda"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [],
+            "Position": {
+              "x": 289,
+              "y": 231
+            },
+            "Branches": [
+              "kahalagahan ng pagkakaroon ng adyenda"
+            ]
+          },
+          {
+            "Title": "5.",
+            "Descriptions": [],
+            "Position": {
+              "x": 313,
+              "y": 200
+            },
+            "Branches": [
+              "kahalagahan ng pagkakaroon ng adyenda"
+            ]
+          },
+          {
+            "Title": "Mga Hakbang sa Pagsulat ng Adyenda",
+            "Descriptions": [],
+            "Position": {
+              "x": 37,
+              "y": 174
+            },
+            "Branches": [
+              "Agenda o Adyenda"
+            ]
+          },
+          {
+            "Title": "1. ",
+            "Descriptions": [
+              "Magpadala ng memo na maaaring nakasulat sa papel o kayâ naman ay isang e-mail na nagsasaad na magkakaroon ng pulong tungkol sa isang tiyak na paksa o layunin sa ganitong araw, oras, at lugar. "
+            ],
+            "Position": {
+              "x": 5,
+              "y": 206
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Adyenda"
+            ]
+          },
+          {
+            "Title": "2. ",
+            "Descriptions": [
+              "IIahad sa memo na kailangan nilang lagdaan ito bilang katibayan ng kanilang pagdalo o kung e-mail naman, kinakailangang magpadala sila ng kanilang tugon. Ipaliwanag din sa memo na sa mga dadalo, mangyaring ipadala o ibigay sa gagawa ng adyenda ang kanilang concerns o paksang tatalakayin at maging ang bilang ng minutong kanilang kailangan upang pag-usapan ito. "
+            ],
+            "Position": {
+              "x": 32,
+              "y": 228
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Adyenda"
+            ]
+          },
+          {
+            "Title": "3. ",
+            "Descriptions": [
+              "Gumawa ng balangkas ng mga paksang tatalakayin kapag ang lahat ng mga adyenda o paksa ay napadala o nalikom na. Higit na magiging sistematiko kung talaan ng adyenda ay nakalatag sa talahanayan o naka table format  kung saan makikita ang adyenda o paksa, taong magpapaliwanag , at oras kung gaano ito katagal pag-uusapan. Ang taong naatasang gumawa ng adyenda ay kailangang maging matalino at mapanuri kung ang mga isinumiteng adyenda o paksang ay may ugnayan sa layunin ng pulong. Kung sakaling ito ay malayo sa paguusaoan, ipagbigay-alam sa taong nagpadala nito na ito ay maaaring tatalakayin sa susunod na pulong."
+            ],
+            "Position": {
+              "x": 66,
+              "y": 239
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Adyenda"
+            ]
+          },
+          {
+            "Title": "4. ",
+            "Descriptions": [
+              "Ipadala ang sipi ng adyenda o mga taong dadalo, mga dalawa o isang araw bago ang pulong. Bilang paalala ay muling ilagay rito ang layunin ng pulong, at kung kailan at saan ito gaganapin."
+            ],
+            "Position": {
+              "x": 102,
+              "y": 235
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Adyenda"
+            ]
+          },
+          {
+            "Title": "5. ",
+            "Descriptions": [
+              "Sundin ang nasabing adyenda sa pagsasagawa ng pulong."
+            ],
+            "Position": {
+              "x": 132,
+              "y": 212
+            },
+            "Branches": [
+              "Mga Hakbang sa Pagsulat ng Adyenda"
+            ]
+          },
+          {
+            "Title": "Mga Dapat Tandaan sa Paggamit ng Adyenda",
+            "Descriptions": [],
+            "Position": {
+              "x": 117,
+              "y": 256
+            },
+            "Branches": [
+              "Agenda o Adyenda"
+            ]
+          },
+          {
+            "Title": "1.  ",
+            "Descriptions": [
+              "Tiyaking ang bawat dadalo sa pulong ay nakatanggap ng sipi ng mga adyenda. Ginagawa ito upang matiyak na ang bawat taong dadalo so pulong ay may sapat na kaalaman hinggil sa mga paksang pag-uusapan."
+            ],
+            "Position": {
+              "x": 91,
+              "y": 300
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
+            ]
+          },
+          {
+            "Title": "2.  ",
+            "Descriptions": [
+              "Talakayin sa unang bahagi ng pulong ang higit na mahahalagang paksa. Sa pagpaplano ng pulong, higit na makabubuti kung sa unahang bahagi ng miting tatalakayin ang pinakamahahalagang adyenda."
+            ],
+            "Position": {
+              "x": 120,
+              "y": 324
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
+            ]
+          },
+          {
+            "Title": "3.  ",
+            "Descriptions": [
+              "Manatili sa iskedyul ng agenda ngunit maging flexible kung kinakailangan. Tiyakin na nasusunod ang itinakdang oras para sa mga adyenda o paksang tatalakayin. Maging \"conscious\" sa oras na napagkasunduan. "
+            ],
+            "Position": {
+              "x": 158,
+              "y": 328
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
+            ]
+          },
+          {
+            "Title": "4.  ",
+            "Descriptions": [
+              "Magsimula at magwakas sa itinakdang oras na nakalagay sa sipi ng adyenda. Ang pagsunod sa itinakdang oras ay nangangahulugan ng pagrespeto sa oras ng iyong mga kasama. "
+            ],
+            "Position": {
+              "x": 192,
+              "y": 320
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
+            ]
+          },
+          {
+            "Title": "5.  ",
+            "Descriptions": [
+              "Ihanda ang mga kakailanganing dokumento kasama ng adyenda. Makatutulong nang malaki kung nakahanda na rin kasama ng adyenda ang mga kakailanganing dokumento para sa mga paksang nangangailangan ng estadistika, kompyutasyon, at iba pa upang mas madali itong maunawaan ng lahat at walang masayang na oras."
+            ],
+            "Position": {
+              "x": 215,
+              "y": 294
+            },
+            "Branches": [
+              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Katitikan ng Pulong",
+        "Topic_Info": [
+          {
+            "Title": "Katitikan ng Pulong",
+            "Descriptions": [
+              "Ang pulong ay mababalewala kung hindi maitatala ang mga napag-usapan o napagkasunduan. Ang opisyal na tala ng isang pulong ay tinatawag na katitikan ng pulong. Ito ay kalimitang isinasagawa nang pormal, obhetibo, at komprehensibo o nagtataglay ng lahat ng mahahalagang detalyeng tinalakay sa pulong. Matapos itong maisulat at mapagtibay sa susunod na pagpupulong, ito ay nagsisilbing opisyal at legal na kasulatan ng samahan, kompanya, o organisasyong maaaring magamit bilang prima facie evidence sa mga legal na usapin o sanggunian para sa susunod na mga pagpaplano at pagkilos."
+            ],
+            "Position": {
+              "x": 116,
+              "y": 262
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Mahahalagang Bahagi ng Katitikan ng Pulong",
+            "Descriptions": [],
+            "Position": {
+              "x": 38,
+              "y": 309
+            },
+            "Branches": [
+              "Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "1.",
+            "Descriptions": [
+              "HEADING - Ito ay naglalaman ng pangalan ng kompanya, samahan, organisasyon, o kagawaran. Makikita rin dito ang petsa, ang lokasyon, at maging ang oras ng pagsisimula ng pulong. "
+            ],
+            "Position": {
+              "x": 30,
+              "y": 279
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "2.",
+            "Descriptions": [
+              "Mga kalahok o dumalo - Dito nakalagay kung sino ang nanguna sa pagpapadaloy ng pulong gayundin ang pangalan ng lahat ng mga dumalo kasama ang mga panauhin. Maging ang pangalan ng mga liban o hindi nakadalo ay nakatala rin dito."
+            ],
+            "Position": {
+              "x": 2,
+              "y": 310
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "3.",
+            "Descriptions": [
+              "Pagbasa at pagpapatibay ng nagdaang katitikan ng pulong - Dito makikita kung ang nakalipas na katitikan ng pulong ay napagtibay o may mga pagbabagong isinagawa sa mga ito. "
+            ],
+            "Position": {
+              "x": -2,
+              "y": 348
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "4.",
+            "Descriptions": [
+              "Action items o usaping napagkasunduan (kasama sa bahaging ito ang mga hindi pa natapos o nagawang proyektong bahagi ng nagdaang pulong). Dito makikita ang mahahalagang talâ hinggil sa mga paksang tinalakay. Inilalagay rin sa bahaging ito kung sino ang taong nanguna sa pagtalakay ng isyu at maging ang desisyong nabuo ukol dito. "
+            ],
+            "Position": {
+              "x": 24,
+              "y": 374
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "5.",
+            "Descriptions": [
+              "Pabalita o patalastas - Hindi ito laging makikita sa katitikan ng pulong ngunit kung mayroon mang pabalita o patalastas mula sa mga dumalo tulad halimbawa ng mga suhestiyong adyenda para sa susunod na pulong ay maaaring ilagay sa bahaging ito. "
+            ],
+            "Position": {
+              "x": 61,
+              "y": 387
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "6.",
+            "Descriptions": [
+              "Iskedyul ng susunod na pulong - Itinatala sa bahaging ito kung kailan at saan gaganapin ang susunod na pulong."
+            ],
+            "Position": {
+              "x": 94,
+              "y": 384
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "7.",
+            "Descriptions": [
+              "Pagtatapos - Inilalagay sa bahaging ito kung anong oras nagwakas ang pulong."
+            ],
+            "Position": {
+              "x": 125,
+              "y": 374
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "8.",
+            "Descriptions": [
+              "Lagda - mahalagang ilagay sa bahaging ito ang pangalan ng taong kumuha ng katitikan ng pulong at kung kailan ito isinumite."
+            ],
+            "Position": {
+              "x": 145,
+              "y": 340
+            },
+            "Branches": [
+              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong",
+            "Descriptions": [],
+            "Position": {
+              "x": 227.5,
+              "y": 289.5
+            },
+            "Branches": [
+              "Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "Dr. Darwin Bargo (2014)",
+            "Descriptions": [
+              "Ayon kay Bargo (2014), dapat tandaan ng sinumang kumukuha ng katitikan ng pulong na hindi niya trabahong ipaliwanag o bigyang-interpretasyon ang mga napag-usapan sa pulong, sa halip, ang kanyang tanging gawain ay itala at iulat lamang ito. "
+            ],
+            "Position": {
+              "x": 207,
+              "y": 232
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "1. ",
+            "Descriptions": [
+              "Hanggal maaari ay hindi participant sa nasabing pulong. "
+            ],
+            "Position": {
+              "x": 195,
+              "y": 324
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "2. ",
+            "Descriptions": [
+              "Umupo malapit sa tagapanguna o presider ng pulong. "
+            ],
+            "Position": {
+              "x": 202,
+              "y": 361
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "3. ",
+            "Descriptions": [
+              "May sipi ng mga pangalan ng mga taong dadalo sa pulong. "
+            ],
+            "Position": {
+              "x": 225,
+              "y": 386
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "4. ",
+            "Descriptions": [
+              "Handa sa mga sipi ng adyenda at katitikan ng nakaraang pulong. "
+            ],
+            "Position": {
+              "x": 252,
+              "y": 397
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "5. ",
+            "Descriptions": [
+              "Nakapokus o nakatuon lamang sa nakatalang adyenda."
+            ],
+            "Position": {
+              "x": 283,
+              "y": 397
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "6. ",
+            "Descriptions": [
+              "Tiyaking ang katitikan ng pulong na ginagawa ay nagtataglay ng tumpak at kompletong heading. "
+            ],
+            "Position": {
+              "x": 312,
+              "y": 383
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "7. ",
+            "Descriptions": [
+              "Gumamit ng recorder kung kinakailangan.\n"
+            ],
+            "Position": {
+              "x": 330,
+              "y": 354
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "8. ",
+            "Descriptions": [
+              "Itala ang mga mosyon o pormal na suhestiyon nang maayos."
+            ],
+            "Position": {
+              "x": 332,
+              "y": 322
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "9. ",
+            "Descriptions": [
+              "Itala ang lahat ng paksa at isyung napagdesisyunan ng koponan. "
+            ],
+            "Position": {
+              "x": 320,
+              "y": 290
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "10. ",
+            "Descriptions": [
+              "Isulat o isaayos agad ang mga datos ng katitikan pagkatapos ng pulong."
+            ],
+            "Position": {
+              "x": 297,
+              "y": 266
+            },
+            "Branches": [
+              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong",
+            "Descriptions": [],
+            "Position": {
+              "x": 58,
+              "y": 161
+            },
+            "Branches": [
+              "Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "1.  ",
+            "Descriptions": [
+              "Ulat ng Katitikan - Sa ganitong uri ng katitikan, ang lahat ng detalyeng napag-usapan sa pulong ay nakatala. "
+            ],
+            "Position": {
+              "x": 14,
+              "y": 197
+            },
+            "Branches": [
+              "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong"
+            ]
+          },
+          {
+            "Title": "2.  ",
+            "Descriptions": [
+              "Salaysay ng Katitikan - Isinasalaysay lamang ang mahahalagang detalye ng pulong. "
+            ],
+            "Position": {
+              "x": 38,
+              "y": 231
+            },
+            "Branches": [
+              "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong"
+            ]
+          },
+          {
+            "Title": "3.  ",
+            "Descriptions": [
+              "Resolusyon ng Katitikan - Nakasaad lamang sa katitikan na ito ang lahat ng isyung napagkasunduan ng samahan."
+            ],
+            "Position": {
+              "x": 74,
+              "y": 248
+            },
+            "Branches": [
+              "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong"
+            ]
+          },
+          {
+            "Title": "Dawn Rosenberg McKay",
+            "Descriptions": [
+              "Ayon kay Dawn Rosenberg McKay, isang editor at may-akda ng The Everything Practice Interview Book at ng The Everything Get-a-job Book, sa pagkuha ng katitikan ng pulong mahalagang maunawaan ang mga bagay na dapat bago ang pulong, habang isinasagawa ang pulong, at pagkatapos ng pulong."
+            ],
+            "Position": {
+              "x": 161,
+              "y": 145.5
+            },
+            "Branches": [
+              "Katitikan ng Pulong"
+            ]
+          },
+          {
+            "Title": "Bago ang Pulong",
+            "Descriptions": [
+              "Magpasiya kung anong paraan ng pagtatala ng katitikan ang iyong gagamitin. ",
+              "Tiyaking ang gagamitin mong kasangkapan ay nasa maayos na kondisyon Kung ikaw ay gagamit ng laptop siguraduhing ito ay may sapat na bateryang kakailanganin para sa kabuoan ng pulong. ",
+              "Gamitin ang adyenda para gawin nang mas maaga ang outline o balangkas ng katitikan ng pulong."
+            ],
+            "Position": {
+              "x": 86,
+              "y": 100.5
+            },
+            "Branches": [
+              "Dawn Rosenberg McKay"
+            ]
+          },
+          {
+            "Title": "Habang Isanasagawa ang Pulong",
+            "Descriptions": [
+              "Ipaikot ang listahan ng mga taong kasama sa pulong at hayaang lagdaan ito ng bawat isa. ",
+              "Sikaping makilala kung sino ang bawat isa upang maging madali para sa iyo na matukoy kung sino ang nagsasalita sa oras ng pulong. ",
+              "Itala kung anong oras nagsimula ang pulong. ",
+              "Itala lamang ang mahahalagang ideya o puntos. Hindi kailangang isulat ang bawat impormasyong maririnig sa pulong gayunman maging maingat sa pagtatala ng mahahalagang puntos. \n",
+              "Itala ang mga mosyon o mga suhestiyon, maging ang pangalan ng taong nagbanggit nito, gayundin ang mga sumang-ayon, at ang naging resulta ng botohan. ",
+              "Itala at bigyang-pansin ang mga mosyong pagbobotohan o pagdedesis- yunan pa sa susunod na pulong. ",
+              "Itala kung anong oras natapos ang pulong."
+            ],
+            "Position": {
+              "x": 197,
+              "y": 72
+            },
+            "Branches": [
+              "Dawn Rosenberg McKay"
+            ]
+          },
+          {
+            "Title": "Pagkatapos ng Pulong",
+            "Descriptions": [
+              "Gawin o buoin agad ang katitikan ng pulong pagkatapos na pagkatapos habang sariwa pa sa isip ang lahat ng mga tinalakay. ",
+              "Huwag kalimutang itala ang pangalan ng samahan o organisasyon, pangalan ng komite, uri ng pulong (lingguhan, buwanan, taunan, o espesyal na pulong), at maging ang layunin nito. ",
+              "Itala kung anong oras ito nagsimula at natapos. Isama ang listahan ng mga dumalo at maging ang pangalan ng nanguna sa pagpapadaloy ng pulong. Sa katapusan ng katitikan ay huwag kalimutang ilagay ang \"Isinumite ni:\", kasunod ang iyong pangalan. ",
+              "Basahing muli ang katitikan ng pulong bago tuluyang ipasa sa kinauukulan para sa huling pagwawasto nito. ",
+              "Basahing muli ang katitikan ng pulong bago tuluyang ipasa sa kinauukulan para sa huling pagwawasto nito. "
+            ],
+            "Position": {
+              "x": 264,
+              "y": 134
+            },
+            "Branches": [
+              "Dawn Rosenberg McKay"
             ]
           }
         ]
@@ -61,33 +1556,1129 @@
     ]
   },
   {
-    "Subject": "haha",
+    "Subject": "HOPE",
     "Subject_Info": [
       {
-        "Topic": "Sample",
+        "Topic": "Dance",
         "Topic_Info": [
           {
-            "Title": "Sample",
-            "Descriptions": [],
-            "Branches": [],
+            "Title": "Dance",
+            "Descriptions": [
+              "The posture and gesture of which these visual pattern are created suggest kinaesthetic experiences of tension, relaxation, and emotional moods and attitudes associated with them. Some of these dances that are considered an art form are folk dance, ballet, and contemporary dance."
+            ],
             "Position": {
-              "x": 22,
-              "y": 178.6666717529297
-            }
+              "x": 34,
+              "y": 90.5
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "(Thomas Munro in Kraus and Gaufman, 1981)",
+            "Descriptions": [
+              "Dance is an art of rhythmic bodily movements that project  Munro in ordered sequence of moving visual pattern of line, solid shape, and color (Thomas Munro in Kraus and Gaufman, 1981)."
+            ],
+            "Position": {
+              "x": 143,
+              "y": 62.5
+            },
+            "Branches": [
+              "Dance"
+            ]
+          },
+          {
+            "Title": "Folk Dance",
+            "Descriptions": [
+              "Folk dances are the indigenous dances of any specific “folk” or the common people. They are traditional customary or recreational dance forms of a given country which have evolved naturally and were handed down across generations.",
+              "Folk dances are related to everything of  group in our daily lives, such as a customs, rituals, and occupations of a specific group of people. Most of these dances are related in origin religious belief, stemming from emotions, superstitions, festival, ceremonies of birth, courtship, marriage, death, war and countless themes common to all people around the world."
+            ],
+            "Position": {
+              "x": 159.5,
+              "y": 162.5
+            },
+            "Branches": [
+              "Dance"
+            ]
+          },
+          {
+            "Title": "Duggan, Schlottmann, and Ruthled (1948)",
+            "Descriptions": [
+              "According to Duggan, Schlottmann, and Ruthled (1948), “ folk dance became the overt expression of emotions and ideas which were peculiarly significant or the re- enactment of customs and event constituting an important part of their history and pattern of daily living."
+            ],
+            "Position": {
+              "x": 258,
+              "y": 63
+            },
+            "Branches": [
+              "Folk Dance"
+            ]
+          },
+          {
+            "Title": "Lopez (2006)",
+            "Descriptions": [
+              "Lopez (2006) defined Philippine folk dance as “a traditional mode of expression that employs bodily movements of redundant patterns linked to definitive features of rhythmic beats or music”."
+            ],
+            "Position": {
+              "x": 258.5,
+              "y": 166
+            },
+            "Branches": [
+              "Folk Dance"
+            ]
+          },
+          {
+            "Title": "Fracisca Reyes - Aquino",
+            "Descriptions": [
+              "Francisca Reyes – Aquino , the first national artist for dance and the mother of Philippine folk dance.\r\n Acknowledged as the pioneer of folk dancing in the Philippines. This Bulakaña began her research on folk dances in the 1920s, making trips to remote barrios in Central and Northern Luzon. Her research on the unrecorded forms of local celebration, ritual, and sport resulted in 1926 thesis titled “Philippine Folk Dance and Game”, and arranged specifically for use by teachers and playground instructors in the public and private school. In 1954, she received the Republic Award of Merit Given by the late pres. Ramon Magsaysay “ outstanding contribution towards the advancement of Filipino culture. \r"
+            ],
+            "Position": {
+              "x": 255,
+              "y": 225
+            },
+            "Branches": [
+              "Folk Dance"
+            ]
+          },
+          {
+            "Title": "Characteristics of Philippine folk dance",
+            "Descriptions": [
+              "\n1.\tIt is traditional\r\n2.\tIt has an expressive behaviour.\r\n3.\tSimple, basic rhythm dominated the folk dance and establishes the pattern of movement.\r\n4.\tIt is created by an unknown choreographer or by communal effort.\r\n5.\tIt performs a function in the life of the people. \r\n"
+            ],
+            "Position": {
+              "x": 132,
+              "y": 238
+            },
+            "Branches": [
+              "Folk Dance"
+            ]
+          },
+          {
+            "Title": "Examples of national folk dances as they popular dances throughout the country:",
+            "Descriptions": [],
+            "Position": {
+              "x": 7.5,
+              "y": 307
+            },
+            "Branches": [
+              "What are the difference among folk",
+              "national",
+              "ethic dances"
+            ]
+          },
+          {
+            "Title": "What are the difference among folk, national, ethic dances",
+            "Descriptions": [
+              "Folk dance are traditional dances found in a certain country while national dances are also traditional folk dance but have a national scope.",
+              "Ethnic Dance or ethnological dances are those performed in primitive tribes and have retained their close kinship with religious ritual and community custom. They can be perform in three different categories namely ritual, life-cycle and occupation.",
+              "Dance originating from the Ifugao people of the northern Luzon, T’boli tribe from Southern Mindanao, and Tagbanua tribe from Palawan."
+            ],
+            "Position": {
+              "x": 10.5,
+              "y": 148.5
+            },
+            "Branches": [
+              "Dance"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Subject": "Biology",
+    "Subject_Info": [
+      {
+        "Topic": "Fats and Oils",
+        "Topic_Info": [
+          {
+            "Title": "Fat Molecule",
+            "Descriptions": [
+              "consist of two main components - glyerol and fatty acids."
+            ],
+            "Position": {
+              "x": 13.968770980834961,
+              "y": 126.625
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Glycerol",
+            "Descriptions": [
+              "Glycerol is an organic compound(alcohol) with three carbons, five hydrogens, and three hydroxyl groups."
+            ],
+            "Position": {
+              "x": 28.64583396911621,
+              "y": 190.00003051757812
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Fatty Acids",
+            "Descriptions": [
+              "Fatty acids have a long chain of hydrocarbons to which a carboxyl group is attached, hence the name \"Fatty Acids\". ",
+              "The number of carbons in the fatty acid may range from 4 to 36; most common are those containing 12-18 carbons.",
+              "In a fat molecule, the fatty acids are attached  to each of the three carbons of the glycerol molecule with an ester bond through an oxygen atom.",
+              "Some fatty acids have a common names that specify their origin. \nFor example, palmitic acid, a saturated fatty acid, is derived from the palm tree. Arachidic acid is derived from Arachis hypogea, the scientific name for groundnuts or peanuts.",
+              "Fatty Acids may be saturated or unsaturated.",
+              "When a fatty acid has no double bonds, it is known as a saturated fatty acid because no more hydrogen may be added to the carbon atoms of the chain. "
+            ],
+            "Position": {
+              "x": 125.29167175292969,
+              "y": 127.96875
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Fats",
+            "Descriptions": [
+              "The three fatty acids in the triacylglecerol may be similar or dissimilar.",
+              "Fats are also called triacylglycerol or triglycerides because of their chemical structure.",
+              "A fat may contain similar or diffirent fatty acids attach to the glycerol."
+            ],
+            "Position": {
+              "x": 141.27084350585938,
+              "y": 68.62500762939453
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Ester Bond Formaion",
+            "Descriptions": [
+              "During this ester bond formation, three water molecules are released."
+            ],
+            "Position": {
+              "x": 3.9896035194396973,
+              "y": 60.614585876464844
+            },
+            "Branches": [
+              "3"
+            ]
+          },
+          {
+            "Title": "Saturated",
+            "Descriptions": [
+              "In a fatty acid chain, if there are only single bonds between neighboring carbons in the hydro-carbon chain, the fatty acid is said to be saturated.",
+              "Saturated fatty acids are saturated with hydrogen; in other words, the number of hydrogen atoms attached to the carbon skeleton is maximized.",
+              "Stearic acid is an example of a saturated fatty acid.",
+              "Long straight fatty acids with single bonds tend to get packed tightly and are solid at room temperature.",
+              "Animal fats with stearic acid and palmitic acid (common in meat) and the fat with butyric acid (common in butter) are examples of saturated fats."
+            ],
+            "Position": {
+              "x": 229.22918701171875,
+              "y": 125.28125
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Storing fats",
+            "Descriptions": [
+              "Mammals store fats in speacialized cell called adipocytes, where globules of fats occupy most of the cell's volume.",
+              "In plants, fat or oil is stored in many seeds and is used as a source of energy during seedling development."
+            ],
+            "Position": {
+              "x": 224.6666259765625,
+              "y": 65.32290649414062
+            },
+            "Branches": [
+              "3"
+            ]
+          },
+          {
+            "Title": "Unsaturated",
+            "Descriptions": [
+              "When the hydrocarbon chain contains a double bond, the fatty acid is said to be unsaturated.",
+              "Oleic acid is an example of an unsaturated fatty acid.",
+              "Most unsaturated fats are liquid at room temperature and are called oils.",
+              "If there is one doouble bond in the molecule, then it is known as a monounsaturated fat (e.g,. olive oil), and if there is more than one double bond, then it is known as a polyunsaturated fat(e.g., canola oil).",
+              "Unsaturated fats or oils are usually of plant origin and contain cis unsaturated fatty acids.",
+              "Cis and trans indicate the configuration of the molecule around the double bond.",
+              "Olive oil, corn oil, canola oil, and cod liver oil are examples of unsaturated fats.",
+              "Unsaturated fats help to lower blood cholesterol levels whereas saturated fats contribute to plaque formation in the arteries. "
+            ],
+            "Position": {
+              "x": 123.97918701171875,
+              "y": 186.65625
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Cis",
+            "Descriptions": [
+              "If there hydrogens are present in the same plane, it is referred to as a cis fat.",
+              "The cis double bond causes the bend or a \"kink\" that prevents tha fatty acids from packing tightly, keeping them liquid at room temperature."
+            ],
+            "Position": {
+              "x": 31.989604949951172,
+              "y": 247.97918701171875
+            },
+            "Branches": [
+              "7"
+            ]
+          },
+          {
+            "Title": "Trans Fat",
+            "Descriptions": [
+              "If the hydrogen atoms are on two different planes, it is referred to as a trans fat.",
+              "In the food industry, oils are artificially hydrogenated to make them semi-solid and of a consistency desirable for many processed food products. Simply speaking, hydrogenated gas is bubbled through oils to solidify them. During this hydrogenation process, double bonds of the cis- confrmation in the hydrocarbon chain may be converted to double bonds in the trans- conformation.",
+              "Margarine, some types of the peanut butter, shortening are examples of artificially hydrogenated trans fats.",
+              "Recent studies have shown that an increase in trans fat in the human diet may lead to an increase in levelsof low-density-lipoproteins (LDL), or \"bad\" cholesterol, which in turn may lead  to plaque deposition in the arteries, resulting in heart disease.",
+              "Many fast food restaurants have recently banned the use of trans fats, and food labels, are required to display the trans fat content. "
+            ],
+            "Position": {
+              "x": 129.30210876464844,
+              "y": 248.65625
+            },
+            "Branches": [
+              "7"
+            ]
+          },
+          {
+            "Title": "Omega Fatty Acid",
+            "Descriptions": [
+              "Essential fatty acids are fatty acids required but not synthesized by the human body. Consequently, they have to be supplemented though ingestion via the diet.",
+              "Omega-3 fatty acids fall into this category and are the only two known for humans (the other being omega-6 fatty acid).",
+              "These are polyunsaturated fatty acids that are called omega-3 bacause of the third carbon from the end of the hydrocarbon chain is connected to its neighboring carbon by a double bond.",
+              "The farthest carbon away from the carbocyl group is numbered as the omega (ω) carbon, and if the double bond is between the third and fourth carbon from that end, it is known as an omega-3 fatty acid.",
+              "Nutritionally important because the body does not make them, omega-3 fatty acids include aplha-linoleic (ALA), eicosapentaenoic acid (EPA), and docosahexaenoic acid (DHA), all of which are polyunsaturated.",
+              "Salmon, trout, and tuna are good sources of omega-3 fatty acids.",
+              "Research indicates that omega-3 fatty acids reduce the risk of sudden death from heart attacks, reduce triglycerides in the blood, lower blood pressure, and prevent thrombosis by inhiting blood clothing. They also reduce inflammation, and may help reduce the risk of some cancers in animals. ",
+              "Like carbohydrates, fats have received a lot of bad publicity. It is true that eating an excess of fried foods and other \"fatty\" foods leads to weight gain. However, fats do have important functions. Many vitamins are fat soluble, and fats serve as a long-term storage form of fatty acids: a source of energy. They also provide  insulation for the body. Therefore, \"healthy\" fats in moderate amounts should be consumed on the regular basis."
+            ],
+            "Position": {
+              "x": 206.61459350585938,
+              "y": 189.98956298828125
+            },
+            "Branches": [
+              "2"
+            ]
           }
         ]
       },
       {
-        "Topic": "no",
+        "Topic": "Lipids",
         "Topic_Info": [
           {
-            "Title": "Sample",
-            "Descriptions": [],
-            "Branches": [],
+            "Title": "Lipids",
+            "Descriptions": [
+              "Lipids include a diverse group of nonpolar compounds that are non-polar in nature. This is because they are hydrocarbons that include mostly only non-polar carbon-carbon or carbon-hydrogen bonds. Nonpolar molecules are hydrophobic (\"water fearing\"), or insoluble in water.",
+              "Lipid perform many different functions in a cell. Cells store energy for long-term use in the form of fats. ",
+              "Lipids also provide insulation from the environment for plants and animals. For example, they help keep aquatic birds and mammals dry when forming a protective layer over fur or feathers because of their water-repellant hydrophobic nature.  ",
+              "Lipids are also the building blocks of many hormones and are an important constituent of all cellular membranes.",
+              "Lipids include fats, oils, waxes, phospholipids, and steroids."
+            ],
             "Position": {
-              "x": 25.333335876464844,
+              "x": 156.63540649414062,
+              "y": 79.31251525878906
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Fats and Oils",
+            "Descriptions": [],
+            "Position": {
+              "x": 36,
+              "y": 86.00001525878906
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Waxes",
+            "Descriptions": [
+              "Wax covers the feathers of some aquatic birds and the leaf surfaces of some plants. Because of the hydrophobic nature of waxes, they prevent water from sticking on the surface.",
+              "Waxes are made up of long fatty acid chains esterified to long chain alcohols."
+            ],
+            "Position": {
+              "x": 74.5937614440918,
+              "y": 141.30209350585938
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Phospholipids",
+            "Descriptions": [
+              "Phosphoolipids are major constituents of the plasma membrane, the outermost layer of animal cell.",
+              "Like fats, they are composed of fatty acid chains attached to a glycerol or sphingosine backbone. Instead of three fatty acids attached as in triglycerides, however there are two fatty acids forming dicylglycerol, and the third carbon of the glycerol backbone is occupied by a modified phosphate group. ",
+              "A phosphate group alone attached to a diacylglycerol does not qualify as a phospholipid; it is phosphatidate (diacylglycerol 3-phospate), the precursur of phospholipids.",
+              "A phospholipid is an amphipatic molecule, meaning it has a hydrophobic and a hydrophilic part. The fatty acid chains are hydrophobic and exclude themselves from water, wheareas the phosphate containing group is hydrophilic and interact with water.",
+              "The head is the hydrophilic part, and the tail contains the hydrphobic fatty acids. In a membrane, a bilayer of phospholipids forms the matrix of the structure, the fatty acid tails of of phospholipids face inside, away from the water, whereas the phosphate group faces the outside, aqueous side.",
+              "Phopholipids are responsible for the dynamic nature of the plasma membrane. If a drop of phospholipids is placd in water, it spontaneously forms a structure known as a micelle, where the hydrophilic phosphate group head face the outside and the fatty acids face the interior of this structure.",
+              "Phosphatidylcholine and phophatidylserine are two important phosphlipids that are found in plasma membranes."
+            ],
+            "Position": {
+              "x": 141.28125,
+              "y": 149.2916717529297
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Steroids",
+            "Descriptions": [
+              "Unlike the phopholipids and fats discussed earlier, steroids have a fuse ring structure. Although they do not resemble the other lipids, steriods are grouped with lipids because they are also hydrophobic and insoluble to water.",
+              "All steroids have a four linked carbon rings and several of them of, like cholesterol, have a short tail. Many steroids also have the OH- functional group, which puts them in the alcohol classification (sterols).",
+              "Cholesterol is the most common steroid."
+            ],
+            "Position": {
+              "x": 245.29165649414062,
+              "y": 141.3228988647461
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Cholesterol",
+            "Descriptions": [
+              "Cholesterol is mainly synthesized in the liver and is the precursur to many steroid hormones such as testosterone and estradiol, which are the secreted by the gonads and endocrine glands. It is also the precursur to Vitamin D. Cholesterol is also the precursur of bile salts, which help in the emulsification of fats and their subsequent absorption by cells.",
+              "Although cholesterol is often spoken inn negative terms by lay people, it is necessesary for proper functioning of the body. It is a component of the plasma membrane of animal cells and is found within the phopholipid bilayer. Being the outermost structure of animal cells, the plasma membrane is responsible for the transport of materials and cellular recognition and it is involved in cell-to-cell communication."
+            ],
+            "Position": {
+              "x": 233.32290649414062,
+              "y": 232
+            },
+            "Branches": [
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Carbohydrates",
+        "Topic_Info": [
+          {
+            "Title": "Carbohydrates",
+            "Descriptions": [
+              "Most people are familiar with carbohydrates, one type of macromolecule, especially when it comes to what we eat. To lose weight, some individuals adhere to \"low-carb\" diets. Athletes, in contrast often \"carb-load\" before important competitions to ensure that they have enough energy to compete at a high level. ",
+              "Carbohydrates are, in fact, an essential part of our diet; grains, fruits, and vegetables are all natural sources of carbohydrates.",
+              "Carbohydrates provide energy to the body, particularly through glucose, a simple sugar that is a component of starch and an ingrendient in many staple foods.",
+              "Carbohydrates also have other important functions in humans, animals, and plants.",
+              "Carbohydrates are classified into three subtypes: monosaccharides, disaccharides, and polysaccharides."
+            ],
+            "Position": {
+              "x": 10.624995231628418,
+              "y": 71.30208969116211
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Molecular Structures",
+            "Descriptions": [
+              "Carbohydrates can be represented by the stoichiometric formula (CH2O) n, where n is the number of carbons in the molecule. In other words, the ratio of carbon to hydrogen to oxygen is 1:2:1 in carbohydrate molecules. This formula also explains the origin of the term \"carbohydrate\" the components are carbon (\"carbo\") and the components of water (hence, \"hydrate\"). "
+            ],
+            "Position": {
+              "x": 123.98959350585938,
+              "y": 63.989585876464844
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Monosaccharides",
+            "Descriptions": [
+              "Monosaccharides (mono = \"one\"; sacchar = \"sweet\") are simple sugars, the most common of which is glocuse. ",
+              "In monosaccharides, the number of carbons usually ranges from three to seven. Most monosaccharide names end with the suffix -ose.",
+              "Monosaccharides can exist as a linear chain or as a ring-shaped molecules; in aqueouss solutions they are usually found in ring forms."
+            ],
+            "Position": {
+              "x": 2.624995231628418,
+              "y": 143.96875
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Classification",
+            "Descriptions": [
+              "If the sugar has an aldehyden group (the functional group with the structure R-CHO), it is known as an aldose.",
+              "If it has a ketone group (the functional group with the structure RC(=O)R'), it is known as a ketose.",
+              "Depending on the number of carbons in the sugar, they also may be known as triose (three carbons), pentose (five carbons) and or hexose (six carbons)."
+            ],
+            "Position": {
+              "x": 13.666671752929688,
+              "y": 213.3229217529297
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Glocuse, Galactose, Fructose",
+            "Descriptions": [
+              "The chemical formula for glucose is C6 H12 O6. In humans, glucose is an important source of energy. ",
+              "During cellular respiration, energy is released from glucose, and that energy is used to help make adenosine triphosphate (ATP).",
+              "Plants synthesize glucose using carbon dioxide and water, and glucose in turn is used for energy requirements for the pant. Exess glocuse is often stored as starch that is catabolized (the breakdown of larger molecules by cell) by humans and other animals that feed on plants.",
+              "Galactose (part of lactose, or milk sugar) and fructose (found in sucrose, in fruit) are other common monosaccharides. Although glucose, galactose, and fructose all have the same chemical formula (C6 H12 O6), they differ structurally and chemically (and are known as isomers) because of the different arrangement of functional groups around the asymetric carbon; all of these moosaccharides have more than one asymetric carbon.",
+              "Glucose, galactose, and fructose are isomeric monosaccharides (hexose), meaning they have the same chemical formula but have slightly different structures. Glucose and galactose are aldose, and fructose is a ketose.",
+              "Glucose in a ring form can have two different arrangements of th hydroxyl group (OH) around the anometric carbon (carbon 1 that becomes asymetric in the process of ring formation."
+            ],
+            "Position": {
+              "x": 116,
+              "y": 129
+            },
+            "Branches": [
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Cell Structure",
+        "Topic_Info": [
+          {
+            "Title": "Cells Structure",
+            "Descriptions": [
+              "Cell structure refers to the organization and arrangement of various components within a cell."
+            ],
+            "Position": {
+              "x": 41.98958396911621,
+              "y": 71.33332824707031
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Plant cell",
+            "Descriptions": [
+              "A plant cell is a type of eukaryotic cell that is the basic structural and functional units of plants.",
+              "Chloroplast\n - produces food for the plant.",
+              "Cell Wall\n - surrounds the cell protects the cell gives the plants its shapes.",
+              "Cell Membrane\n - allows water and nutrients to pass into the cell.",
+              "Organelles\n - other small structures that do certain jobs in a cell.",
+              "Cytoplasm\n - jelly-like substance that surrounds the nucleus.",
+              "Nuclues\n - controls the cell's growth and contains its genes."
+            ],
+            "Position": {
+              "x": 22,
+              "y": 123.33334350585938
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Animal Cell",
+            "Descriptions": [
+              "An animal cell is a type of eukaryotic cell that is the basic structural and functional unit of animals.",
+              "Organelles \n - oher small structures that do certain jobs in a cell.",
+              "Cytoplasm\n - jelly-like substance that surrounds the nucleus.",
+              "Cell Membrane \n - alows materials to move in and out.",
+              "Nucleus\n - controls the cell's growth and contains its genes."
+            ],
+            "Position": {
+              "x": 87.33334350585938,
+              "y": 120.66665649414062
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Cell Theory",
+            "Descriptions": [
+              "Cell theory is a fundamental concept in biology that describes the basic structure and organization of living things."
+            ],
+            "Position": {
+              "x": 197.33334350585938,
+              "y": 67.99999237060547
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Three main parts of cell theory",
+            "Descriptions": [
+              "1. All organisms are made up of one or more cells.",
+              "2. The cell is the basic unit of structure and organization in organisms.",
+              "3. All cells arise from pre-existing cells."
+            ],
+            "Position": {
+              "x": 182,
+              "y": 119.32290649414062
+            },
+            "Branches": [
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Meiosis",
+        "Topic_Info": [
+          {
+            "Title": "Meiosis",
+            "Descriptions": [
+              "a type of cell division that produces gametes, which are specialized reproductive cells.",
+              "It occurs in sexually reproducing organisms and involves two rounds of cell division, resulting in four daughter cells that are genetically different from each other and from the parent cell."
+            ],
+            "Position": {
+              "x": 56.26042175292969,
+              "y": 141.52081298828125
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Key Steps of Meiosis",
+            "Descriptions": [
+              "1. Interphase",
+              "2. First Meiotic Division",
+              "3. Second Meiotic Division",
+              "4. Cytokinesis"
+            ],
+            "Position": {
+              "x": 104.59375,
+              "y": 171.95831298828125
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Interphase",
+            "Descriptions": [
+              "This is the period before meiosis begins. The cell grows and replicates its DNA, resulting in two identical copies of each chromosome called sister chromatids."
+            ],
+            "Position": {
+              "x": 229.3125,
+              "y": 151.96873474121094
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "First Meiotic Division",
+            "Descriptions": [
+              "The first meiotic division results in reducing the number of chromosomes (reduction division). In most cases, the division is accompanied by cytokinesis."
+            ],
+            "Position": {
+              "x": 107.33334350585938,
+              "y": 240.65625
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Prophase 1",
+            "Descriptions": [
+              "Subdivided into five substages: leptonema, zygonema, pachynema, diplonema, and diakinesis."
+            ],
+            "Position": {
+              "x": 32.545143127441406,
+              "y": 245.98150634765625
+            },
+            "Branches": [
+              "3"
+            ]
+          },
+          {
+            "Title": "Metaphase 1",
+            "Descriptions": [
+              "The spindle apparatus is completely formed and the microtubules are attached to the centromere regions of the homologues. They synapsed tetrads are found aligned at the metaphase plate (the equatorial plane of the cell) instead of only replicated chromosomes."
+            ],
+            "Position": {
+              "x": 134.8333282470703,
+              "y": 309.3541564941406
+            },
+            "Branches": [
+              "3"
+            ]
+          },
+          {
+            "Title": " Anaphase 1",
+            "Descriptions": [
+              "Chromosomes in each tetrad separate and migrate toward the opposite poles. The sister chromatids (dyads) remain attached at their respective centromere regions."
+            ],
+            "Position": {
+              "x": 65.6250114440918,
+              "y": 294.97918701171875
+            },
+            "Branches": [
+              "3"
+            ]
+          },
+          {
+            "Title": "Telophase 1",
+            "Descriptions": [
+              "The dyads complete their migration to the poles. New nuclear membranes may form. In most species, cytokinesis follows, producing two daugther cells. Each has a nuclues containing only one set of chromosomes (haploid level) in a replicated form."
+            ],
+            "Position": {
+              "x": 205.45834350585938,
+              "y": 283.7395935058594
+            },
+            "Branches": [
+              "3"
+            ]
+          },
+          {
+            "Title": "Second Meiotic Division",
+            "Descriptions": [],
+            "Position": {
+              "x": 108.64582824707031,
+              "y": 109.98957824707031
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Prophase 2",
+            "Descriptions": [
+              "The chromosomes condenses again."
+            ],
+            "Position": {
+              "x": 29.979171752929688,
+              "y": 93.32293701171875
+            },
+            "Branches": [
+              "8"
+            ]
+          },
+          {
+            "Title": "Metaphase 2",
+            "Descriptions": [
+              "The chromosomes line up at the equator of the cell."
+            ],
+            "Position": {
+              "x": 82.65625,
+              "y": 62.656246185302734
+            },
+            "Branches": [
+              "8"
+            ]
+          },
+          {
+            "Title": "Anaphase 2",
+            "Descriptions": [
+              "The siser chromatids are separated and move to opposite poles of the cell."
+            ],
+            "Position": {
+              "x": 155.9791717529297,
+              "y": 62.67708396911621
+            },
+            "Branches": [
+              "8"
+            ]
+          },
+          {
+            "Title": "Telophase 2",
+            "Descriptions": [
+              "The cell divides into four daughter cells, each containing a single chromosome from each homologous pair."
+            ],
+            "Position": {
+              "x": 216.6666717529297,
+              "y": 96.00001525878906
+            },
+            "Branches": [
+              "8"
+            ]
+          },
+          {
+            "Title": "Cytokenesis",
+            "Descriptions": [
+              "The telophase stage of mitosis is accompanied by cytokinesis. The two nuclei are compartmentalized into separate daughter cells and complete the mitotic cell division process.",
+              "The constriction in the middle is often called cleavage, or cell furrow."
+            ],
+            "Position": {
+              "x": 220.66668701171875,
+              "y": 207.32293701171875
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Disorder And Diseases",
+            "Descriptions": [
+              "incorrect DNA copy (e.g., cancer)",
+              "chromosomes are attached to string-like spindles and begin to move to the middle of the cell (e.g., Down Synfrome, Alzheimer's, and Leukemia)",
+              "arise from errors in meiosis, usually meiosis I;",
+              "occur more often during egg formation (90% of the time) than during sperm formation;",
+              "become more frequent as a wowan ages.",
+              "Aneuploidy - is the gain or loss of whole chromosomes. It is the most common chromosome abnormality. It is caused by non-disjuction, the failure of chromosomes to correctly separate."
+            ],
+            "Position": {
+              "x": 1.9895884990692139,
+              "y": 185.33331298828125
+            },
+            "Branches": [
+              "0"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Prokaryotic vs Eukaryotic Cells",
+        "Topic_Info": [
+          {
+            "Title": "Prokaryotic vs Eukaryotic Cells",
+            "Descriptions": [],
+            "Position": {
+              "x": 75.32292175292969,
+              "y": 67.99998474121094
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Prokaryotic Cell",
+            "Descriptions": [
+              "Prokaryotic DNA is found in the central of the cell: The Nucleoid. Most Prokaryotes have a peptidoglycan cell wall andd many have a polyssacharide capsule the cell wall acts as an extra layer of protection, helps the cell maintain its shape, and prevents dehydration.",
+              "A prokaryote is a simple, single-celled (unicellular) organism that lacks a nucleus, or any other membrane-bound organelle.",
+              "Some prokaryotes have a flagella, pili, or fimbraiae. Flagella are used for locomotion. Pili are used to exchange genetic material during a type of reproduction called conjugation. Fimbriae are used by bacteria to attach to a host cell.",
+              "Cell Size\n - At 0.1 to 5.0 um in diameter, prokaryotic cells are significantly smaller than eukaryotic cells, which have diameters ranging from 10 to 100 um. Any wastes produced within a prokaryotic cell can quickly diffuse out. This is not the case in eukaryotic cells, which have developed different structural adaptations to enhance intracellular transport.",
+              "Small size, in general, is necessary for all cells, whether prokaryotic or eukaryotic. Let's examine why that is so. First, we'll consider the area and volume of a typical cell. Not all cells are spherical in shape, but most tend to approximate a sphere.",
+              "If the cell grows too large, the plasma membrane will not have sufficient surface area to support the rate of diffusion required for the increased volume. In other words, as a cell grows, it becomes less efficient. One way to become more efficient is to divide; another way is to develop organelles that perform specific tasks. These adaptations lead to the development of more sophisticated cells called eukaryootic cells."
+            ],
+            "Position": {
+              "x": 10,
+              "y": 116
+            },
+            "Branches": [
+              "0"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Subject": "Earth Science",
+    "Subject_Info": [
+      {
+        "Topic": "Continental Drift",
+        "Topic_Info": [
+          {
+            "Title": "Continental Drift Theory",
+            "Descriptions": [
+              "Geologic processes continue to change the appearance of Earth. So, how did Earth look before? Inthe absence of maps, only archaeological finds may solve this puzzle. "
+            ],
+            "Position": {
+              "x": 105.98956298828125,
+              "y": 69.29167175292969
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Abraham Ortelius (1527 - 1598)",
+            "Descriptions": [
+              "In 1596, Ambraham Ortelius (1527 - 1598) observed and presupposed that the shapes of the continents on both sides of the Atlantic Ocean seem to connect to each other. It was as if Africa was torn away from Asia and Europe. With the absence of valid measurements and proofs, the only speculation he could was that earthquakes and flooding may have made the separation possible.  "
+            ],
+            "Position": {
+              "x": 213.3125,
+              "y": 66.66667175292969
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Alfred Wegener (1880 - 1930)",
+            "Descriptions": [
+              "In 1912, geophysicist Alfred Wegener (1880 - 1930) developed the concept and hypothesized continental drift theory. He claimed that Earth used to have only one supergiant lass mass Pangaea. According to the hypothesis, Pangaea broke apart and each land mass \"drifted\" away from each other in different locations. Initially, two giant continents were formed: Lausaria which comprised the northern continents of today's times, and Gondwanaland which comprised the continents in the present southern hemisphere. The separation continued until the present-day continents were formed.  "
+            ],
+            "Position": {
+              "x": 6.65625,
+              "y": 68.62499237060547
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Eduard Suess (1831 - 1914)",
+            "Descriptions": [
+              "Wegener supported his theory with references from authors with similar ideas, such as Eduard Suess (1831 - 1914) who also recognized the existence of Gondwanaland. ",
+              "Suess is bette known to have proposed the existence of Tethy's Sea, the only recognized body of water during those ancient times."
+            ],
+            "Position": {
+              "x": 3.302074432373047,
+              "y": 129.3125
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Wegener provided the following strong evidences to his continental drift theory",
+            "Descriptions": [],
+            "Position": {
+              "x": 101.96875,
+              "y": 165.96876525878906
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Similarity of fossils found in different continents",
+            "Descriptions": [
+              "Many similar plant and animal fossils were found in continents that are presently far from each other such that it is unimaginable for an animal to have flown or swum to get to the other continent. ",
+              "For example, the fossils of Mesosaurus, a freshwater reptile, was found in Brazil and in Africa. Freshwater reptiles are not capable of swimming to distances between continents unless the continents of Africa and South America were once together. ",
+              "Still another interesting fins was the Glossopteris, a fern plant, which was found to have thrived in five different continents (Africa, India, Australia, South America, and Antartica) that are presently separated by oceans and seas and are thus miles away from one another.",
+              "With the absence of flying vehicles during that time, it would be impossible for any avian organism to have carried with it seeds of this fern for pollination as it flew from continent to continents unless again, those contients were close to each other. Only the drifting continents could explain this phenomenon."
+            ],
+            "Position": {
+              "x": -0.0208282470703125,
+              "y": 187.97915649414062
+            },
+            "Branches": [
+              "4"
+            ]
+          },
+          {
+            "Title": "Presence of tillites in areas whose present climates do not suggest glacial formation.",
+            "Descriptions": [
+              "Tillites are glacial deposits from rock strata in areas that were once covered with snow. These deposits were found in South America, Africa, Madagascar, Arabia, India, Antacrica, Australia. It i understandable if tillites are found in polar climates or areas where there is snow. However, for places that are presently known to be tropical and desert-like such as Africa, Madagascar, and India, finding ice deposits would seem unreasonable if not for the concept  of drifting continents."
+            ],
+            "Position": {
+              "x": 40.645835876464844,
+              "y": 260.6458435058594
+            },
+            "Branches": [
+              "4"
+            ]
+          },
+          {
+            "Title": "Presence of coal seams in polar regions.",
+            "Descriptions": [
+              "Coal is a fossil fuel that originated from the chemically altered remains of prehistoric vegetation. Usually, coal is found in tropical areas because the climate is warm and ideal for propagation of organisms. Because of this, there is a higher index of diversity and population in tropical regions. This is where organisms are mostly concentrated. If you go back, the ancient fern Glossopteris proliferated in certain areas of each continent. The shaded regions are the tracks believed to be where the organisms had wandered or spread. These places are the same areas where coal seams were found. Therefore, Wegener used to question why coal would be found in polar regios such as the North Pole and Antartica, leading him to believe that these areas used to be near the equator and just drifted away from it. "
+            ],
+            "Position": {
+              "x": 141.9895782470703,
+              "y": 267.9895935058594
+            },
+            "Branches": [
+              "4"
+            ]
+          },
+          {
+            "Title": "Continents of Rock Layers found in different continents.",
+            "Descriptions": [
+              "Rock Layers may be prolifted to determine the history, age, and composition of materials in the environment. Part of the evidences of continental drift is the similarity of rock layers found in the mountains that are on the opposite sides of the Atlantic Ocean. The Appalachian Mountains, the Caledonian Mountains of Scotland, the Scandes Mountains of Norway, and the Atlas Mountains of Morocco were thought to be one mountain range in Pangaea. Later on the Atlantic widened and broke the mountain rang into pieces. "
+            ],
+            "Position": {
+              "x": 208,
+              "y": 206.64581298828125
+            },
+            "Branches": [
+              "4"
+            ]
+          },
+          {
+            "Title": " Similarity of rock types in different continents.",
+            "Descriptions": [
+              "The rock types found in Brazil, India, South Africa, and Antartica seem to have similar layers and sequence. This is evidenced by a top layer (which is the youngest rock layer) characterized by lava flow, followed by a middle layer with fossils of Glossepteris (which was belived to have been extensive and widespread in the entire Pangaea) and a bottom layer of glacial till (or tillites). The theory is that all these places were once continuous and shared the same environment and history."
+            ],
+            "Position": {
+              "x": 210,
+              "y": 136
+            },
+            "Branches": [
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Seafloor Spreading",
+        "Topic_Info": [
+          {
+            "Title": "Seafloor Spreading",
+            "Descriptions": [
+              "The concept of seafloor spreading was developed by geologist Harold Hess (1895 - 1982) and Robert Dietz (1914 - 1995). They coined the term \"seafloor spreading\" and showed how it aligned with the then unaccepted ideas of the continental drift.",
+              "Seafloor spreading is a continous process where tensional forces on both sides of the plates cause them to constantly move apart. Magma rises to the surface from the mantle. In time, the magma is cooled by the seawater and forms the occeanic crust. New rocks then form in this area. Since the newer rocks are younger in geologic features, scientist are able to determine areas of the seafloor spreading because of the types and compositions of the new rocks in those areas. Rocks from the separated plates would have similar rock types and compositions (usually of sedimentary type because of all the exogenous processes that these rocks were subjected to), while the area in the center would have mostly igneous type. Hence, the center of seafloor spreading is considered o be the youngest and newest portion of Earth's crust. Usually, seafloor spreading happens along mid-oceanic ridges. This is exibited in the actual site of seafloor spreading occurring at the Mid-Atlantic Ridge, for example. The new oceanic crust is found in the middle of the Atlantic Ocean whose geological composition is different from the North American plate and the Eusarian plate, and also those from the South American plate and African plate. These two pairs of plates are believed to be joined together millions of years ago. ",
+              "The plate tectonics theory has explained that despite the geologic processes constantly reshaping Earth, there is really no change in overall volume and size of the Earth. Hess and Dietz reasoned that if the crust is expanding along the oceanic ridges, it must be shrinking somewhere else. They did prove this by the studies in oceanic crusts descending along the cntinental margins where oceanic trenches are forming. Again, this whole concept of expanding (seafloor spreading) and shrinking (crustal deformation) is driven by convection current, as asserted by Hess and Dietz."
+            ],
+            "Position": {
+              "x": 19.322927474975586,
+              "y": 70.64582824707031
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Endogenous Process",
+            "Descriptions": [
+              "The endogenous processes are caused by forces from within or in the interior of Earth. The driving forces is the thermal energy of the mantle and the crust. Most of the thermal energy originates from the decay and disintegration of radioactive elements in Earth's core."
+            ],
+            "Position": {
+              "x": 149.98960876464844,
               "y": 70.66667175292969
-            }
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "The evolution of land form on earth",
+            "Descriptions": [],
+            "Position": {
+              "x": 104.64583587646484,
+              "y": 120.6666488647461
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Magnetism",
+            "Descriptions": [
+              "Magma is very hot and is constantly moved by the internal heat that reaches the mantle of the Earth through convective flow.",
+              "Magmatism is one of the main processes responsible for mountain formation. The true nature of magnetism depends on the tectonic setting."
+            ],
+            "Position": {
+              "x": 38.66666793823242,
+              "y": 156.6666717529297
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Volcanism or Plutonism",
+            "Descriptions": [
+              "Volcanism is the process that usually happens after the magma is formed. The magma tries to escape from the source through openings such as volcanoes or existing cracks on the ground."
+            ],
+            "Position": {
+              "x": 105.33333587646484,
+              "y": 187.33334350585938
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Metamorphism",
+            "Descriptions": [
+              "Metamorphism is the process of changing the materials that make up a rock. The chemical components and geologic characteristics of the rock change due to heat, fluids, and pressure that is increasing or decreasing."
+            ],
+            "Position": {
+              "x": 213.3229217529297,
+              "y": 157.32290649414062
+            },
+            "Branches": [
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Stratification of Rocks",
+        "Topic_Info": [
+          {
+            "Title": "Stratification of Rocks",
+            "Descriptions": [
+              "Crustal movement, displacement of soils, and distortion of terrains lead to layering of rocks called stratification. Records on the history of Earth can be obtained through remains or fossils or the composition of sediments, making possible the interpretation of geologic events in that area.  ",
+              "Stratification is used to locate mineral deposits, petroleum fields, and groundwater reservoir."
+            ],
+            "Position": {
+              "x": 2,
+              "y": 64.66665649414062
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Types of Rocks",
+            "Descriptions": [
+              "1. Sedimentary Rocks",
+              "2. Igneous Rocks",
+              "3. Metamorphic Rocks"
+            ],
+            "Position": {
+              "x": 58.65625,
+              "y": 131.97915649414062
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Sedimentary Rocks",
+            "Descriptions": [
+              "Sedimentary rocks are types of rock that are formed by the accumulation or deposition of mineral or organic particles at the Earth's surface, followed by cementation. Sedimentation is the collective name for processes that cause these particles to settle in place. The particles that form a sedimentary rock are called sediment, and may be composed of geological detritus (minerals) or biological detritus (organic matter)."
+            ],
+            "Position": {
+              "x": -2.000005066394806,
+              "y": 179.9895782470703
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Igneous Rocks",
+            "Descriptions": [
+              "Igneous rock, or magmatic rock, is one of the three main rock types, the others being sedimentary  and metamorphic. Igneous rocks are formed through the cooling and solidification of magma or lava."
+            ],
+            "Position": {
+              "x": 107.31251525878906,
+              "y": 184.63540649414062
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Metamorphic Rocks",
+            "Descriptions": [
+              "started out as some type of rock but have been substantially changed from their original igneous, sedimentary, or earlier metamorphic form. Metamorphic rocks form when rocks are subjected to high heat, high pressure, hot mineral-rich fluids or, more commonly, some combination of these factors."
+            ],
+            "Position": {
+              "x": 154.66668701171875,
+              "y": 134.65625
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "The Rock Cycle",
+            "Descriptions": [
+              "In the late 18th century, geologist, and paleontlogist (scientists studying life-forms in the past, usually through fossils) started disentangling the nature of Earth's history. They found rock layers containing identifiable fossils of marine organisms. Other layers consist of beach deposits marking the shorelines of ancient seas. ",
+              "Young rock layers, or strata, near the surface revealed fossils that are familiar and are easy for scientists to identify. On the other hand, older strata at deeper depths had unfamiliar animals and plants because most of them are now extinct. Using information obtained from these successive strata of rock and fossils enabled scientists to describe the history of Earth."
+            ],
+            "Position": {
+              "x": 155.33334350585938,
+              "y": 72
+            },
+            "Branches": [
+              "0"
+            ]
           }
         ]
       }

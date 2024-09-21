@@ -1,5 +1,5 @@
 import "./../css/Menu.css";
-import React, {useState, useRef} from "react";
+import React, {useState, useRef, useEffect} from "react";
 
 function Menu(Props)
 {
@@ -9,7 +9,17 @@ function Menu(Props)
   const Button_Div = useRef(null);
   const Name_Input = useRef(null);
   const Child_Input = useRef(null);
-  const Callbacks = useRef([]);
+
+  useEffect(() =>
+  {
+    if(Props.Edit_Label_Mode) return;
+    if(!Name_Input.current || !Child_Input.current) return;
+    const Information = JSON.parse(localStorage.getItem("Back_Up"));
+      
+    Name_Input.current.value = Information.Data.Title;
+    Child_Input.current.value = Information.Data.Branches.join(", ");
+    // eslint-disable-next-line
+  }, [Props.Edit_Label_Mode])
 
   function Show_Option()
   {
@@ -69,44 +79,16 @@ function Menu(Props)
   }
 
   //Overview Menu
-  function Edit_Element()
+  function Edit_Element(e)
   {
-    function Click_Event(Label)
-    {
-      return function()
-      {
-        Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.forEach((Information, Index) =>
-        {
-          if(!Option_State) Set_Option_State(() => true);
-          if(!Name_Input.current || !Child_Input.current) return;
-          if(Information.Title !==  Label.textContent.slice(6)) return;
-
-          Props.Set_Description_State(() => false); 
-          localStorage.setItem("Back_Up", JSON.stringify({Data: Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index], Index: Index}));
-      
-          Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Index, 1);
-          localStorage.setItem("Data", JSON.stringify(Props.Data));
-          Props.Set_Data(() => Props.Data);
-      
-          Name_Input.current.value = Information.Title;
-          Child_Input.current.value = Information.Branches.join(", ");
-
-          Props.Draggable_Label.current.forEach((Label, Index) =>
-          {
-            if(!Label) return;
-            Label.addEventListener("click", Callbacks.current[Index]);
-          })
-        });
-      }
-    }
-
-    Props.Draggable_Label.current.forEach((Label, Index) =>
-    {
-      if(!Label) return;
-      Callbacks.current[Index] = Click_Event(Label);
-      Label.addEventListener("click", Callbacks.current[Index]);
-    })
     Props.Set_Description_State(() => false);
+    if(e.target.textContent === "Edit Properties")
+    {
+      if(!Option_State) Set_Option_State(() => true);
+      Props.Set_Edit_Label_Mode(() => true);
+      return;
+    }
+    Props.Set_Edit_Label_Mode(() => false);
   }
 
   function Hide_Menu()
@@ -229,7 +211,7 @@ function Menu(Props)
           </label>
           <div ref = {Button_Div} className = "Buttons">
             <button onClick = {() => Set_Option_State((Prev) => !Prev)}>+</button>
-            <button onClick = {Edit_Element}>Edit Properties</button> 
+            <button onClick = {Edit_Element}>{Props.Edit_Label_Mode? "Cancel": "Edit Properties"}</button> 
             {Show_Option()}
           </div>
       </div>}

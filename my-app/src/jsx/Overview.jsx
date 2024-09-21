@@ -5,6 +5,7 @@ function Overview(Props)
 {
 	let [Position, Set_Position] = useState({x: 0, y: 0});
 	const Offset = useRef({x: 0, y: 0});
+	const Draggable_Label = useRef([]);
 
 	function Drag_Start(e)
 	{
@@ -17,7 +18,7 @@ function Overview(Props)
       y: Client_Y - labelRect.top,
     };
 
-		Props.Draggable_Label.current.forEach((Label, Index) =>
+		Draggable_Label.current.forEach((Label, Index) =>
 		{
 			if(!Label) return;
 			if(e.target.textContent === Label.textContent)
@@ -47,7 +48,7 @@ function Overview(Props)
 	function Drag_End(e)
 	{
 		let index;
-		Props.Draggable_Label.current.forEach((Label, Index) =>
+		Draggable_Label.current.forEach((Label, Index) =>
 		{
 			if(!Label) return;
 			if(Label.textContent === e.target.textContent) index = Index;
@@ -56,18 +57,17 @@ function Overview(Props)
 		localStorage.setItem("Data", JSON.stringify(Props.Data));
   };
 
-	function Change_Information_Index(e)
+	function Edit_Label(e)
 	{
-		Props.Draggable_Label.current.forEach((Label, Index) =>
+		Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.forEach((Information, Index) =>
 		{
-			if(!Label) return;
-			if(!Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index]) return;
-
-			if(e.target.textContent === Label.textContent)
-			{
-				Position = Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position;
-				Props.Set_Information_Index(() => Index);
-			}
+			if(Information.Title !== e.target.textContent.slice(6) && Information.Title !== e.target.textContent.slice(7)) return;
+			Props.Set_Description_State(() => false); 
+      localStorage.setItem("Back_Up", JSON.stringify({Data: Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index], Index: Index}));
+		
+			Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Index, 1);
+    	localStorage.setItem("Data", JSON.stringify(Props.Data));
+      Props.Set_Data(() => Props.Data);
 		})
 	}
 
@@ -76,7 +76,7 @@ function Overview(Props)
 		return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
 			(
 				<label
-					ref = {(Element) => Props.Draggable_Label.current[Index] = Element}
+					ref = {(Element) => Draggable_Label.current[Index] = Element}
 					key = {Index} 
 					style={{
 						left: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.x}px`,
@@ -94,9 +94,15 @@ function Overview(Props)
 					onTouchEnd = {Props.Switch_Value? Drag_End: null}
 					onClick = {(e) => 
 					{
-						Change_Information_Index(e);
+						Position = Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position;
+						Props.Set_Information_Index(() => Index);
 						Props.Set_Description_State(() => true);
 						Props.Set_Menu_Mode(() => "Overview_Menu");
+						if(Props.Edit_Label_Mode) 
+						{
+							Props.Set_Edit_Label_Mode(() => false);
+							Edit_Label(e);
+						}
 					}}>{Props.Switch_Value? <>Id: {Index} <br/></>: <>Order: {Index} <br/></>}{Information.Title}
 				</label>
 			)
@@ -105,7 +111,7 @@ function Overview(Props)
 
 	function Connect_Information()
 	{
-		if(Props.Draggable_Label.current.length === 0) return null;
+		if(Draggable_Label.current.length === 0) return null;
 		return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
 		{
 			return Information.Branches.map((Branches, i) => 
@@ -113,24 +119,24 @@ function Overview(Props)
 				let Parent_Index;
 				for(let k = 0; k < Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.length; k++)
 				{
-					if(!Props.Draggable_Label.current[k]) continue;
-					if(Information.Branches[i] !== Props.Draggable_Label.current[k].getAttribute("unique_id")) 
+					if(!Draggable_Label.current[k]) continue;
+					if(Information.Branches[i] !== Draggable_Label.current[k].getAttribute("unique_id")) 
 						continue;
 					Parent_Index = k;
 					break;
 				}
 
-				if(!Props.Draggable_Label.current[Parent_Index]) return null;
-				if(!Props.Draggable_Label.current[Index]) return null;
+				if(!Draggable_Label.current[Parent_Index]) return null;
+				if(!Draggable_Label.current[Index]) return null;
 				
-				const Parent_Computed_Style = window.getComputedStyle(Props.Draggable_Label.current[Parent_Index]);
-				const Child_Computed_Style = window.getComputedStyle(Props.Draggable_Label.current[Index]);
+				const Parent_Computed_Style = window.getComputedStyle(Draggable_Label.current[Parent_Index]);
+				const Child_Computed_Style = window.getComputedStyle(Draggable_Label.current[Index]);
 				return <line 
 						key = {`${Index}-${i}`}
-						x1 = {Number(Props.Draggable_Label.current[Index].style.left.slice(0, -2)) + (Number(Child_Computed_Style.width.slice(0, -2))*0.75)} 
-						y1 = {Number(Props.Draggable_Label.current[Index].style.top.slice(0, -2)) + (Number(Child_Computed_Style.height.slice(0, -2))*0.75)} 
-						x2 = {Number(Props.Draggable_Label.current[Parent_Index].style.left.slice(0, -2)) + (Number(Parent_Computed_Style.width.slice(0, -2))*0.75)} 
-						y2 = {Number(Props.Draggable_Label.current[Parent_Index].style.top.slice(0, -2)) + (Number(Parent_Computed_Style.height.slice(0, -2))*0.75)}
+						x1 = {Number(Draggable_Label.current[Index].style.left.slice(0, -2)) + (Number(Child_Computed_Style.width.slice(0, -2))*0.75)} 
+						y1 = {Number(Draggable_Label.current[Index].style.top.slice(0, -2)) + (Number(Child_Computed_Style.height.slice(0, -2))*0.75)} 
+						x2 = {Number(Draggable_Label.current[Parent_Index].style.left.slice(0, -2)) + (Number(Parent_Computed_Style.width.slice(0, -2))*0.75)} 
+						y2 = {Number(Draggable_Label.current[Parent_Index].style.top.slice(0, -2)) + (Number(Parent_Computed_Style.height.slice(0, -2))*0.75)}
 						style = {{
 						stroke: 'blue',
 						strokeWidth: 10
