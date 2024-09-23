@@ -71,44 +71,6 @@ function Overview(Props)
 		})
 	}
 
-	function Display_Contents()
-	{
-		return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
-			(
-				<label
-					ref = {(Element) => Draggable_Label.current[Index] = Element}
-					key = {Index} 
-					style={{
-						left: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.x}px`,
-						top: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.y}px`
-					}}
-					className = "Draggable on" 
-					unique_id = {Index}
-					draggable = {Props.Switch_Value? true: false}
-					onDragStart = {Props.Switch_Value? Drag_Start: null} 
-					onDrag = {Props.Switch_Value? Dragging: null}
-					onDragEnd = {Props.Switch_Value? Drag_End: null}
-
-					onTouchStart = {Props.Switch_Value? Drag_Start: null}
-					onTouchMove = {Props.Switch_Value? Dragging: null}
-					onTouchEnd = {Props.Switch_Value? Drag_End: null}
-					onClick = {(e) => 
-					{
-						Position = Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position;
-						Props.Set_Information_Index(() => Index);
-						Props.Set_Description_State(() => true);
-						Props.Set_Menu_Mode(() => "Overview_Menu");
-						if(Props.Edit_Label_Mode) 
-						{
-							Props.Set_Edit_Label_Mode(() => false);
-							Edit_Label(e);
-						}
-					}}>{Props.Switch_Value? <>Id: {Index} <br/></>: <>Order: {Index} <br/></>}{Information.Title}
-				</label>
-			)
-		)	
-	}
-
 	function Connect_Information()
 	{
 		if(Draggable_Label.current.length === 0) return null;
@@ -148,7 +110,41 @@ function Overview(Props)
 	return(
 		<div className = "Overview_Div">
 			<label className = "Overview_Title">Overview</label>
-			{Display_Contents()}
+			{Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
+				(
+					<label
+						ref = {(Element) => Draggable_Label.current[Index] = Element}
+						key = {Index} 
+						style={{
+							left: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.x}px`,
+							top: `${Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position.y}px`
+						}}
+						className = {`Draggable${Props.Switch_Value?" on":""}${Index === Props.Information_Index? " Glow": ""}`}
+						unique_id = {Index}
+						draggable = {Props.Switch_Value? true: false}
+						onDragStart = {Props.Switch_Value? Drag_Start: null} 
+						onDrag = {Props.Switch_Value? Dragging: null}
+						onDragEnd = {Props.Switch_Value? Drag_End: null}
+
+						onTouchStart = {Props.Switch_Value? Drag_Start: null}
+						onTouchMove = {Props.Switch_Value? Dragging: null}
+						onTouchEnd = {Props.Switch_Value? Drag_End: null}
+						onClick = {(e) => 
+						{
+							Position = Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position;
+							Props.Set_Information_Index(() => Index);
+							Props.Set_Description_State(() => true);
+							Props.Set_Menu_Mode(() => "Overview_Menu");
+							if(Props.Edit_Label_Mode) 
+							{
+								Props.Set_Edit_Label_Mode(() => false);
+								Edit_Label(e);
+							}
+						}}>{Props.Switch_Value? <>Id: {Index} <br/></>: <>Order: {Index} <br/></>}{Information.Title}
+					</label>
+				)
+			)	
+			}
 			<svg>
 				{Connect_Information()}
 			</svg>

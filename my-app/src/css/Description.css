@@ -59,7 +59,7 @@
     margin-bottom: 10px;
 }
 
-.Description_Div button{
+.Description_Div label button{
     display: inline-block;
     margin: 5px;
     position: absolute;
@@ -69,4 +69,17 @@
     transform: translateY(-50%);
     border-radius: 10px;
     overflow: hidden;
+}
+
+.Description_Div div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: sticky;
+    bottom: 10px;
+}
+
+.Description_Div div button{
+    border-radius: 10px;
+    padding: 5px 10px;
 }

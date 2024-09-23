@@ -54,6 +54,7 @@ function Container()
 				Edit_Label_Mode = {Edit_Label_Mode}
 				Subject_Index = {Subject_Index} 
 				Topic_Index = {Topic_Index}
+				Information_Index = {Information_Index}
 			/>
       {Admin_State &&
 			<	Settings 
@@ -89,6 +90,7 @@ function Container()
 				Set_Force_Render_State = {Set_Force_Render_State}
 				Set_Description_State = {Set_Description_State} 
 				Set_Choosen_Description = {Set_Choosen_Description}
+				Set_Information_Index = {Set_Information_Index}
 				Set_Text = {Set_Text}
 				Set_Data = {Set_Data} 
 				Set_Edit_Text_Mode = {Set_Edit_Text_Mode}

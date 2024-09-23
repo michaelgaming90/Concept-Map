@@ -9,6 +9,7 @@ function Menu(Props)
   const Button_Div = useRef(null);
   const Name_Input = useRef(null);
   const Child_Input = useRef(null);
+  const Index_Input = useRef(null);
 
   useEffect(() =>
   {
@@ -30,6 +31,8 @@ function Menu(Props)
         <input ref = {Name_Input}/>
         <label>Ids: </label>
         <input ref = {Child_Input}/>
+        <label>Index: </label>
+        <input ref = {Index_Input}/>
         <button onClick = {Add_Information}>Create Element</button>
       </div>);
   }
@@ -53,7 +56,7 @@ function Menu(Props)
     }
 
     const Childs = Child_Input.current.value.split(", ");
-    if(Name_Input.current.value !== Back_Up.Data.Title)
+    if(Name_Input.current.value !== Back_Up.Data.Title && Index_Input.current.value === "")
     {
       Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.push({
       Title: Name_Input.current.value,
@@ -64,7 +67,9 @@ function Menu(Props)
     }
     else
     {
-      Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Back_Up.Index, 0, {
+      let Index;
+      Index_Input.current.value !== ""? Index = Number(Index_Input.current.value) : Index = Back_Up.Index;
+      Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Index, 0, {
       Title: Back_Up.Data.Title,
       Descriptions: Back_Up.Data.Descriptions,
       Position: Back_Up.Data.Position,
