@@ -1,11 +1,17 @@
 import "./../css/Overview.css";
-import React, { useRef, useState} from "react";
+import React, { useRef, useState, useEffect} from "react";
 
 function Overview(Props)
 {
 	let [Position, Set_Position] = useState({x: 0, y: 0});
+	const[Rerender, Set_Rerender] = useState(() => true);
 	const Offset = useRef({x: 0, y: 0});
 	const Draggable_Label = useRef([]);
+
+	useEffect(() =>
+	{
+		Set_Rerender(() => true);
+	}, [Props.Topic_Index, Props.Subject_Index]);
 
 	function Drag_Start(e)
 	{
@@ -74,9 +80,14 @@ function Overview(Props)
 	function Connect_Information()
 	{
 		if(Draggable_Label.current.length === 0) return null;
-		return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
+		if(Rerender) 
 		{
-			return Information.Branches.map((Branches, i) => 
+			Set_Rerender(() => false);
+			return <svg></svg>
+		}
+		return (<svg> {Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.map((Information, Index) =>
+		{
+			return Information.Branches.map((_, i) => 
 			{
 				let Parent_Index;
 				for(let k = 0; k < Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.length; k++)
@@ -105,6 +116,7 @@ function Overview(Props)
 				}}/>
 			})
 		})
+	}</svg>)
 	}
 
 	return(
@@ -145,9 +157,7 @@ function Overview(Props)
 				)
 			)	
 			}
-			<svg>
-				{Connect_Information()}
-			</svg>
+			{Connect_Information()}
 		</div>);
 }
 
