@@ -1,14 +1,43 @@
-import React, { useState, useEffect } from "react";
-import "./../css/Information_Choosing.css"
+import { useState, useEffect, ReactElement} from "react";
+import "./../css/Information_Choosing.css";
 
-function Information_Choosing(Props)
+type Information_Choosing_Props = 
 {
-  const [Button_Topic_State, Set_Button_Topic_State] = useState(() => false);
-	const [Button_Subject_State, Set_Button_Subject_State] = useState(() => false);
-	const [Add_Topic_State, Set_Add_Topic_State] = useState(() => false);
-	const [Topic, Set_Topic] = useState(() => "");
-	const [Subject, Set_Subject] = useState(() => "");
-	const [Add_Subject_State, Set_Add_Subject_State] = useState(() => false);
+	Data: Data[];
+	Subject_Index: number;
+	Switch_Value: boolean;
+
+	Set_Information_Index: React.Dispatch<React.SetStateAction<number>>
+	Set_Subject_Index: React.Dispatch<React.SetStateAction<number>>
+	Set_Topic_Index: React.Dispatch<React.SetStateAction<number>>
+	Set_Menu_Mode: React.Dispatch<React.SetStateAction<string>>
+	Set_Choosen_Option: React.Dispatch<React.SetStateAction<{Mode: string, Name: string}>>
+}
+
+type Data = {
+	Subject: string;
+	Subject_Info: {
+		Topic: string;
+		Topic_Info: {
+			Title: string;
+			Descriptions: string[];
+			Position: {
+        x: number;
+        y: number;
+      };
+			Branches: string[];
+			}[];
+	}[];
+}
+
+const Information_Choosing: React.FC <Information_Choosing_Props> = (Props): ReactElement =>
+{
+	const [Button_Subject_State, Set_Button_Subject_State] = useState<boolean>(() => false);
+  const [Button_Topic_State, Set_Button_Topic_State] = useState<boolean>(() => false);
+	const [Add_Subject_State, Set_Add_Subject_State] = useState<boolean>(() => false);
+	const [Add_Topic_State, Set_Add_Topic_State] = useState<boolean>(() => false);
+	const [Subject, Set_Subject] = useState<string>(() => "");
+	const [Topic, Set_Topic] = useState<string>(() => "");
 	
 	useEffect(() =>
 	{
@@ -22,7 +51,7 @@ function Information_Choosing(Props)
 		// eslint-disable-next-line
 	}, [Add_Subject_State, Subject]);
 
-	function Topic_Click_Event(Index)
+	function Topic_Click_Event(Index: number): void
 	{
 		Set_Topic(() => Props.Data[Props.Subject_Index].Subject_Info[Index].Topic);
 		Props.Set_Topic_Index(() => Index);
@@ -30,7 +59,7 @@ function Information_Choosing(Props)
 		Set_Button_Topic_State(() => false);
 	}
 
-	function Subject_Click_Event(Index)
+	function Subject_Click_Event(Index: number): void
 	{
 		Set_Subject(() => Props.Data[Index].Subject);
 		Props.Set_Topic_Index(() => 0);
@@ -39,7 +68,7 @@ function Information_Choosing(Props)
 		Set_Button_Subject_State(() => false);
 	}
 
-	function Display_Topic_Options()
+	function Display_Topic_Options(): ReactElement[]
 	{
 		return Props.Data[Props.Subject_Index].Subject_Info.map((Subject, Index) =>
 		(	
@@ -57,7 +86,7 @@ function Information_Choosing(Props)
 		))
 	}
 
-	function Display_Subject_Options()
+	function Display_Subject_Options(): ReactElement[]
 	{
 		return Props.Data.map((Data, Index) =>
 		(

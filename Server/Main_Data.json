@@ -3,16 +3,17 @@
     "Subject": "PFPL",
     "Subject_Info": [
       {
-        "Topic": "Pagsulat ng Iba't Ibang uri ng paglalagom",
+        "Topic": "Lagom",
         "Topic_Info": [
           {
             "Title": "Lagom",
             "Descriptions": [
-              "Ang pinasimple at pinaikling bersiyon ng isang sulatin o akda. Ito rin ang kabuoang kaisipang- nakapaloob sa paksang nilalaman ng sulatin o akda."
+              "Isa sa kasanayang dapat matutuhan ng bawat mag-aaral ay ang kakayahang bumuo ng isang Paglalagom o Buod.",
+              "Ang pinasimple at pinaikling bersiyon ng isang sulatin o akda. Ito rin ang kabuoang kaisipang- nakapaloob sa paksang nilalaman ng sulatin o akda. "
             ],
             "Position": {
-              "x": 157.6666259765625,
-              "y": 73.66668701171875
+              "x": 178.625,
+              "y": 246.96875
             },
             "Branches": [
               ""
@@ -20,593 +21,200 @@
           },
           {
             "Title": "Mga kasanayang nahuhubog sa isang mag-aaral sa pagsasagawa ng lagom",
-            "Descriptions": [],
+            "Descriptions": [
+              "Bukod sa nahuhubog ang kasanyang maunawaan at makuha ang pinakanilalaman ng isang teksto ay marami pang ibang kasayanayan ang nahuhubog sa mga mag-aaral habang nagsasagawa ng paglalagom:",
+              "Una, natutuhan ang pagtitimbang- timbang ng mga kaisipang nakapaloob sa binabasa. Natutukoy niya kung ano ang pinakamahalagang kaisipang nakapaloob dito at gayundin ang mga pantulong na kaisipan. Tandaan na sa pagsulat ng lagom, mahalagang matukoy ang pinakasentro o pinakadiwa ng akda o teksto.",
+              "Pangalawa, natutuhan niyang magsuri ng nilalaman ng kanyang binabasa. Natutukoy niya kung alin sa mga kaisipan o mga detalye ang dapat bigyan ng malalim na pansin sa pagsusulat ng lagom at kung alin man naman ang hindi gaanong importante.",
+              "Pangatlo, nahuhubog ang kasanayan ng mag-aaral sa pagsulat partikular ang tamang paghabi ng mga pangungusap sa talata sapagkat sa pagsulat ng lagom, mahalagang ito ay mailahad nang malinaw, hindi maligoy o paulit-ulit. ",
+              "Pang-apat, ito rin ay nakakatulong sa pagpapaunlad o pagpapayaman ng bokabularyo sapagkat sa pagsulat nito ay importanteng makagamit ng mga salitang angkop sa nilalaman ng tekstong binubuod.",
+              "Bukod sa ang kasanayang ito ay nagiging kapaki-pakinabang sa mga mag-aaral, ito rin ay nakakatulong  nang malaki sa larangan ng edukasyon, negosyo, at propesyon. Dahil sa mabilis na takbo ng buhay sa kasalukuyan, at marami ay laging parang nagmamadali sa mga gawaing dapat tapusin o puntahan, nakakatulong nang malaki ang pagbabasa ng maikling sulatin na kalimitang naglalaman ng pinakabuod ng isang mahabang babasahin teksto, o pag-aaral. Bilang paghahanda sa totoong buhay ng propesyon at pagtatrabaho, mahalagang matutuhan mo ang paggawa ng iba't ibang uri ng lagom na madalas gamtin sa mga pag-aaral, negosyo, at sa iba't ibang uri ng propesyon. Kaya naman, sa araling ito ay lubos mong matutuhan ang pagsulat ng ilang uri ng lagom o buod - ang Abstrak, Sintesis o Buod, at Bionote."
+            ],
             "Position": {
-              "x": 55.47918701171875,
-              "y": 85.64583587646484
+              "x": 257.125,
+              "y": 213.765625
             },
             "Branches": [
               "0"
             ]
           },
           {
-            "Title": "1.",
-            "Descriptions": [
-              "Natutuhan ang pagtitimbang- timbang ng mga kaisipang nakapaloob sa binabasa."
-            ],
-            "Position": {
-              "x": 15,
-              "y": 131
-            },
-            "Branches": [
-              "1"
-            ]
-          },
-          {
-            "Title": "2.",
-            "Descriptions": [
-              "Natutuhan ang pagsusuri ng nilalaman ng isang babasahin."
-            ],
-            "Position": {
-              "x": 39.5,
-              "y": 165.5
-            },
-            "Branches": [
-              "1"
-            ]
-          },
-          {
-            "Title": "3.",
-            "Descriptions": [
-              "Nahuhubog ang kasanayan ng mag-aaral sa pagsulat partikular ang tamang paghabi ng mga pangungusap sa talata."
-            ],
-            "Position": {
-              "x": 78.16668701171875,
-              "y": 187.16668701171875
-            },
-            "Branches": [
-              "1"
-            ]
-          },
-          {
-            "Title": "4.",
-            "Descriptions": [
-              "Nakatutulong sa pagpapaunlad o pagpapayaman ng bokabularyo.\n\n"
-            ],
-            "Position": {
-              "x": 119.16668701171875,
-              "y": 177.66668701171875
-            },
-            "Branches": [
-              "1"
-            ]
-          }
-        ]
-      },
-      {
-        "Topic": "Abstak",
-        "Topic_Info": [
-          {
             "Title": "Abstrak",
             "Descriptions": [
-              "Isang uri ng lagom na karaniwang ginagamit sa pagsulat ng mga akademikong papel tulad ng tesis, papel na siyentipiko at teknikal, lektyur, at mga report. Ito ay kadalasang bahagi ng isang tesis o disertasyon na makikita sa unahan ng pananaliksik pagkatapos ng title page o pahina ng pamagat. Ito ang naglalaman ng pinakabuod ng buong akdang akademiko o ulat."
+              "Ang Abstrak ay isang uri ng lagom na karaniwang ginagamit sa pagsulat ng mga akademikong papel tulad ng tesis, papel na siyentipiko at teknikal, lektyur, at mga report. Ito ay kadalasang bahagi ng isang tesis o disertasyon na makikita sa unahan ng pananaliksik pagkatapos ng title page o pahina ng pamagat. Ito ang naglalaman ng pinakabuod ng buong akdang akademiko o ulat."
             ],
             "Position": {
-              "x": 149.5,
-              "y": 181
+              "x": 110.109375,
+              "y": 246.4765625
             },
             "Branches": [
-              ""
+              "0"
             ]
           },
           {
-            "Title": "Philip Koopman (1997) How to Write an Abstract. ",
+            "Title": "Philip Koopman (1997)",
             "Descriptions": [
-              "\"Bagama't ang abstrak ay maikli lamang, tinataglay nito ang mahahalagang elemento o bahagi ng sulating akademiko tulad ng introduksiyon, mga kaugnay na literatura, metodolohiya, resulta, at kongklusyon. Naiiba ito sa kongklusyon sapagkat ito ay naglalaman ng pinakabuod ng bawat bahagi ng sulatin o ulat.\""
+              "Ayon kay Philip Koopman (1997) sa kanyang aklat na How to Write an Abstract, bagama't ang abstrak ay maikli lamang, tinataglay nito ang mahahalagang elemento o bahagi ng sulating akademiko tulad ng introduksiyon, mga kaugnay na literatura, metodolohiya, resulta, at kongklusyon. Naiiba ito sa kongklusyon sapagkat ito ay naglalaman ng pinakabuod ng bawat bahagi ng sulatin o ulat."
             ],
             "Position": {
-              "x": 224.5,
-              "y": 101.5
+              "x": 53.984375,
+              "y": 309.1328125
             },
             "Branches": [
-              "Abstrak"
-            ]
-          },
-          {
-            "Title": "3.",
-            "Descriptions": [
-              "Gumamit ng mga simple, malinaw, at direktang mga pangungusap. Huwag maging maligoy sa pagsulat nito."
-            ],
-            "Position": {
-              "x": 77.5,
-              "y": 300.5
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "Mga Dapat Tandaan sa Pagsulat ng Abstrak",
-            "Descriptions": [],
-            "Position": {
-              "x": 35.5,
-              "y": 207
-            },
-            "Branches": [
-              "Abstrak"
-            ]
-          },
-          {
-            "Title": "2.",
-            "Descriptions": [
-              "Iwasan din ang paglalagay ng mga statistical figures o table sa abstrak sapagkat hindi ito nangangailangan ng detalyadong pagpapaliwanag na magiging dahilan para humaba ito."
-            ],
-            "Position": {
-              "x": 42.5,
-              "y": 288.5
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "1.",
-            "Descriptions": [
-              "Bilang bahagi ng alituntunin ng pagsulat ng mga akdang pang-akademiko, lahat ng mga detalye o kaisipang ilalagay rito ay dapat na makikita sa kabuoan ng papel; ibig sabihin, hindi maaaring maglagay ng mga kaisipan o datos na hindi binanggit sa ginawang pag-aaral o sulatin."
-            ],
-            "Position": {
-              "x": 9,
-              "y": 266
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "4.",
-            "Descriptions": [
-              "Maging obhetibo sa pagsulat. Ilahad lamang ang mga pangunahing kaisipan at hindi dapat ipaliwanag ang mga ito."
-            ],
-            "Position": {
-              "x": 118,
-              "y": 295
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "5.",
-            "Descriptions": [
-              "Higit sa lahat ay gawin lamang itong maikli ngunit komprehensibo kung saan mauunawan ng babasa ang pangkalahatang nilalaman at nilalayon ng pag-aaral na ginawa."
-            ],
-            "Position": {
-              "x": 143.5,
-              "y": 256.5
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Abstrak"
+              "2"
             ]
           },
           {
             "Title": "Mga Hakbang sa Pagsulat ng Abstrak",
-            "Descriptions": [],
-            "Position": {
-              "x": 232,
-              "y": 214.5
-            },
-            "Branches": [
-              "Abstrak"
-            ]
-          },
-          {
-            "Title": "1. ",
             "Descriptions": [
-              "Basahing mabuti at pag-aralan ang papel o akademikong sulatin na gagawan ng abstrak."
+              "Ang Abstrakang bahagi ng akademikong papel o ulat na pinakahuling isinusulat ngunit kadalasang unang binabasa ng mga propesor o mga eksaminer ng papel kaya naman, napakahalagang maging maingat sa pagsulat nito. Narito ang mga hakbang na maaaring gamitin sa pagsulat ng abstrak:",
+              "1. Basahing mabuti at pag-aralan ang papel o akademikong sulatin na gagawan ng abstrak.",
+              "2. Hanapin at isulat ang mga pangunahing kaisipan o ideya ng bawat bahagi ng sulatin mula sa introduksiyon, kaugnay na literatura, metodolohiya, resulta, at kongklusyon.",
+              "3. Buoin, gamit ang mga talata, ang mga pangunahing kaisipan o ideya ng bawat bahagi ng sulatin. Isulat ito ayon sa pagkakasunod-sunod ng mga bahaging ito sa kabuoan ng papel.",
+              "4. Iwasang maglagay ng mga ilustrasyon, graph, table, at iba pa maliban na lamang kung sadyang kinakailangan.",
+              "5. Basahing muli ang ginawang abstrak. Suriin kung may nakaligtaang mahahalagang kaisipang dapat isama rito.",
+              "6. Isulat ang pinal na sipi nito.",
+              "Hanggat maaari, ang abstrak ay kailangang maisulat gamit ang isang buong pahina ng bondpaper, subalit may mga gumagawa nitong lubhang detalyado kung saan ito ay hinabi batay sa pagkakalagom ng bawat bahagi ng sinulat sa papel. Kadalasang makikita ang ganitong uri ng abstrak sa tesis at disertasyon."
             ],
             "Position": {
-              "x": 192,
-              "y": 250.5
+              "x": 45.15625,
+              "y": 156.828125
             },
             "Branches": [
-              "Mga Hakbang sa Pagsulat ng Abstrak"
+              "2"
             ]
           },
-          {
-            "Title": "2. ",
-            "Descriptions": [
-              "Hanapin at isulat ang mga pangunahing kaisipan o ideya ng bawat bahagi ng sulatin mula sa introduksiyon, kaugnay na literatura, metodolohiya, resulta, at kongklusyon."
-            ],
-            "Position": {
-              "x": 228.5,
-              "y": 272
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "3. ",
-            "Descriptions": [
-              "Buoin, gamit ang mga talata, ang mga pangunahing kaisipang taglay ng bawat bahagi ng sulatin. Isulat ito ayon sa pagkakasunod-sunod ng mga bahaging ito sa kabuoan ng papel."
-            ],
-            "Position": {
-              "x": 265,
-              "y": 279
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "4. ",
-            "Descriptions": [
-              "Iwasang maglagay ng mga ilustrasyon, graph, table, at iba pa maliban na lamang kung sadyang kinakailangan."
-            ],
-            "Position": {
-              "x": 300,
-              "y": 278.5
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "5. ",
-            "Descriptions": [
-              "Isulat ang pinal na sipi nito."
-            ],
-            "Position": {
-              "x": 325.5,
-              "y": 255.5
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Abstrak"
-            ]
-          },
-          {
-            "Title": "Paalala",
-            "Descriptions": [
-              "Hangga't maaari, ang abstrak ay kailangang maisulat gamit ang isang buong pahina ng bondpaper, subalit may mga gumagawa nitong lubhang detalyado kung saan ito ay hinabi batay sa pagkakalagom ng bawat bahagi ng sinulat na papel. Kadalasang makikita ang ganitong uri ng abstrak sa tesis at disertasyon."
-            ],
-            "Position": {
-              "x": 68,
-              "y": 115.5
-            },
-            "Branches": [
-              "Abstrak"
-            ]
-          }
-        ]
-      },
-      {
-        "Topic": "Sinopsis/ Buod",
-        "Topic_Info": [
           {
             "Title": "Sinopsis/ Buod",
             "Descriptions": [
-              "ay isang uri ng lagom na kalimitang ginagamit sa mga akdang nasa tekstong naratibo tulad ng kuwento, salaysay, nobela, dula, parabula, talumpati, at iba pang anyo ng panitikan."
+              "Ang sinopsis o buod ay isang uri ng lagom na kalimitang ginagamit sa mga akdang nasa tekstong naratibo tulad ng kwento, salaysay, nobela, dula, parabula, talumpati, at iba pang anyo ng panitikan.",
+              "Ang Buod ay maaaring buoin ng isang talata o higit pa o maging ng ilang pangungusap lamang. Sa pagsulat ng Sinopsis, mahalagang maibuod ang nilalaman ng binasang akda gamit ang sariling salita.",
+              "Ang pagbubuod o pagsulat ng sinopsis ay naglalayong makatulong sa madalling pag-unawa sa diwa ng seleksiyon o akda, kung kaya't nararapat na maging payak ang mga salitang gagamitin. Layunin din nitong maisulat ang pangunahing kaisipang taglay ng akda sa pamamagitan ng pagtukoy sa pahayag ng tesis nito.",
+              "Ang pahayag ng tesis ay maaaring lantad na makikita sa akda o minsan naman, ito ay di tuwirang nakahalad kaya mahalagang basahing mabuti ang kabuoan nito. Sa pagkuh ng mahahalagang detalye ng akda, mahalagang detalye ang akda, mahalagang matukoy ang sagot sa sumusunod: Sino? Ano? Kailan? Saan? Bakit? Paano? Sa pamamagitan ng pagsasagot ng mga tanong na ito, magiging madali ang pagsulat ng buod.",
+              "Sa pagsulat ng sinopsis o buod, mahalagang mapakilala sa mga babasa nito kungg anong akda ang iyong ginawan ng buod sa pamamagitan ng pagbanggit sa pamagat, may-akda, at pinanggalingan ng akda. Makatutulong ito upang maipaunawa sa mga mambabasa na ang mga kaisipang iyong inilahad ay hindi galing sa iyo kundi ito ay buod lamang ng akdang iyong nabasa. Iwasan din ang magbigay ng iyong sariling pananaw o paliwanag tunkol sa akda. Maging obhetibo sa pagsulat nito."
             ],
             "Position": {
-              "x": 237.5,
-              "y": 124
+              "x": 159.15625,
+              "y": 164
             },
             "Branches": [
-              ""
-            ]
-          },
-          {
-            "Title": "Pagsulat ng Sinopsis/ Buod",
-            "Descriptions": [
-              "Sa pagsulat ng sinopsis, mahalagang maibuod ang nilalaman ng binasang akda gamit ang sariling salita.",
-              "Sa pagsulat ng sinopsis o buod, mahalagang maipakilala sa mga babasa nito kung anong akda ang iyong ginawan ng buod sa pamamagitan ng pagbanggit sa pamagat, may-akda, at pinanggalingan ng akda. Iwasan din ang magbigay ng iyong sariling pananaw o paliwanag tungkol sa akda. Maging obhetibo sa pagsulat nito."
-            ],
-            "Position": {
-              "x": 8,
-              "y": 114.5
-            },
-            "Branches": [
-              "Sinopsis/ Buod"
+              "0"
             ]
           },
           {
             "Title": "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod",
-            "Descriptions": [],
-            "Position": {
-              "x": 41,
-              "y": 202
-            },
-            "Branches": [
-              "Sinopsis/ Buod"
-            ]
-          },
-          {
-            "Title": "1.",
             "Descriptions": [
-              "Gumamit ng ikatlong panauhan sa pagsulat nito."
+              "Narito ang ilang mahahalagang bagay na dapat tandaan sa pagsulat ng buod o sinopsis:",
+              "1. Gumawa ng ikatlong panauhan sa pagsulat nito.",
+              "2. Isulat ito batay sa tono ng pagkakasulat ng orihinal na sipi nito. Kung ang damdaming naghahari sa akda ay malungkot, dapat na maramdaman din ito sa buod na gagawin.",
+              "3. Kailangang mailahad o maisama rito ang mga pangunahing tauhan maging ang kanilang mga gampanin at mga suliraning kanilang kinakaharap.",
+              "4. Gumamit ng mga angkop na pag-ugnay sa paghabi ng mga pangyayari sa kwentong binubuod lalo na kung ang sinopsis na ginawa ay binubuo ng dalawa o higit pang talata.",
+              "5. Tiyaking wasto ang gramtika, pagbaybay, at mga bantas na ginagamit sa pagsulat.",
+              "6. Huwag kalimutang isulat ang sangguniang gimanit kung saan hinango o kinuha ang orihinal na sipi na akda."
             ],
             "Position": {
-              "x": 4.5,
-              "y": 248.5
+              "x": 255,
+              "y": 101.328125
             },
             "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+              "5"
             ]
           },
           {
-            "Title": "2.",
+            "Title": "Mga Hakbang sa Pagsulat ng Sinopsis/Buod",
             "Descriptions": [
-              "Isulat ito batay sa tono ng pagkakasulat ng orihinal na sipi nito. Kung ang damdaming naghahari sa akda ay malungkot, dapat na maramdaman din ito sa buod na gagawin."
+              "Narito naman angmga hakbang na maaaring gamitin sa masining at maayos na pagsulat ng buod ng isang akda:",
+              "1. Basahin ang buong seleksiyon o akda at unawaing mabuti hanggang makuha ang buong kaisipan o paksa ng diwa nito.",
+              "2. Suriin at hanapin ang pangunahin at di pangunahing kaisipan.",
+              "3. Habang nababasa, mmagtala at kung maaari ay magbalangkas.",
+              "4. Isulat sa sariling pangungusap at huwag lagyan ng sariling opinyon o kuro-kuro ang isinusulat.",
+              "5. Ihanay ang ideya sang-ayon sa orihinal.",
+              "6. Basahin ang unang ginawa, suriin, at kung mapaiikli pa ito nang hindi mababawasan ang kaisipan ay lalong magiging mabisa ang isinulat na buod."
             ],
             "Position": {
-              "x": 34,
-              "y": 275
+              "x": 139.6640625,
+              "y": 80
             },
             "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+              "5"
             ]
           },
           {
-            "Title": "3.",
+            "Title": "Mga Dapat Tandaan sa Pagsulat ng Abstrak",
             "Descriptions": [
-              "Kailangang mailahad o maisama rito ang mga pangunahing tauhan maging ang kanilang mga gampanin at mga suliraning kanilang kinaharap."
+              "1. Bilang bahagi ng alituntunin ng pagsulat ng mga akdang pang-akademiko, lahat ng mga detalye o kaisipang ilalagay rit ay dapat na makikita sa kabuoang papel; ibig sabihin, hindi maaring maglagay ng mga kaisipan o datos na hindi binanggit sa ginawang pag-aaral o sulatin.",
+              "2. Iwasan din ang paglalagay ng mga statistical figures o table sa abstrak sapagkat ito nangangailangan ng detalyadong pagpapaliwanag na magigig dahilan para hummaba ito.",
+              "3. Gumamit ng mga simple, malinaw, at direktang mga pangungusap. Huwag maging maligoy sa pagsulat nito.",
+              "4. Maging obhetibo sa pagsullat. Ilahad lamang ang mga pangunahing kaisipan at hindi dapat ipaliwanag ang mga ito.",
+              "5. Higit sa lahat ay gawin lamang itong maikli ngunit komprehensibo kung saan mauunawaan ng babasa ang pankalahatang nilalaman at nilalayon ng pag-aaral na ginawa."
             ],
             "Position": {
-              "x": 69.5,
-              "y": 283.5
+              "x": 0.1640625,
+              "y": 223.9765625
             },
             "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
+              "2"
             ]
           },
-          {
-            "Title": "4.",
-            "Descriptions": [
-              " Gumamit ng mga angkop na pang-ugnay sa paghabi ng mga pangyayari sa kuwentong binubuod lalo na kung ang sinopsis na ginawa ay binubuo ng dalawa o higit pang talata."
-            ],
-            "Position": {
-              "x": 109,
-              "y": 278.5
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
-            ]
-          },
-          {
-            "Title": "5.",
-            "Descriptions": [
-              " Tiyaking wasto ang gramatika, pagbabaybay, at mga bantas na ginamit sa pagsulat."
-            ],
-            "Position": {
-              "x": 139,
-              "y": 265
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
-            ]
-          },
-          {
-            "Title": "6.",
-            "Descriptions": [
-              "Huwag kalimutang isulat ang sangguniang ginamit kung saan hinango o kinuha ang orihinal na sipi ng akda."
-            ],
-            "Position": {
-              "x": 159,
-              "y": 235
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Pagsulat ng Sinopsis o Buod"
-            ]
-          },
-          {
-            "Title": "Mga Hakbang sa pagsulat ng sinopsis / Buod",
-            "Descriptions": [],
-            "Position": {
-              "x": 227,
-              "y": 211.5
-            },
-            "Branches": [
-              "Sinopsis/ Buod"
-            ]
-          },
-          {
-            "Title": "1. ",
-            "Descriptions": [
-              " Basahin ang buong seleksiyon o akda at unawaing mabuti hanggang makuha ang buong kaisipan o paksa ng diwa nito."
-            ],
-            "Position": {
-              "x": 191.5,
-              "y": 235
-            },
-            "Branches": [
-              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
-            ]
-          },
-          {
-            "Title": "2. ",
-            "Descriptions": [
-              "Suriin at hanapin ang pangunahin at di pangunahing kaisipan."
-            ],
-            "Position": {
-              "x": 211.5,
-              "y": 265
-            },
-            "Branches": [
-              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
-            ]
-          },
-          {
-            "Title": "3. ",
-            "Descriptions": [
-              "Habang nagbabasa, magtala at kung maaari ay magbalangkas."
-            ],
-            "Position": {
-              "x": 243,
-              "y": 278
-            },
-            "Branches": [
-              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
-            ]
-          },
-          {
-            "Title": "4. ",
-            "Descriptions": [
-              "Isulat sa sariling pangungusap at huwag lagyan ng sariling opinyon o kuro-kuro ang isinusulat."
-            ],
-            "Position": {
-              "x": 277,
-              "y": 280.5
-            },
-            "Branches": [
-              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
-            ]
-          },
-          {
-            "Title": "5. ",
-            "Descriptions": [
-              "Ihanay ang ideya sang-ayon sa orihinal."
-            ],
-            "Position": {
-              "x": 304.5,
-              "y": 269
-            },
-            "Branches": [
-              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
-            ]
-          },
-          {
-            "Title": "6. ",
-            "Descriptions": [
-              "Basahin ang unang ginawa, suriin, at kung mapaiikli pa ito nang hindi mababawasan ang kaisipan ay lalong magiging mabisa ang isinulat na buod."
-            ],
-            "Position": {
-              "x": 327.5,
-              "y": 238.5
-            },
-            "Branches": [
-              "Mga Hakbang sa pagsulat ng sinopsis / Buod"
-            ]
-          }
-        ]
-      },
-      {
-        "Topic": "Bionote",
-        "Topic_Info": [
           {
             "Title": "Bionote",
             "Descriptions": [
-              "Ang bionote ay maituturing ding isang uri ng lagom na ginagamit sa pagsulat ng personal profile ng isang tao. Marahil ay nakasulat ka na ng yong talambuhay o tinatawag sa Ingles na autobiography o kayâ ng kathambuhay o katha sa buhay ng isang tao o biography. Parang ganito rin ang bionote ngunit ito ay higit na maikli kompara sa mga ito."
+              "Ang Bionote ay maituturing ding isang uri ng lagom na ginagamit sa pagsulat ng personal profile ng isang tao. Marahil ay nakasulat ka na iyong talambuhay o tinatawag sa Ingles na autobiography o kaya ng kathambuhay o katha sa buhay ng isang tao o biography, Parang ganito rin ang bionote ngunit ito ay higit na maikli kompara sa mga ito."
             ],
             "Position": {
-              "x": 62,
-              "y": 85
+              "x": 174.15625,
+              "y": 317.1640625
             },
             "Branches": [
-              ""
+              "0"
             ]
           },
           {
             "Title": "Duenas at Sanz (2012)",
             "Descriptions": [
-              "Ayon kay Duenas at Sanz (2012) sa kanilang aklat na Academic Writing for Health Sciences, ang bionote ay tala sa buhay ng isang tao na naglalaman ng buod ng kanyang academic career na madalas ay makikita o mababasa sa mga journal, aklat, abstrak ng mga sulating papel, web sites, at iba."
+              "Ayon kay DUENAS at SANZ (2012) sa kanilang aklat na Academic Writing for Health Sciences, ang bionote ay tala sa buhay ng isang tao na naglalaman ng buod ng kanyang academic career na madalas ay makikita o mababasa sa mga journal, aklat, abstrak ng mga sulating papel, web sites, at iba. Kadalasan, ito ay ginagamit sa paggawa ng bio-data, resume, o anumang kagaya ng mga ito upang ipakilala ang sarili para sa isang propesyonal na layunin. Ito rin ang madalas na mababasa sa bahaging \"Tungkol sa Iyong Sarili\" na makikita sa mga social network, o digial communication sites. ",
+              "Halimbawa nito ay ang bionote o pagpapakilala sa sarili ng mga gumagawa ng ito ang nagpapakilala ng ilang mahahalagang detalye sa buhay ng kung sino ang nasa likod ng blog. Ito rin ay maaaring magamit ng taong naglalatha ng isang aklat o artikulo. Sa madaling salita, layunin ng bionote na maipakilala ang sarili sa madla sa pamamagitan ng pagbanggit ng mga personal na impormasyon tungkol sa sarili at maging ng mga nagawa o ginagawa sa buhay."
             ],
             "Position": {
-              "x": 182,
-              "y": 79
+              "x": 249.1640625,
+              "y": 313.828125
             },
             "Branches": [
-              "Bionote"
+              "9"
             ]
           },
           {
-            "Title": "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote",
-            "Descriptions": [],
-            "Position": {
-              "x": 31,
-              "y": 141.5
-            },
-            "Branches": [
-              "Bionote"
-            ]
-          },
-          {
-            "Title": "1.",
+            "Title": "Mga Bagay na Dapat Tandaan sa Pagsulat ng BIonote",
             "Descriptions": [
-              "Sikaping maisulat lamang ito nang maikli. Kung ito ay gagamitin sa resumé kailangang maisulat ito gamit ang 200 salita. Kung to naman ay gagamitin para sa networking site, sikaping maisulat ito sa loob ng 5 hanggang 6 na pangungusap."
+              "Narito ang mahalagang bagay na dapat tandaan sa pagsulat ng bionote:",
+              "1. Sikaping maisulat lamang ito nang maikli. Kung ito ay gagamitin sa resume kailangang maisulat ito gamit ang 200 salita. Kung ito naman ay gagamitin para sa networking site, sikaping maisulat ito sa loob ng 5 hanggang 6 na pangungusap.",
+              "2. Magsimula sa pagbanggit ng mga personal na impormasyon o detalye tungkol sa iyong buhay. Maglagay rin ng mga detalye tungkol sa iyong mga interes. Itala rin ang iyong mga tagumpay na nakamit, gayunman, kung ito ay marami, piliin lamang ang 2 o 3 na pinakamahalaga.",
+              "3. Isulat ito gamit ang ikatlong panauhan upang maging litaw na obhetibo ang pagkakasulat nito.",
+              "4. Gawing simple ang pagkakasulat nito. Gumamit ng mga payak na salita upang madali itong maunawaan at makamit ang totoong layunin nitong maipakilala ang iyong sarili sa iba sa maikli at tuwirang paraan. May ibang gumagamit ng kauting pagpapatawa para higit na maging kawili-kawili ito sa mga babasa, gayunman iwasang maging labis sa paggamit nito. Tandaan na ito ang mismong maglalarawan kung ano at sino ka.",
+              "5. Basahing muli at muling isulat ang pinal na sipi ng iyong bionote. Maaaring ipabasa muna ito sa iba bago tuluyan itng gamitin upang matiyak ang katumpakan at kaayusan nito."
             ],
             "Position": {
-              "x": 8,
-              "y": 194
+              "x": 132.8229217529297,
+              "y": 375.82293701171875
             },
             "Branches": [
-              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
-            ]
-          },
-          {
-            "Title": "2.",
-            "Descriptions": [
-              "Magsimula sa pagbanggit ng mga personal na impormasyon o detalye tungkol sa iyong buhay. Maglagay rin ng mga detalye tungkol sa iyong mga interes. Itala rin ang yong mga tagumpay na nakamit, gayunman, kung ito ay marami, pilin lamang ang 2 o 3 na pinakamahalaga."
-            ],
-            "Position": {
-              "x": 36,
-              "y": 214
-            },
-            "Branches": [
-              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
-            ]
-          },
-          {
-            "Title": "3.",
-            "Descriptions": [
-              "Isulat ito gamit ang ikatlong panauhan upang maging litaw na obhetibo ang pagkakasulat nito."
-            ],
-            "Position": {
-              "x": 74,
-              "y": 216
-            },
-            "Branches": [
-              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
-            ]
-          },
-          {
-            "Title": "4.",
-            "Descriptions": [
-              "Gawing simple ang pagkakasulat nito. Gumamit ng mga payak na salita upang madali itong maunawaan at makamit ang totoong layunin nitong maipakilala ang iyong sarili sa iba sa maikli at tuwirang paraan. May ibang gumagamit ng kaunting pagpapatawa para higit na maging kawili-wili ito sa mga babasa, gayunman iwasang maging labis sa paggamit nito. Tandaan na ito ang mismong maglalarawan kung ano at sino ka."
-            ],
-            "Position": {
-              "x": 111,
-              "y": 207
-            },
-            "Branches": [
-              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
-            ]
-          },
-          {
-            "Title": "5.",
-            "Descriptions": [
-              "5.) Bashing muli at muling isulat ang pinal na sipi ng iyong bionote. Maaaring ipabasa muna ito sa ba bago tuluyan itong gamitin upang matiyak ang katumpakan at kaayusan nito."
-            ],
-            "Position": {
-              "x": 138,
-              "y": 180
-            },
-            "Branches": [
-              "Mga Bagay na Dapat Tandaan sa Pagsulat ng Bionote"
+              "9"
             ]
           }
         ]
       },
       {
-        "Topic": "Memorandum o Memo",
+        "Topic": "Pagpupulong o Miting",
         "Topic_Info": [
           {
-            "Title": "Pagpupulong o Miting",
+            "Title": "Pagpupulong o miting",
             "Descriptions": [
-              "May tatlong mahalagang elementong kailangan upang maging maayos, organisado, at epektibo ang isang pulong. Ito ay memorandum, adyenda, at katitikan ng pulong. Bilang isang mag-aaral mahalagang matutunan mo kung ano-ano at kung paano ginagawa ang mga ito."
+              "Ang pagpupulong o miting, lalo na ang  business meeting ay bahagi na ng buhay ng maraming tao sa kasalukuyan. Ito ay pangkaraniwang gawain ng bawat samahan, organisasyon, kompanya, paaralan, institusyon, at iba pa. Halos araw-araw ay may nagaganap na pulong sa opisina, lingguhang broad meeting sa kompanya, seminar, at maging ang pagdaraos ng malalaking kumprehensiya. Bukod sa regular na pulong kung saan magkakaharap ang mga taong kabahagi ng miting, ginagawa na rin sa kasalukuyan, bunga rin ng makabagong teknolohiya ang teleconference, videoconference, at online meeting sa pamamagitan ng Internet. Dahil pinaniniwalaang ang susi ng tagumpay ng mga kompanya, samahan, organisasyon, negosyo, at trabaho ay ang pagkakaroon ng pagkakaisa at pagtatrabaho bilang isang team o koponan, labis na pinahahalagahan sa kasalukuyan ng bawat isa ang pagbabahaginan ng mga ideya at epektibong pagpaplano ng mga proyekto na mabisang naisasagawa o naisasakatuparan sa pamamagitan ng pagdaraos ng eppiktibo at maayos na pagpupulong.",
+              "Madalas marinig na ang mabisang komunikasyon an buhay ng isang samahan o organisasyon. Kung walang maayos na daloy ng komunikasyon sa loob ng isang samahan, kadalasan ito ay walang kaayusan. Gayundin naman, kunng ang komunikasyon ang buhay ng samahan, itinuturing namang pinakapuso at isip nito ay ang pagpupulong. Sa pamamagitan ng epektibong pagpupulong nauunawaan at nadarama ng bawat bahagi ng sammahan ang mga mithiin at nais tahakin nito. Kaya naman, napakahalagang maisagawa ang isang maayos, organisado, at sistematikong pagpupulong ito man ay isang business meeting, one-on-one meeting, o company meeting.",
+              "May tatlong mahahalagang elementong kailangan upang maging maayos, organisado, at epektibo ang isang pulong. Ito ay ang memorandum, adyenda, at katitikan ng pulong. Bilang isang mag-aaral, mahalagang matutuhan mo kung ano-ano at kung paano ginagawa ang mga ito."
             ],
             "Position": {
-              "x": 1,
-              "y": 175.5
+              "x": 9.732645034790039,
+              "y": 185.27084350585938
             },
             "Branches": [
               ""
@@ -614,941 +222,196 @@
           },
           {
             "Title": "Memorandum o Memo",
-            "Descriptions": [],
+            "Descriptions": [
+              "Ang pagsulat ng memo ay maituturing ding isang sining. Dapat tandaan na ang memo ay hindi isang liham. Kadalasan ay maikli lamang na ang pangunahing layunin ay pakilusin ang isang tao sa isang tiyak na alituntuning dapat isakatuparan gaya halimbawa ng pagdalo sa isang pulong, pagsasagawa, o pagsusunod sa bagong sistema ng produksiyon o kompanya. Ito rin ay maaaring maghalad ng isang impormasyon tungkol sa isang mahalagang balita o pangyayari at pagbabago sa mga polisya."
+            ],
             "Position": {
-              "x": 1,
-              "y": 240.5
+              "x": 139.9479217529297,
+              "y": 263.29168701171875
             },
             "Branches": [
-              "Pagpupulong o Miting"
+              "0"
             ]
           },
           {
-            "Title": "Prof. Ma, Rovilla Sudprasert(2014)",
+            "Title": "Prof. Ma. Rovilla Sudprassert (2014)",
             "Descriptions": [
-              "Ayon kay Prof. Ma, Rovilla Sudprasert (2014), sa kanyang aklat na English for the Workplace 3, ang memorandum ○ memo ay isang kasulatang nagbibigay kabatiran tungkol sa gagawing pulong o paalala tungkol sa isang mahalagang impormasyon, gawain, tungkulin, o utos. Sa memo nakasaad ang layunin o pakay ng gagawing miting.Sa pamamagitan nito, nagiging malinaw sa mga dadalo ng pulong kung ano ang inaasahan mula sa kanila. ",
-              "Ang pagsulat ng memo ay maituturing ding isang sining. Dapat tandaan na ang memo ay hindi isang liham. Kadalasan ay maikli lamang na ang pangunahing layunin ay pakilusin ang isang tao Sa isang tiyak na alituntuning dapat isakatuparan gaya halimbawa ng Pagdalo sa isang pulong, pagsasagawa, ○ pagsunod sa bagong sistema ng produksiyon ○ kompanya. Ito rin ay maaaring maglahad ng isang impormasyon tungkol sa isang mahalagang balita ○ pangyayari at pagbabago sa mga polisiya. "
+              "Ayon kay Prof. Ma. Rovilla Sudprassert (2014), sa kanyang aklat na English for the Workplace 3, ang memorandum o memo ay isang kasulatang nagbibigay kabatiran aklat tungkol sa gagawing pulong o paalala tungkol sa isang mahalagang impormasyon, gawain, tungkulin, o utos. Sa memo nakasaad ang layunin o pakay ng gagawing miting. Sa pamamagitan nito, nagiging malinaw sa mga dadalo ng pulong kung ano ang inaasahang mula sa kanila. Kung ang layunin ng pulong na nakatala sa memo ay upang ipabatid lamang sa kanila ang isang mahalagang desisyon o proyekto ng kompanya o organisasyon, magiging malinaw para sa lahat na hindi na kailangan ang kanilang ideya o suhestiyon sapagkat pinal na ang nasabing desisyon o proyekto.",
+              "Mula sa mga nakatalang halimbawa, mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay ng sumusunod na mga impormasyon. Ang mga impormasyong ito ay hinango mula sa aklat ni Sudprassert (2014) na English for the Workplace 3.",
+              "1. Makikita sa letterhead ang logo at pangalan ng kompanya, institusyon, o organisasyon gayundin ang lugar kung saan matatagpuan ito at minsan maging ang bilang ng numero ng telepono.",
+              "2. Ang bahaging 'Para sa/Para kay/Kina' ay naglalaman ng pangalan ng tao o mga tao, o kaya naman ay grupong pinag-uukulan ng memo. Para sa isang impormal na memo ang Para kay: Ailene ay sapat na. Ngunit sa mga pormal na memo, mahalagang maisulat ang buong pangalan ng pinag-uukulan nito. Kung ang tatanggap ng memo ay kabilang sa ibang departamento, makatutulong kung ilalagay rin ang pangalan ng departamento. Hindi na rin kailangang lagyan ng G., Gng., Bb., at iba pa maliban na lamang na napakapormal ng memong ginawa.",
+              "3. Ang bahagi namang 'Mula kay' ay naglalaman ng pangalan ng nagpadala ng memo. Gaya rin ng bahaging 'Para sa/ Para kay/ Kina' maaaring gamitin na lamang ang unang pangalan ng sulumat nito gaya halimbawa nito: 'Mula kay: Nestor'. Ngunit kung ito ay pormal, isulat ang buong pangalan ng nagpadala. Gayundin, mahalagang ilagay ang pangalan ng departamento kung ang memo ay galing sa ibang seksiyon tanggapan. Hindi narin kailangang lagyan ng G., Gng., Bb., at iba pa maliban na lamang na napakapormal ng memong ginawa.",
+              "4. Sa bahaging Petsa, iwasan ang paggamit ng numero gaya ng 11/25/15 o 30/09/15. Sa halip, isulat ang buong pangalan ng buwan o ang dinaglat na salita nito tulad halimbawa  ng Nobyembre o Nob. Kasama ang araw, taon upang maiwasan ang pagkalito.",
+              "5. Ang bahaging paksa ay mahalagang maisulat ng payak, malinaw, at tuwiran upang agad maunawaan ang nais ipabatid nito.",
+              "6. Kadalasang ang 'Mensahe' ay maikli lamang ngunit kung ito ay isang detalyadong memo kung kailangan ito ay magtaglay ng sumusunod:\n\na. Sitwasyon dito makikita ang panimula o layunin ng memo.\nb. Problema nakasaad ang suliraning dapat pagtuonan ng pansin. Hindi lahat ng memo ay nagtataglay nito.\nc. Solusyon nagsasaad ng inaasahang dapat gawin ng kinauukulan.\nd. Paggalang o pasasalamat wakasan ang memo sa pamamagitan ng pagpapasalamat o pagpapakita ng paggalang.",
+              "7. Ang huling bahagi ay ang 'Lagda' ng nagpadala. Kadalasang inilalagay ito sa kanyang pangalan sa bahaging Mula kay..."
             ],
             "Position": {
-              "x": -4,
-              "y": 313
+              "x": 140.14584350585938,
+              "y": 187.49655151367188
             },
             "Branches": [
-              "Memorandum o Memo"
+              "1",
+              "4"
             ]
           },
           {
             "Title": "Dr. Darwin Bargo (2014)",
             "Descriptions": [
-              "Ayon kay Dr. Darwin Bargo (2014) sa kanyang aklat na Writing in the Discipline, ang mga kilalâ at malalaking kompanya at mga institusyon ay kalimitang gumagamit ng mga colored stationery para sa kanilang mga memo tulad ng sumusunod:"
+              "Ayon kay Dr. Darwin Bargo (2014) sa kanyang aklat na Writing in the discipline, ang mga kilala at at malalaking kompanya at mga institusyon ay kalimitang gumagamit ng mga colored stationery para sa kanilang mga memo tulad ng sumusunod:",
+              "Puti ginagamit sa mga pangkalahatang kautusan, direktiba, o impormasyon",
+              "Pink o rosas ginagamit naman para sa request o order na nanggagaling sa purchasing department",
+              "Dilaw o luntian ginagamit naman para sa mga memo na nanggagaling sa marketing at accounting department.",
+              "Sa pangkalahatan, ayon din kay Bargo (2014), may tatlong uri ng memorandum ayon sa layunin nito.",
+              "1. Memorandum para sa kahilingan ",
+              "2. Memorandum para sa kabatiran",
+              "3. Memorandum para sa pagtugon"
             ],
             "Position": {
-              "x": 95.5,
-              "y": 148
+              "x": 252.642333984375,
+              "y": 264.8819274902344
             },
             "Branches": [
-              "Memorandum o Memo"
+              "1"
             ]
           },
           {
-            "Title": "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay",
+            "Title": "Agenda o adyenda",
             "Descriptions": [
-              "Mula sa mga nakatalang halimbawa, mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay ng sumusunod na mga impormasyon Ang mga impormasyong ito ay hinango mula sa aklat ni Sudprasert (2014) na English for the Workplace 3."
+              "Ayon kay Sudprassert (2014), ang adyenda nagtatakda ng mga paksang tatalakayin sa pulong. Ang pagkakaroon ng maayos at sistematikong adyenda ang isa sa mga susi ng matagumpay na pulong. Napakahalagang maisagawa ito nang maayos at maipabatid sa mga taong kabahagi bago isagawa ang pulong. Narito ang ilang kahalagahan ng pagkakaroon ng adyenda ng pulong.",
+              "1. Ito ang nagsasaad ng sumusunod na mga impormasyon: \n\na. Mga paksang tatalakayin\nb. Mga taong tatalakay o magpapaliwanag ng mga paksa\nc. Oras na itinakda para sa bawat paksa",
+              "2. Ito rin ang nagtatakda ng balangkas ng pulong tulad ng pagkakasunod-sunod ng mga paksang tatalakayin at kung gaano katagal pag-uusapan ang mga ito.",
+              "3. Ito ay nagsisilbing talaan o tseklist na lubhang mahalaga upang matiyak na ang lahat ng paksang tatalakayin ay kasama sa talaan.",
+              "4. Ito ay nagbibigay rin ng pagkakataon sa mga kasapi sa pulong na maging handa sa mga paksang tatalakayin o pagdedesisyunan.",
+              "5. Ito ay nakatutulong nang malaki upang mapanatiling nakapokus sa mga paksang tatalakayin sa pulong."
             ],
             "Position": {
-              "x": 112.5,
-              "y": 298
+              "x": 18.614578247070312,
+              "y": 261.53472900390625
             },
             "Branches": [
-              "Memorandum o Memo"
+              "0"
             ]
           },
           {
-            "Title": "1.",
+            "Title": "Mga hakbang sa Pagsulat ng Adyenda",
             "Descriptions": [
-              "Makikita sa letterhead ang logo at pangalan ng kompanya, institusyon, o organisasyon gayundin ang lugar kung saan matatagpuan ito at minsan maging ang bilang ng numero ng telepono."
+              "Tulad ng paggawa ng memorandum, mayroon ding sinusunod na hakbang sa paggawa ng adyenda. Tandaan na ang mga paksang tatalakayin ay hindi lamang sa isang tao magmumula kundi manggagaling sa mga taong kasapi sa pulong. Narito ang mga hakbang na dapat isagawa sa pagsulat ng adyenda.",
+              "1. Magpadala ng memo na maaaring nakasulat sa papel o kaya naman ay isang e-mail na nagsasaad na magkakaroon ng pulong tungkol sa isang tiyak na paksa o layunin sa ganitong araw, oras, at lugar.",
+              "2. Ilahad sa memo na kailangan nilang  lagdaan ito bilang katibayan ng kanilang pagdalo o kung e-mail naman kinakailangan magpadala sila ng kanilang tugon. Ipaliwanag din sa memo na sa mga dadalo, mangyaring ipadala o ibigay sa gagawa ng adyenda ang kanilang concerns o paksang tatalakayin at maging ang bilang ng minutong kanilang kailangan upang pag-usapan ito.",
+              "3. Gumawa ng balangkas ng mga paksang tatalakayin kapag ang lahat ng mga adyenda o paksa ay napadala o nalikom na. Higit na magiging sistematiko kung ang talaan ng adyenda ay nakalatag sa talahanayan o naka table format kung saan makikita ang adyenda o paksa, taong magpapaliwanag, at oras kung gaano ito katagal pag-uusapan. Ang taong naatasang gumawa ng adyenda ay kailangang maging matalino at mapanuri kung ang mga isunumiteng adyenda o paksa ay may kaugnayan sa layunin ng pulong. Kung sakaling ito ay malayo sa paksang pag-uusapan, ipagbigay-alam sa taong nagpadala nito na ito ay maaaring talakayin sa susunod na pulong.",
+              "4. Ipadala ang sipi ng adyenda sa mga taong dadalo, mga dalawa o isang araw bago ang pulong. Bilang paalala ay muling ilagay rito ang layunin ng pulong, at kung kailan at saan ito gaganapin.",
+              "5. Sundin ang nasabing adyenda sa pagsasagawa ng pulong."
             ],
             "Position": {
-              "x": 78.5,
-              "y": 353
+              "x": 12.871541976928711,
+              "y": 330.8680725097656
             },
             "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "2.",
-            "Descriptions": [
-              "Ang bahaging Para sa/Para Kay/Kina ay naglalaman na pangalan ng tao mga tao, kayâ naman ay grupong pinag -uukulan ng memo. Para sa isang ımpormal na memo ang Para Kay: Ailene ay sapat na. ◦ pormal na memo, mahalagang isulat ang buong pangalan ng pinag-uukulan Ngunit Sa mga nito. Kung ang tatanggap ng memo ay kabilang sa ibang departamento, makatutulong kung ilalagay rin ang pangalan ng departamento. Hindi na rin kailangang lagyan ng G., Gng., Bb., at iba pa maliban na lamang na napakapormal ng memong ginawa."
-            ],
-            "Position": {
-              "x": 100,
-              "y": 386.5
-            },
-            "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "3.",
-            "Descriptions": [
-              "Ang bahagi namang ' Mula Kay' ay naglalaman ng pangalan ng gumawa Gaya rin ng bahaging Para sa/Para Kay/Kina ◦ nagpadala ng memo. maaaring gamitin na lamang ang unang Pangalan ng sumulat nito gaya halimbawa nito: Mula Kay: Nestor Ngunit kung ito ay pormal, isulat ang buong pangalan ng nagpadala, Gayundin, mahalagang ilagay ang pangalan ng departamento kung ang memo ay galing sa ibang seksiyon tanggapan. Hindi na rin kailangang lagyan ng G., Gng., Bb., at iba pa maliban na lamang na napakapormal ng memong ginawa. "
-            ],
-            "Position": {
-              "x": 132.5,
-              "y": 397.5
-            },
-            "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "4.",
-            "Descriptions": [
-              "Sa bahaging Petsa, iwasan ang paggamit ng numero gaya ng 11/25/15 o 30/09/15. Sa halip, isulat ang buong pangalan ng buwan ang dinaglat na salita nito tulad halimbawa ng Nobyembre o Nob. kasama ang araw at taon upang maiwasan ang pagkalito. \n"
-            ],
-            "Position": {
-              "x": 174,
-              "y": 394.5
-            },
-            "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "5.",
-            "Descriptions": [
-              "Ang bahaging Paksa ay mahalagang maisulat nang payak, malinaw, at tuwiran upang agad maunawaan ang nais ipabatid nito. "
-            ],
-            "Position": {
-              "x": 209,
-              "y": 371
-            },
-            "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "6.",
-            "Descriptions": [
-              "Kadalasang ang Mensahe' ay maikli lamang ngunit kung ito ay isang detalyadong memo kailangang ito ay magtaglay ng sumusunod: "
-            ],
-            "Position": {
-              "x": 234,
-              "y": 336
-            },
-            "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "7.",
-            "Descriptions": [
-              "Ang huling bahagi ay ang 'Lagda' ng nagpadala. Kadalasang inilalagay ito sa ibabaw ng kanyang pangalan sa bahaging Mula Kay…"
-            ],
-            "Position": {
-              "x": 210,
-              "y": 298.5
-            },
-            "Branches": [
-              "Mahalagang tandaan na ang isang maayos at malinaw na memo ay dapat na magtaglay"
-            ]
-          },
-          {
-            "Title": "Tatlong uring ng Memo",
-            "Descriptions": [
-              "Sa pangkalahatan, ayon din kay Bargo (2014), may tatlong uri ng memorandum ayon sa layunin nito."
-            ],
-            "Position": {
-              "x": 123.5,
-              "y": 216
-            },
-            "Branches": [
-              "Memorandum o Memo"
-            ]
-          },
-          {
-            "Title": "1.  ",
-            "Descriptions": [
-              "Memorandum para sa kahilingan \n"
-            ],
-            "Position": {
-              "x": 198,
-              "y": 181.5
-            },
-            "Branches": [
-              "Tatlong uring ng Memo"
-            ]
-          },
-          {
-            "Title": "2. ",
-            "Descriptions": [
-              "Memorandum para sa kabatiran \n"
-            ],
-            "Position": {
-              "x": 229,
-              "y": 206
-            },
-            "Branches": [
-              "Tatlong uring ng Memo"
-            ]
-          },
-          {
-            "Title": "3. ",
-            "Descriptions": [
-              "Memorandum para sa pagtugon"
-            ],
-            "Position": {
-              "x": 220,
-              "y": 245
-            },
-            "Branches": [
-              "Tatlong uring ng Memo"
-            ]
-          },
-          {
-            "Title": "1. ",
-            "Descriptions": [
-              "Puti-ginagamit sa mga pangkalahatang kautusan, direktiba, ○ impormasyon ."
-            ],
-            "Position": {
-              "x": 118.5,
-              "y": 106.5
-            },
-            "Branches": [
-              "Dr. Darwin Bargo (2014)"
-            ]
-          },
-          {
-            "Title": "2.  ",
-            "Descriptions": [
-              "Pink o rosas - ginagamit naman para sa request o order na nanggagaling sa purchasing department."
-            ],
-            "Position": {
-              "x": 162,
-              "y": 103.5
-            },
-            "Branches": [
-              "Dr. Darwin Bargo (2014)"
-            ]
-          },
-          {
-            "Title": "3.  ",
-            "Descriptions": [
-              "Dilaw o luntian- ginagamit naman para sa mga memo na nanggagaling sa marketing at accounting department."
-            ],
-            "Position": {
-              "x": 196.5,
-              "y": 128.5
-            },
-            "Branches": [
-              "Dr. Darwin Bargo (2014)"
-            ]
-          },
-          {
-            "Title": "Sitwasyon",
-            "Descriptions": [
-              "dito makikita ang panimula o layunin ng memo."
-            ],
-            "Position": {
-              "x": 267,
-              "y": 269
-            },
-            "Branches": [
-              "6."
-            ]
-          },
-          {
-            "Title": "Problema",
-            "Descriptions": [
-              "nakasaad ang suliraning dapat pagtuonan ng pansin. Hindi lahat ng memo ay nagtataglay nito."
-            ],
-            "Position": {
-              "x": 290.5,
-              "y": 306.5
-            },
-            "Branches": [
-              "6."
-            ]
-          },
-          {
-            "Title": "Solusyon",
-            "Descriptions": [
-              "nagsasaad ng inaasahang dapat gawin ng kinauukulan."
-            ],
-            "Position": {
-              "x": 290,
-              "y": 351
-            },
-            "Branches": [
-              "6."
-            ]
-          },
-          {
-            "Title": "Paggalang o Pasasalamat",
-            "Descriptions": [
-              "wakasan ang memo sa pamamagitan ng pagpapasalamat o pagpapakita ng paggalang."
-            ],
-            "Position": {
-              "x": 244.5,
-              "y": 395.5
-            },
-            "Branches": [
-              "6."
-            ]
-          }
-        ]
-      },
-      {
-        "Topic": "Adyenda",
-        "Topic_Info": [
-          {
-            "Title": "Agenda o Adyenda",
-            "Descriptions": [],
-            "Position": {
-              "x": 115,
-              "y": 114
-            },
-            "Branches": [
-              ""
-            ]
-          },
-          {
-            "Title": "Prof. Ma, Rovilla Sudprasert(2014)",
-            "Descriptions": [
-              "Ayon kay Sudprasert (2014), ang adyenda ang nagtatakda ng mga paksang tatalakayin sa pulong. Ang pagkakaroon ng maayos at sistematikong adyenda ang isa sa mga susi ng matagumpay na pulong. Napakahalagang maisagawa ito nang maayos at maipabatid sa mga taong kabahagi bago isagawa ang pulong. \n"
-            ],
-            "Position": {
-              "x": 258,
-              "y": 116
-            },
-            "Branches": [
-              "Agenda o Adyenda"
-            ]
-          },
-          {
-            "Title": "kahalagahan ng pagkakaroon ng adyenda",
-            "Descriptions": [],
-            "Position": {
-              "x": 213.5,
-              "y": 162
-            },
-            "Branches": [
-              "Agenda o Adyenda"
-            ]
-          },
-          {
-            "Title": "1.",
-            "Descriptions": [
-              "Ito ang nagsasaad ng sumusunod na mga impormasyon:\n \na. mga paksang tatalakayin \nb. mga taong tatalakay o magpapaliwanag ng mga paksa \nc. oras na itinakda para sa bawat paksa\n"
-            ],
-            "Position": {
-              "x": 188,
-              "y": 216
-            },
-            "Branches": [
-              "kahalagahan ng pagkakaroon ng adyenda"
-            ]
-          },
-          {
-            "Title": "2.",
-            "Descriptions": [
-              "Ito rin ang nagtatakda ng balangkas ng pulong tulad ng pagkakasunod-sunod ng mga paksang tatalakayin at kung gaano katagal pag-uusapan ang mga ito."
-            ],
-            "Position": {
-              "x": 219,
-              "y": 236
-            },
-            "Branches": [
-              "kahalagahan ng pagkakaroon ng adyenda"
-            ]
-          },
-          {
-            "Title": "3.",
-            "Descriptions": [
-              "Ito ay nagsisilbing talaan o tseklist na lubhang mahalaga upang matiyak na ang lahat ng paksang tatalakayin ay kasama sa talaan.  "
-            ],
-            "Position": {
-              "x": 255,
-              "y": 240
-            },
-            "Branches": [
-              "kahalagahan ng pagkakaroon ng adyenda"
-            ]
-          },
-          {
-            "Title": "4.",
-            "Descriptions": [],
-            "Position": {
-              "x": 289,
-              "y": 231
-            },
-            "Branches": [
-              "kahalagahan ng pagkakaroon ng adyenda"
-            ]
-          },
-          {
-            "Title": "5.",
-            "Descriptions": [],
-            "Position": {
-              "x": 313,
-              "y": 200
-            },
-            "Branches": [
-              "kahalagahan ng pagkakaroon ng adyenda"
-            ]
-          },
-          {
-            "Title": "Mga Hakbang sa Pagsulat ng Adyenda",
-            "Descriptions": [],
-            "Position": {
-              "x": 37,
-              "y": 174
-            },
-            "Branches": [
-              "Agenda o Adyenda"
-            ]
-          },
-          {
-            "Title": "1. ",
-            "Descriptions": [
-              "Magpadala ng memo na maaaring nakasulat sa papel o kayâ naman ay isang e-mail na nagsasaad na magkakaroon ng pulong tungkol sa isang tiyak na paksa o layunin sa ganitong araw, oras, at lugar. "
-            ],
-            "Position": {
-              "x": 5,
-              "y": 206
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Adyenda"
-            ]
-          },
-          {
-            "Title": "2. ",
-            "Descriptions": [
-              "IIahad sa memo na kailangan nilang lagdaan ito bilang katibayan ng kanilang pagdalo o kung e-mail naman, kinakailangang magpadala sila ng kanilang tugon. Ipaliwanag din sa memo na sa mga dadalo, mangyaring ipadala o ibigay sa gagawa ng adyenda ang kanilang concerns o paksang tatalakayin at maging ang bilang ng minutong kanilang kailangan upang pag-usapan ito. "
-            ],
-            "Position": {
-              "x": 32,
-              "y": 228
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Adyenda"
-            ]
-          },
-          {
-            "Title": "3. ",
-            "Descriptions": [
-              "Gumawa ng balangkas ng mga paksang tatalakayin kapag ang lahat ng mga adyenda o paksa ay napadala o nalikom na. Higit na magiging sistematiko kung talaan ng adyenda ay nakalatag sa talahanayan o naka table format  kung saan makikita ang adyenda o paksa, taong magpapaliwanag , at oras kung gaano ito katagal pag-uusapan. Ang taong naatasang gumawa ng adyenda ay kailangang maging matalino at mapanuri kung ang mga isinumiteng adyenda o paksang ay may ugnayan sa layunin ng pulong. Kung sakaling ito ay malayo sa paguusaoan, ipagbigay-alam sa taong nagpadala nito na ito ay maaaring tatalakayin sa susunod na pulong."
-            ],
-            "Position": {
-              "x": 66,
-              "y": 239
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Adyenda"
-            ]
-          },
-          {
-            "Title": "4. ",
-            "Descriptions": [
-              "Ipadala ang sipi ng adyenda o mga taong dadalo, mga dalawa o isang araw bago ang pulong. Bilang paalala ay muling ilagay rito ang layunin ng pulong, at kung kailan at saan ito gaganapin."
-            ],
-            "Position": {
-              "x": 102,
-              "y": 235
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Adyenda"
-            ]
-          },
-          {
-            "Title": "5. ",
-            "Descriptions": [
-              "Sundin ang nasabing adyenda sa pagsasagawa ng pulong."
-            ],
-            "Position": {
-              "x": 132,
-              "y": 212
-            },
-            "Branches": [
-              "Mga Hakbang sa Pagsulat ng Adyenda"
+              "4"
             ]
           },
           {
             "Title": "Mga Dapat Tandaan sa Paggamit ng Adyenda",
-            "Descriptions": [],
+            "Descriptions": [
+              "1. Tiyaking ang bawat dadalo sa pulong ay nakatanggap ng sipi ng mga adyenda. Ginagawa ito upang matiyak na ang bawat taong dadalo sa pulong ay may sapat na kaalaman hinggil sa mga paksang pag-uusapan. Gayunman ng nabanggit sa unaha, maaari itong ibigay sa mga kasapi sa pulong, isang araw o dalawang araw bago ang pulong depende sa kultura ng organisasyon o instutusyon. Maaaring magdala ng karagdagang kopya nito sa mismong araw ng pulong araw ng pulong upang kung may nakalimot dalhin ito ay maaari mo silang bigyan ng kopya.",
+              "2. Talakayin sa unang bahagi ng pulong ang higit na mahahalagang paksa. Sa pagpaplano ng pulong, higit na makabubuti kung sa unang bahagi ng miting tatalakyin ang pinakamahahalagang adyenda. Ginagawa ito upang matiyak na kung kulangin man ang oras para sa pagpupulong ay natalakay na ang mahahalagang paksa. Gayundin, ang mga taong kasama sa pulong ay hindi pa gaanong pagod at ito ay nakatutulong nang malaki upang maunawaan nang lubos ang mahalagang adyenda.",
+              "3. Manatili sa iskedyul ng agenda ngunit maging flexible kung kinakailangan. Tiyakin na nasusunod ang itinakdang oras para sa mga adyenda o paksang tatalakayin. Maging \"conscious\" sa oras na napgkasunduan. Huwag maging maligoy sa pagtatalakay ng mga paksa. Tandaan na ayaw ng maraming tao ang mahabang pulong. Ito ay kadalasang nagdudulot ng pagkainip o minsan maging pagkainis sa kasapi ng pulong. Kung sakaling sumobra sa itinakdang oras ang pagtatalakay sa isang paksa dahil mahalaga ito at nangangailangan na higit paglilinaw, maaaring mag-adjust ng oras ng pagtatalakay sa ibang adyenda na maaaring matalakay nang mas mabilis.",
+              "4. Magsimula at magwakas sa itinakdang oras na nakalagay sa sipi ng adyenda. Ang pagsunod sa itinakdang oras ay nangangahulugan ng pagrespeto sa oras ng iyong kasama. Kung maaari ay maglagay ng palugi o sobrang oras upang maiwasan ang pagmamadali.",
+              "5. Ihanda ang mga kakailanging dokumento kasama ng adyenda. Makatutulong nang malaki kung nakahanda na rin kasama ng adyenda ang mga kakailanganing dokumento para sa mga paksang nangangailangan ng estadistika, kompyutasyon, at iba pa upang mas madali itong maunawaan ng lahat at walang masayang na oras."
+            ],
             "Position": {
-              "x": 117,
-              "y": 256
+              "x": 142.85763549804688,
+              "y": 332.4270935058594
             },
             "Branches": [
-              "Agenda o Adyenda"
+              "4"
             ]
           },
           {
-            "Title": "1.  ",
+            "Title": "Katitikan ng pulong",
             "Descriptions": [
-              "Tiyaking ang bawat dadalo sa pulong ay nakatanggap ng sipi ng mga adyenda. Ginagawa ito upang matiyak na ang bawat taong dadalo so pulong ay may sapat na kaalaman hinggil sa mga paksang pag-uusapan."
+              "Ang pulong ay mababalewala kung hindi maitatala ang mga napag-usapan o napagkasunduan. Ang opisyal na tala ng isang pulong ay tinatawag na katitikan ng pulong. Ito ay kalimitang isinasagawa nang pormal, obhetibo at komprehensibo o nagtataglay ng lahat ng mahahalagang detalyeng tinalakay sa pulong. Matapos itong maisulat at mapagtibay sa susunod na pagpupulong, ito ay nagsisilbing opisyal at legal na kasulatan ng samahan, kumpanya, o organisasyong maaaring magamit bilang prima facie evidence  sa mga legal na usapin o sanggunian para sa susunod na mga pagpaplano at pagkilos.",
+              "Higit na napagtitibay ang mga napag-usapan at napagkasunduan kung ito ay maingat na naitala at naisulat. Kaya naman napakahalagang maunawaan kung paano gumawa ng isang organisado, obhetibo, at sistematikong katitikan ng pulong. Ito ay hindi lamang gawain ng kalihim ng samahan o organisasyon, ang bawat isang kasai ay maaaring maatasang gumawa nito."
             ],
             "Position": {
-              "x": 91,
-              "y": 300
+              "x": 135.94791412353516,
+              "y": 136.6354217529297
             },
             "Branches": [
-              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
-            ]
-          },
-          {
-            "Title": "2.  ",
-            "Descriptions": [
-              "Talakayin sa unang bahagi ng pulong ang higit na mahahalagang paksa. Sa pagpaplano ng pulong, higit na makabubuti kung sa unahang bahagi ng miting tatalakayin ang pinakamahahalagang adyenda."
-            ],
-            "Position": {
-              "x": 120,
-              "y": 324
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
-            ]
-          },
-          {
-            "Title": "3.  ",
-            "Descriptions": [
-              "Manatili sa iskedyul ng agenda ngunit maging flexible kung kinakailangan. Tiyakin na nasusunod ang itinakdang oras para sa mga adyenda o paksang tatalakayin. Maging \"conscious\" sa oras na napagkasunduan. "
-            ],
-            "Position": {
-              "x": 158,
-              "y": 328
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
-            ]
-          },
-          {
-            "Title": "4.  ",
-            "Descriptions": [
-              "Magsimula at magwakas sa itinakdang oras na nakalagay sa sipi ng adyenda. Ang pagsunod sa itinakdang oras ay nangangahulugan ng pagrespeto sa oras ng iyong mga kasama. "
-            ],
-            "Position": {
-              "x": 192,
-              "y": 320
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
-            ]
-          },
-          {
-            "Title": "5.  ",
-            "Descriptions": [
-              "Ihanda ang mga kakailanganing dokumento kasama ng adyenda. Makatutulong nang malaki kung nakahanda na rin kasama ng adyenda ang mga kakailanganing dokumento para sa mga paksang nangangailangan ng estadistika, kompyutasyon, at iba pa upang mas madali itong maunawaan ng lahat at walang masayang na oras."
-            ],
-            "Position": {
-              "x": 215,
-              "y": 294
-            },
-            "Branches": [
-              "Mga Dapat Tandaan sa Paggamit ng Adyenda"
-            ]
-          }
-        ]
-      },
-      {
-        "Topic": "Katitikan ng Pulong",
-        "Topic_Info": [
-          {
-            "Title": "Katitikan ng Pulong",
-            "Descriptions": [
-              "Ang pulong ay mababalewala kung hindi maitatala ang mga napag-usapan o napagkasunduan. Ang opisyal na tala ng isang pulong ay tinatawag na katitikan ng pulong. Ito ay kalimitang isinasagawa nang pormal, obhetibo, at komprehensibo o nagtataglay ng lahat ng mahahalagang detalyeng tinalakay sa pulong. Matapos itong maisulat at mapagtibay sa susunod na pagpupulong, ito ay nagsisilbing opisyal at legal na kasulatan ng samahan, kompanya, o organisasyong maaaring magamit bilang prima facie evidence sa mga legal na usapin o sanggunian para sa susunod na mga pagpaplano at pagkilos."
-            ],
-            "Position": {
-              "x": 116,
-              "y": 262
-            },
-            "Branches": [
-              ""
+              "0"
             ]
           },
           {
             "Title": "Mahahalagang Bahagi ng Katitikan ng Pulong",
-            "Descriptions": [],
-            "Position": {
-              "x": 38,
-              "y": 309
-            },
-            "Branches": [
-              "Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "1.",
             "Descriptions": [
-              "HEADING - Ito ay naglalaman ng pangalan ng kompanya, samahan, organisasyon, o kagawaran. Makikita rin dito ang petsa, ang lokasyon, at maging ang oras ng pagsisimula ng pulong. "
+              "1. Heading. Ito ay naglalaman ng pangalan ng kompanya, samahan, organisasyon, o kagawaran. Makikita rin dito ang petsa, ang lokasyon, at maging ang oras ng pagsisimula ng pulong.",
+              "2. Mga kalahok o dumalo. Dito nakalagay kung sino ang nanguna sa pagpapadaloy ng pulong gayundin ang pangalan ng lahat ng mga dumalo kasama ang mga panauhin. Maging ang pangalan ng mga liban o hindi nakadalo ay nakatala dito.",
+              "3. Pagbasa at pagpapatibay ng nagdaang katitikan ng pulong. Dito makikita kung ang nakalipas na katitikan na pulong ay napagtibay o may mga pagbabagong isinagawa sa mga ito.",
+              "4. Action items o usaping napagkasunduan (kasama sa bahaging ito ang mga hindi pa natapos o nagawang proyektong bahagi ng nagdaang puloong). Dito makikita ang mahahalagang tala hinggil sa mga paksang tinalakay. Inilalagay rin sa bahaging ito kung sino ang taong nanguna sa pagtalakay ng isyu at maging ang desisyong nabuo ukol dito.",
+              "5. Pabalita o patalastas. Hindi ito laging makikita sa katitikan ng pulong ngunit kung mayroong mang pabalita o patalastas mula sa mga dumalo tulad halimbawa ng mga suhestiyong adyenda para sa susunod na pulong at maaaring ilagay sa bahaging ito.",
+              "6. Iskedyul ng susunod na pulong. Itinatala sa bahaging ito kung kailan at saan gaganapin ang susunod na pulong.",
+              "7. Pagtatapos. Inilalagay sa bahaging ito kung anong oras nagwakas ang pulong.",
+              "8. Lagda. Mahalagang ilagay sa bahaging ito ang pangalan ng taong kumuha ng katitikan ng pulong at kung kailan ito isinumite. "
             ],
             "Position": {
-              "x": 30,
-              "y": 279
+              "x": 21.753461837768555,
+              "y": 89.05555725097656
             },
             "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "2.",
-            "Descriptions": [
-              "Mga kalahok o dumalo - Dito nakalagay kung sino ang nanguna sa pagpapadaloy ng pulong gayundin ang pangalan ng lahat ng mga dumalo kasama ang mga panauhin. Maging ang pangalan ng mga liban o hindi nakadalo ay nakatala rin dito."
-            ],
-            "Position": {
-              "x": 2,
-              "y": 310
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "3.",
-            "Descriptions": [
-              "Pagbasa at pagpapatibay ng nagdaang katitikan ng pulong - Dito makikita kung ang nakalipas na katitikan ng pulong ay napagtibay o may mga pagbabagong isinagawa sa mga ito. "
-            ],
-            "Position": {
-              "x": -2,
-              "y": 348
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "4.",
-            "Descriptions": [
-              "Action items o usaping napagkasunduan (kasama sa bahaging ito ang mga hindi pa natapos o nagawang proyektong bahagi ng nagdaang pulong). Dito makikita ang mahahalagang talâ hinggil sa mga paksang tinalakay. Inilalagay rin sa bahaging ito kung sino ang taong nanguna sa pagtalakay ng isyu at maging ang desisyong nabuo ukol dito. "
-            ],
-            "Position": {
-              "x": 24,
-              "y": 374
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "5.",
-            "Descriptions": [
-              "Pabalita o patalastas - Hindi ito laging makikita sa katitikan ng pulong ngunit kung mayroon mang pabalita o patalastas mula sa mga dumalo tulad halimbawa ng mga suhestiyong adyenda para sa susunod na pulong ay maaaring ilagay sa bahaging ito. "
-            ],
-            "Position": {
-              "x": 61,
-              "y": 387
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "6.",
-            "Descriptions": [
-              "Iskedyul ng susunod na pulong - Itinatala sa bahaging ito kung kailan at saan gaganapin ang susunod na pulong."
-            ],
-            "Position": {
-              "x": 94,
-              "y": 384
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "7.",
-            "Descriptions": [
-              "Pagtatapos - Inilalagay sa bahaging ito kung anong oras nagwakas ang pulong."
-            ],
-            "Position": {
-              "x": 125,
-              "y": 374
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "8.",
-            "Descriptions": [
-              "Lagda - mahalagang ilagay sa bahaging ito ang pangalan ng taong kumuha ng katitikan ng pulong at kung kailan ito isinumite."
-            ],
-            "Position": {
-              "x": 145,
-              "y": 340
-            },
-            "Branches": [
-              "Mahahalagang Bahagi ng Katitikan ng Pulong"
+              "7"
             ]
           },
           {
             "Title": "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong",
+            "Descriptions": [
+              "Ayon kay Bargo (2014), dapat tandaan ng sinumang kumukuha ng katitikan ng pulong na hindi niya trabahong ipaliwanag o bigyang-interpretasyon ang mga napag-usapan sa pulong, sa halip, ang kanyang tanging gawain ay itala at iulat lamang ito. Napakahalaga na siya ay maging obhetibo at organisado sa pagsasagawa nito. Narito ang ilang mga bagay na dapat isaalang-alang ng mga taong kumukuha ng katitikan ng pulong na hinango mula sa aklat ni Sudprassert (2014) na English for the Workplace 3. Ang kumukuha ng katitikan ng pulong ay kinakailangang:",
+              "1. Hangga't maaari ay hindi participant sa nasabing pulong. Hindi madali ang pagkuha ng katitikan ng pulong kaya napakamahalaga na ang naatasang kumuha nito ay may sapat na atensiyon sa pakikinig upang maitala niya ang lahat  ng mahahalagang impormasyon o desisyong mapag-uusapan. Magagampanan niya ito nang lubos kung ito lamang ang kanyang gagawin sa kabuoan ng pulong.",
+              "2. Umupo malapit sa tagapanguna o presider ng pulong. Magiging madali para sa kanyang linawin sa tagapanguna ang ilang mga bagay na hindi niya lubos na maunawaan kung siya ay nakaupo malapit sa presider.",
+              "3. May sipi ng mga pangalan ng mga taong dadalo sa pulong. Mahalaga na ma-tsek kung sino-sino ang dumalo sa pulong at maging ang mga liban. Itala rin ang pangalan ng mga taong dumating nang huli sa itinakdang oras maging ang mga umalis nang maaga.",
+              "4. Handa sa mga sipi ng adyenda at katitikan ng nakaraang pulong. Kundi hindi naipamahagi nang maaga ang adyenda na pag-uusapan sa pulong, mahalagang maibahagi ito bago magsimula ang pulong kasama ang sipi ng katitikan ng nagdaang pulong. Makakatulong ito upang higit na maging organisado at sistematiko ang daloy ng pulong.",
+              "5. Nakapokus o nakatuon lamang sa nakatalang adyenda. Bilang kalihim ng tagapanguna ng pulong, mahalagang mabantayan na ag lahat na tinatalakay na paksa sa pulong ay yaon lamang kasama o nakasaad sa adyenda upang hindi masayang ang oras ng lahat at gayundin ay maiwasan ang kalituhan sa pangkat.",
+              "6. Tiyaking ang katitikan ng pulong na ginagawa ay nagtataglay ng tumpak at kompletong heading. Kailangang malinaw na nakatala ang pangalan ng samahan o organisasyon, petsa, oras, at lugar ng pulong.",
+              "7. Gumamit ng recorder kung kinakailangan. Makatulong nang malaki kung gumamit ng recorder sa oras ng pulong upang kung sakaling may puntos na hindi malinaw na naitala ay maaaring itong balikan.",
+              "8. Itala ang mga mosyon o pormal na suhestiyon nang maayos. Ang mga mosyon o mga suhestiyong nabanggit sa pulong at sinusugan ng iba pang kasapi at napagtibay ng samahan ay dapat maitala nang maayos. Ang kumukuha ng katitikan ay maaaring banggitin ang mosyon sa kapulungan para sa higit na paglilinaw. Mahalagang maitala rin kung kanino nanggaling ang mosyon at maging ang mga taong sumang-ayon dito.",
+              "9. Itala ang lahat ng paksa at isyung napagdesisyunan ng koponan. Mahalagang maitala ang lahat ng mga paksa at isyung napagdesisyunan gaano man ito kapayak o kalaking bagay.",
+              "10. Isulat o isaayos agad ang mga datos ng katitikan pagkatapos ng pulong. Ang pag-oorganisa at pagsusulat ng katitikan ng pulong ay dapat na maisagawa agad upang hindi makaligtaan. May tatlong uri o estilo ng pagsulat ng katitikan ng pulong. Ang mga ito ay ang sumusunod:\n\na. Ulat ng katitikan. Sa ganitong uri ng katitikan, ang lahat ng detalyeng napag-usapan sa pulong ay nakatala. Maging ang pangalan ng mga taong nagsalita o tumatalakay ng paksa kasama ang pangalan ng mga taong sumang-ayon sa mosyong isinagawa.\n\nb. Salaysay ng katitikan. Isinisalaysay lamang ang mahahalagang detalye ng pulong. Ang ganiong uri ng katitikan ay maituturing na isang legal na dokumento.\n\nc. Resolusyon ng katitikan. Nakasaad lamang sa katitikan na ito ang lahat ng isyung napagkasunduan ng samahan. Hindi na itinatala ang pangalan ng mga taong tumalakay nito at maging mga sumang-ayon dito. Kadalasang mababasa ang mga katagang \"Napagkasunduan na...\" o \"Napagtibay na...\"."
+            ],
+            "Position": {
+              "x": 254.6527862548828,
+              "y": 170.88192749023438
+            },
+            "Branches": [
+              "7",
+              "3",
+              "2"
+            ]
+          },
+          {
+            "Title": "Mga Dapat Tandaan sa Pagsulat ng Katitikan ng Pulong",
+            "Descriptions": [
+              "Ayon kay Dawn Rosenberg Mckay, isang editor at may-akda ng The Everything Practice Interview Book at ng The Everything Get-a-job Book, sa pagkuha ng katitikan ng pulong mahalagang maunawaan ang mga bagay na dapat gawin bago ang pulong, habang isinasagawa ang pulong, at pagkatapos ng pulong. Ilan sa mga ito ay makikita sa kabilang pahina.",
+              "Bago ang Pulong:\n\n1. Magpasiya kung anong paraan ng pagtatala ng katitikan ang iyong gagamitin. Maaaring gumamit ng bolpen at papel, laptop, tablet, computer, o recorder.\n\n2. Tiyaking ang gagamitin mong kasangkapan ay nasa maayos na kondisyon. Kung ikaw ay gagamit ng laptop siguraduhing ito ay may sapat na bateryang kakailanganin para sa kabuoan ng pulong.\n\n3. Gamitin ang adyenda para gawin nang mas maaga ang ouline o balangkas ng katitikan ng pulong. Maglaan ng sapat na espasyo para sa bawat paksa, makakatulong ito upang mabilis na maitala ang mga mapag-uusapan kaugnay ng mga ito.",
+              "Habang Isinisagawa ang Pulong:\n\n1. Ipaikot ang listahan ng mga taong kasama sa pulong at hayaang lagdaan ito ng bawat isa. Mula rito madali mong matutukoy kung sino ang liban a pulong at maging ang panauhin sa araw na iyon.\n\n2. Sikaping makilala kung sino ang bawat isa upang maging madali para sa iyo na matutukoy kung sino ang nagsasalita sa oras ng pulong.\n\n3. Itala kung anong oras nagsimula ang pulong.\n\n4. Itala lamang ang mahahalagang ideya o puntos. Hindi isulat ang bawat impormasyong maririnig sa pulong gayunman maging maingat sa pagtatala ng mahahalagang puntos. Tandaan na ang katitikan ng pulong ay isang opisyal at legal na dokumento ng samahan o organisasyon.\n\n5. Itala ang mga mosyon o mga suhestiyon, maging ang pangalan ng taong nagbanggit nito, gayundin ang mga sumang-ayon, at ang naging resulta ng botohan.\n\n6. Itala at bigyang-pansin ang mga mosyong pagbobotohan o pagdedesis- yunan pa sa susunod na pulong.\n\n7. Itala kung arong oras natapos ang pulong.",
+              "Pagkatapos ng Pulong:\n\n1. Gawin o buoin ang katitikan ng pulong pagkatapos habang sariwa pa sa isip ang lahat ng mga tinalakay. Kung may hindi malinaw sa iyong tala ay maaaring linawin ito sa iba na dumalo rin sa nasabing pulong.\n\n2. Huwag kalimutang itala ang pangalan ng samahan o organisasyon, pangalan ng komite, uri ng pulong (lingguhan, buwanan, taunan, o espesyal na pulong), at maging ang layunin nito.\n\n3. Itala kung anong oras ito nagsimula at natapos.\n\n4. Isama ang listahan ng mga dumalo at maging ang pangalan ng nanguna sa pagpapadaloy ng pulong. Sa katapusan ng katitikan ay huwag kalimutang ilagay ang \"Isinumite ni: \" kasunod ang iyong pangalan.\n\n5. Basahing muli ang katitikan ng pulong bago tuluyang ipasa sa kinauukulan para sa huling pagwawasto nito. Maaring ipabasa ito sa kasamahan na nakadalo rin sa nasabing pulong upang magkaroon ka mang nakaligtaang puntos o ideyang hindi  naisama ay maaaring niya ito makita at ipagbigay-alam sa iyo.\n\n6. Ipasa ang sipi ng katitikan ng pulong sa kinauukulan o sa taong nanguna sa pagpapadaloy nito. "
+            ],
+            "Position": {
+              "x": 133.71180725097656,
+              "y": 62.41666793823242
+            },
+            "Branches": [
+              "7"
+            ]
+          },
+          {
+            "Title": "Dawn Rosenberg Mckay",
             "Descriptions": [],
             "Position": {
-              "x": 227.5,
-              "y": 289.5
+              "x": 245.7465057373047,
+              "y": 95.51737976074219
             },
             "Branches": [
-              "Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "Dr. Darwin Bargo (2014)",
-            "Descriptions": [
-              "Ayon kay Bargo (2014), dapat tandaan ng sinumang kumukuha ng katitikan ng pulong na hindi niya trabahong ipaliwanag o bigyang-interpretasyon ang mga napag-usapan sa pulong, sa halip, ang kanyang tanging gawain ay itala at iulat lamang ito. "
-            ],
-            "Position": {
-              "x": 207,
-              "y": 232
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "1. ",
-            "Descriptions": [
-              "Hanggal maaari ay hindi participant sa nasabing pulong. "
-            ],
-            "Position": {
-              "x": 195,
-              "y": 324
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "2. ",
-            "Descriptions": [
-              "Umupo malapit sa tagapanguna o presider ng pulong. "
-            ],
-            "Position": {
-              "x": 202,
-              "y": 361
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "3. ",
-            "Descriptions": [
-              "May sipi ng mga pangalan ng mga taong dadalo sa pulong. "
-            ],
-            "Position": {
-              "x": 225,
-              "y": 386
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "4. ",
-            "Descriptions": [
-              "Handa sa mga sipi ng adyenda at katitikan ng nakaraang pulong. "
-            ],
-            "Position": {
-              "x": 252,
-              "y": 397
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "5. ",
-            "Descriptions": [
-              "Nakapokus o nakatuon lamang sa nakatalang adyenda."
-            ],
-            "Position": {
-              "x": 283,
-              "y": 397
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "6. ",
-            "Descriptions": [
-              "Tiyaking ang katitikan ng pulong na ginagawa ay nagtataglay ng tumpak at kompletong heading. "
-            ],
-            "Position": {
-              "x": 312,
-              "y": 383
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "7. ",
-            "Descriptions": [
-              "Gumamit ng recorder kung kinakailangan.\n"
-            ],
-            "Position": {
-              "x": 330,
-              "y": 354
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "8. ",
-            "Descriptions": [
-              "Itala ang mga mosyon o pormal na suhestiyon nang maayos."
-            ],
-            "Position": {
-              "x": 332,
-              "y": 322
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "9. ",
-            "Descriptions": [
-              "Itala ang lahat ng paksa at isyung napagdesisyunan ng koponan. "
-            ],
-            "Position": {
-              "x": 320,
-              "y": 290
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "10. ",
-            "Descriptions": [
-              "Isulat o isaayos agad ang mga datos ng katitikan pagkatapos ng pulong."
-            ],
-            "Position": {
-              "x": 297,
-              "y": 266
-            },
-            "Branches": [
-              "Mga Dapat Gawin ng Taong Naatasang Kumuha ng Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong",
-            "Descriptions": [],
-            "Position": {
-              "x": 58,
-              "y": 161
-            },
-            "Branches": [
-              "Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "1.  ",
-            "Descriptions": [
-              "Ulat ng Katitikan - Sa ganitong uri ng katitikan, ang lahat ng detalyeng napag-usapan sa pulong ay nakatala. "
-            ],
-            "Position": {
-              "x": 14,
-              "y": 197
-            },
-            "Branches": [
-              "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong"
-            ]
-          },
-          {
-            "Title": "2.  ",
-            "Descriptions": [
-              "Salaysay ng Katitikan - Isinasalaysay lamang ang mahahalagang detalye ng pulong. "
-            ],
-            "Position": {
-              "x": 38,
-              "y": 231
-            },
-            "Branches": [
-              "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong"
-            ]
-          },
-          {
-            "Title": "3.  ",
-            "Descriptions": [
-              "Resolusyon ng Katitikan - Nakasaad lamang sa katitikan na ito ang lahat ng isyung napagkasunduan ng samahan."
-            ],
-            "Position": {
-              "x": 74,
-              "y": 248
-            },
-            "Branches": [
-              "Tatlong uri o estilo ng pagsulat ng katitikan ng pulong"
-            ]
-          },
-          {
-            "Title": "Dawn Rosenberg McKay",
-            "Descriptions": [
-              "Ayon kay Dawn Rosenberg McKay, isang editor at may-akda ng The Everything Practice Interview Book at ng The Everything Get-a-job Book, sa pagkuha ng katitikan ng pulong mahalagang maunawaan ang mga bagay na dapat bago ang pulong, habang isinasagawa ang pulong, at pagkatapos ng pulong."
-            ],
-            "Position": {
-              "x": 161,
-              "y": 145.5
-            },
-            "Branches": [
-              "Katitikan ng Pulong"
-            ]
-          },
-          {
-            "Title": "Bago ang Pulong",
-            "Descriptions": [
-              "Magpasiya kung anong paraan ng pagtatala ng katitikan ang iyong gagamitin. ",
-              "Tiyaking ang gagamitin mong kasangkapan ay nasa maayos na kondisyon Kung ikaw ay gagamit ng laptop siguraduhing ito ay may sapat na bateryang kakailanganin para sa kabuoan ng pulong. ",
-              "Gamitin ang adyenda para gawin nang mas maaga ang outline o balangkas ng katitikan ng pulong."
-            ],
-            "Position": {
-              "x": 86,
-              "y": 100.5
-            },
-            "Branches": [
-              "Dawn Rosenberg McKay"
-            ]
-          },
-          {
-            "Title": "Habang Isanasagawa ang Pulong",
-            "Descriptions": [
-              "Ipaikot ang listahan ng mga taong kasama sa pulong at hayaang lagdaan ito ng bawat isa. ",
-              "Sikaping makilala kung sino ang bawat isa upang maging madali para sa iyo na matukoy kung sino ang nagsasalita sa oras ng pulong. ",
-              "Itala kung anong oras nagsimula ang pulong. ",
-              "Itala lamang ang mahahalagang ideya o puntos. Hindi kailangang isulat ang bawat impormasyong maririnig sa pulong gayunman maging maingat sa pagtatala ng mahahalagang puntos. \n",
-              "Itala ang mga mosyon o mga suhestiyon, maging ang pangalan ng taong nagbanggit nito, gayundin ang mga sumang-ayon, at ang naging resulta ng botohan. ",
-              "Itala at bigyang-pansin ang mga mosyong pagbobotohan o pagdedesis- yunan pa sa susunod na pulong. ",
-              "Itala kung anong oras natapos ang pulong."
-            ],
-            "Position": {
-              "x": 197,
-              "y": 72
-            },
-            "Branches": [
-              "Dawn Rosenberg McKay"
-            ]
-          },
-          {
-            "Title": "Pagkatapos ng Pulong",
-            "Descriptions": [
-              "Gawin o buoin agad ang katitikan ng pulong pagkatapos na pagkatapos habang sariwa pa sa isip ang lahat ng mga tinalakay. ",
-              "Huwag kalimutang itala ang pangalan ng samahan o organisasyon, pangalan ng komite, uri ng pulong (lingguhan, buwanan, taunan, o espesyal na pulong), at maging ang layunin nito. ",
-              "Itala kung anong oras ito nagsimula at natapos. Isama ang listahan ng mga dumalo at maging ang pangalan ng nanguna sa pagpapadaloy ng pulong. Sa katapusan ng katitikan ay huwag kalimutang ilagay ang \"Isinumite ni:\", kasunod ang iyong pangalan. ",
-              "Basahing muli ang katitikan ng pulong bago tuluyang ipasa sa kinauukulan para sa huling pagwawasto nito. ",
-              "Basahing muli ang katitikan ng pulong bago tuluyang ipasa sa kinauukulan para sa huling pagwawasto nito. "
-            ],
-            "Position": {
-              "x": 264,
-              "y": 134
-            },
-            "Branches": [
-              "Dawn Rosenberg McKay"
+              "10"
             ]
           }
         ]
@@ -1728,8 +591,8 @@
               "When a fatty acid has no double bonds, it is known as a saturated fatty acid because no more hydrogen may be added to the carbon atoms of the chain. "
             ],
             "Position": {
-              "x": 125.29167175292969,
-              "y": 127.96875
+              "x": 156.2890625,
+              "y": 128.96875
             },
             "Branches": [
               "0"
@@ -1743,8 +606,8 @@
               "A fat may contain similar or diffirent fatty acids attach to the glycerol."
             ],
             "Position": {
-              "x": 141.27084350585938,
-              "y": 68.62500762939453
+              "x": 173.265625,
+              "y": 69.625
             },
             "Branches": [
               "0"
@@ -1773,8 +636,8 @@
               "Animal fats with stearic acid and palmitic acid (common in meat) and the fat with butyric acid (common in butter) are examples of saturated fats."
             ],
             "Position": {
-              "x": 229.22918701171875,
-              "y": 125.28125
+              "x": 273.2265625,
+              "y": 127.78125
             },
             "Branches": [
               "2"
@@ -1787,8 +650,8 @@
               "In plants, fat or oil is stored in many seeds and is used as a source of energy during seedling development."
             ],
             "Position": {
-              "x": 224.6666259765625,
-              "y": 65.32290649414062
+              "x": 269.1640625,
+              "y": 67.3203125
             },
             "Branches": [
               "3"
@@ -1807,8 +670,8 @@
               "Unsaturated fats help to lower blood cholesterol levels whereas saturated fats contribute to plaque formation in the arteries. "
             ],
             "Position": {
-              "x": 123.97918701171875,
-              "y": 186.65625
+              "x": 149.9765625,
+              "y": 188.65625
             },
             "Branches": [
               "2"
@@ -1838,8 +701,8 @@
               "Many fast food restaurants have recently banned the use of trans fats, and food labels, are required to display the trans fat content. "
             ],
             "Position": {
-              "x": 129.30210876464844,
-              "y": 248.65625
+              "x": 158.796875,
+              "y": 258.65625
             },
             "Branches": [
               "7"
@@ -1858,8 +721,8 @@
               "Like carbohydrates, fats have received a lot of bad publicity. It is true that eating an excess of fried foods and other \"fatty\" foods leads to weight gain. However, fats do have important functions. Many vitamins are fat soluble, and fats serve as a long-term storage form of fatty acids: a source of energy. They also provide  insulation for the body. Therefore, \"healthy\" fats in moderate amounts should be consumed on the regular basis."
             ],
             "Position": {
-              "x": 206.61459350585938,
-              "y": 189.98956298828125
+              "x": 245.109375,
+              "y": 196.984375
             },
             "Branches": [
               "2"
@@ -2137,8 +1000,8 @@
               "It occurs in sexually reproducing organisms and involves two rounds of cell division, resulting in four daughter cells that are genetically different from each other and from the parent cell."
             ],
             "Position": {
-              "x": 56.26042175292969,
-              "y": 141.52081298828125
+              "x": 69.7578125,
+              "y": 147.515625
             },
             "Branches": [
               ""
@@ -2153,8 +1016,8 @@
               "4. Cytokinesis"
             ],
             "Position": {
-              "x": 104.59375,
-              "y": 171.95831298828125
+              "x": 133.09375,
+              "y": 176.953125
             },
             "Branches": [
               "0"
@@ -2166,8 +1029,8 @@
               "This is the period before meiosis begins. The cell grows and replicates its DNA, resulting in two identical copies of each chromosome called sister chromatids."
             ],
             "Position": {
-              "x": 229.3125,
-              "y": 151.96873474121094
+              "x": 283.8125,
+              "y": 151.9609375
             },
             "Branches": [
               "1"
@@ -2179,8 +1042,8 @@
               "The first meiotic division results in reducing the number of chromosomes (reduction division). In most cases, the division is accompanied by cytokinesis."
             ],
             "Position": {
-              "x": 107.33334350585938,
-              "y": 240.65625
+              "x": 129.328125,
+              "y": 243.15625
             },
             "Branches": [
               "1"
@@ -2192,8 +1055,8 @@
               "Subdivided into five substages: leptonema, zygonema, pachynema, diplonema, and diakinesis."
             ],
             "Position": {
-              "x": 32.545143127441406,
-              "y": 245.98150634765625
+              "x": 19.0390625,
+              "y": 276.9765625
             },
             "Branches": [
               "3"
@@ -2205,8 +1068,8 @@
               "The spindle apparatus is completely formed and the microtubules are attached to the centromere regions of the homologues. They synapsed tetrads are found aligned at the metaphase plate (the equatorial plane of the cell) instead of only replicated chromosomes."
             ],
             "Position": {
-              "x": 134.8333282470703,
-              "y": 309.3541564941406
+              "x": 181.828125,
+              "y": 318.8515625
             },
             "Branches": [
               "3"
@@ -2218,8 +1081,8 @@
               "Chromosomes in each tetrad separate and migrate toward the opposite poles. The sister chromatids (dyads) remain attached at their respective centromere regions."
             ],
             "Position": {
-              "x": 65.6250114440918,
-              "y": 294.97918701171875
+              "x": 93.625,
+              "y": 307.9765625
             },
             "Branches": [
               "3"
@@ -2231,8 +1094,8 @@
               "The dyads complete their migration to the poles. New nuclear membranes may form. In most species, cytokinesis follows, producing two daugther cells. Each has a nuclues containing only one set of chromosomes (haploid level) in a replicated form."
             ],
             "Position": {
-              "x": 205.45834350585938,
-              "y": 283.7395935058594
+              "x": 264.453125,
+              "y": 280.734375
             },
             "Branches": [
               "3"
@@ -2242,8 +1105,8 @@
             "Title": "Second Meiotic Division",
             "Descriptions": [],
             "Position": {
-              "x": 108.64582824707031,
-              "y": 109.98957824707031
+              "x": 133.640625,
+              "y": 112.484375
             },
             "Branches": [
               "1"
@@ -2255,8 +1118,8 @@
               "The chromosomes condenses again."
             ],
             "Position": {
-              "x": 29.979171752929688,
-              "y": 93.32293701171875
+              "x": -0.5234375,
+              "y": 93.3203125
             },
             "Branches": [
               "8"
@@ -2268,8 +1131,8 @@
               "The chromosomes line up at the equator of the cell."
             ],
             "Position": {
-              "x": 82.65625,
-              "y": 62.656246185302734
+              "x": 96.65625,
+              "y": 66.6484375
             },
             "Branches": [
               "8"
@@ -2281,8 +1144,8 @@
               "The siser chromatids are separated and move to opposite poles of the cell."
             ],
             "Position": {
-              "x": 155.9791717529297,
-              "y": 62.67708396911621
+              "x": 193.4765625,
+              "y": 61.171875
             },
             "Branches": [
               "8"
@@ -2294,8 +1157,8 @@
               "The cell divides into four daughter cells, each containing a single chromosome from each homologous pair."
             ],
             "Position": {
-              "x": 216.6666717529297,
-              "y": 96.00001525878906
+              "x": 277.6640625,
+              "y": 95
             },
             "Branches": [
               "8"
@@ -2308,8 +1171,8 @@
               "The constriction in the middle is often called cleavage, or cell furrow."
             ],
             "Position": {
-              "x": 220.66668701171875,
-              "y": 207.32293701171875
+              "x": 279.1640625,
+              "y": 212.8203125
             },
             "Branches": [
               "1"
@@ -2326,8 +1189,8 @@
               "Aneuploidy - is the gain or loss of whole chromosomes. It is the most common chromosome abnormality. It is caused by non-disjuction, the failure of chromosomes to correctly separate."
             ],
             "Position": {
-              "x": 1.9895884990692139,
-              "y": 185.33331298828125
+              "x": -8.015625,
+              "y": 191.828125
             },
             "Branches": [
               "0"
@@ -2383,8 +1246,8 @@
               "Geologic processes continue to change the appearance of Earth. So, how did Earth look before? Inthe absence of maps, only archaeological finds may solve this puzzle. "
             ],
             "Position": {
-              "x": 105.98956298828125,
-              "y": 69.29167175292969
+              "x": 130.984375,
+              "y": 69.7890625
             },
             "Branches": [
               ""
@@ -2396,8 +1259,8 @@
               "In 1596, Ambraham Ortelius (1527 - 1598) observed and presupposed that the shapes of the continents on both sides of the Atlantic Ocean seem to connect to each other. It was as if Africa was torn away from Asia and Europe. With the absence of valid measurements and proofs, the only speculation he could was that earthquakes and flooding may have made the separation possible.  "
             ],
             "Position": {
-              "x": 213.3125,
-              "y": 66.66667175292969
+              "x": 252.3125,
+              "y": 62.1640625
             },
             "Branches": [
               "0"
@@ -2423,8 +1286,8 @@
               "Suess is bette known to have proposed the existence of Tethy's Sea, the only recognized body of water during those ancient times."
             ],
             "Position": {
-              "x": 3.302074432373047,
-              "y": 129.3125
+              "x": 4.796875,
+              "y": 132.8125
             },
             "Branches": [
               "2"
@@ -2434,8 +1297,8 @@
             "Title": "Wegener provided the following strong evidences to his continental drift theory",
             "Descriptions": [],
             "Position": {
-              "x": 101.96875,
-              "y": 165.96876525878906
+              "x": 129.96875,
+              "y": 156.46875
             },
             "Branches": [
               "0"
@@ -2450,8 +1313,8 @@
               "With the absence of flying vehicles during that time, it would be impossible for any avian organism to have carried with it seeds of this fern for pollination as it flew from continent to continents unless again, those contients were close to each other. Only the drifting continents could explain this phenomenon."
             ],
             "Position": {
-              "x": -0.0208282470703125,
-              "y": 187.97915649414062
+              "x": 0.484375,
+              "y": 194.9765625
             },
             "Branches": [
               "4"
@@ -2463,8 +1326,8 @@
               "Tillites are glacial deposits from rock strata in areas that were once covered with snow. These deposits were found in South America, Africa, Madagascar, Arabia, India, Antacrica, Australia. It i understandable if tillites are found in polar climates or areas where there is snow. However, for places that are presently known to be tropical and desert-like such as Africa, Madagascar, and India, finding ice deposits would seem unreasonable if not for the concept  of drifting continents."
             ],
             "Position": {
-              "x": 40.645835876464844,
-              "y": 260.6458435058594
+              "x": 32.640625,
+              "y": 282.640625
             },
             "Branches": [
               "4"
@@ -2476,8 +1339,8 @@
               "Coal is a fossil fuel that originated from the chemically altered remains of prehistoric vegetation. Usually, coal is found in tropical areas because the climate is warm and ideal for propagation of organisms. Because of this, there is a higher index of diversity and population in tropical regions. This is where organisms are mostly concentrated. If you go back, the ancient fern Glossopteris proliferated in certain areas of each continent. The shaded regions are the tracks believed to be where the organisms had wandered or spread. These places are the same areas where coal seams were found. Therefore, Wegener used to question why coal would be found in polar regios such as the North Pole and Antartica, leading him to believe that these areas used to be near the equator and just drifted away from it. "
             ],
             "Position": {
-              "x": 141.9895782470703,
-              "y": 267.9895935058594
+              "x": 171.484375,
+              "y": 309.984375
             },
             "Branches": [
               "4"
@@ -2489,8 +1352,8 @@
               "Rock Layers may be prolifted to determine the history, age, and composition of materials in the environment. Part of the evidences of continental drift is the similarity of rock layers found in the mountains that are on the opposite sides of the Atlantic Ocean. The Appalachian Mountains, the Caledonian Mountains of Scotland, the Scandes Mountains of Norway, and the Atlas Mountains of Morocco were thought to be one mountain range in Pangaea. Later on the Atlantic widened and broke the mountain rang into pieces. "
             ],
             "Position": {
-              "x": 208,
-              "y": 206.64581298828125
+              "x": 252,
+              "y": 216.140625
             },
             "Branches": [
               "4"
@@ -2502,8 +1365,8 @@
               "The rock types found in Brazil, India, South Africa, and Antartica seem to have similar layers and sequence. This is evidenced by a top layer (which is the youngest rock layer) characterized by lava flow, followed by a middle layer with fossils of Glossepteris (which was belived to have been extensive and widespread in the entire Pangaea) and a bottom layer of glacial till (or tillites). The theory is that all these places were once continuous and shared the same environment and history."
             ],
             "Position": {
-              "x": 210,
-              "y": 136
+              "x": 252,
+              "y": 134
             },
             "Branches": [
               "4"
@@ -2535,8 +1398,8 @@
               "The endogenous processes are caused by forces from within or in the interior of Earth. The driving forces is the thermal energy of the mantle and the crust. Most of the thermal energy originates from the decay and disintegration of radioactive elements in Earth's core."
             ],
             "Position": {
-              "x": 149.98960876464844,
-              "y": 70.66667175292969
+              "x": 238.484375,
+              "y": 69.1640625
             },
             "Branches": [
               ""
@@ -2546,8 +1409,8 @@
             "Title": "The evolution of land form on earth",
             "Descriptions": [],
             "Position": {
-              "x": 104.64583587646484,
-              "y": 120.6666488647461
+              "x": 164.140625,
+              "y": 137.6640625
             },
             "Branches": [
               "1"
@@ -2560,8 +1423,8 @@
               "Magmatism is one of the main processes responsible for mountain formation. The true nature of magnetism depends on the tectonic setting."
             ],
             "Position": {
-              "x": 38.66666793823242,
-              "y": 156.6666717529297
+              "x": 62.6640625,
+              "y": 141.1640625
             },
             "Branches": [
               "2"
@@ -2573,8 +1436,8 @@
               "Volcanism is the process that usually happens after the magma is formed. The magma tries to escape from the source through openings such as volcanoes or existing cracks on the ground."
             ],
             "Position": {
-              "x": 105.33333587646484,
-              "y": 187.33334350585938
+              "x": 66.828125,
+              "y": 228.828125
             },
             "Branches": [
               "2"
@@ -2586,8 +1449,8 @@
               "Metamorphism is the process of changing the materials that make up a rock. The chemical components and geologic characteristics of the rock change due to heat, fluids, and pressure that is increasing or decreasing."
             ],
             "Position": {
-              "x": 213.3229217529297,
-              "y": 157.32290649414062
+              "x": 258.3203125,
+              "y": 227.8203125
             },
             "Branches": [
               "2"
@@ -2646,8 +1509,8 @@
               "Igneous rock, or magmatic rock, is one of the three main rock types, the others being sedimentary  and metamorphic. Igneous rocks are formed through the cooling and solidification of magma or lava."
             ],
             "Position": {
-              "x": 107.31251525878906,
-              "y": 184.63540649414062
+              "x": 124.3125,
+              "y": 198.6328125
             },
             "Branches": [
               "1"
@@ -2659,8 +1522,8 @@
               "started out as some type of rock but have been substantially changed from their original igneous, sedimentary, or earlier metamorphic form. Metamorphic rocks form when rocks are subjected to high heat, high pressure, hot mineral-rich fluids or, more commonly, some combination of these factors."
             ],
             "Position": {
-              "x": 154.66668701171875,
-              "y": 134.65625
+              "x": 179.1640625,
+              "y": 130.15625
             },
             "Branches": [
               "1"
@@ -2678,6 +1541,285 @@
             },
             "Branches": [
               "0"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Subject": "Philosophy",
+    "Subject_Info": [
+      {
+        "Topic": "Branches of Phylosophy",
+        "Topic_Info": [
+          {
+            "Title": "Philosophy",
+            "Descriptions": [
+              "Origin: \n - from Greece \n - Thales",
+              "It answers these questions?\n 1. Where am I?\n 2. How do I know it?\n 3. What should i do?",
+              "It is describe as:\n 1. Mother of all sciences\n 2. A way of life\n 3. It is also a science\n 4. Persistent question for knowledge."
+            ],
+            "Position": {
+              "x": 22.4921875,
+              "y": 236.1640625
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Branches of Philosphy",
+            "Descriptions": [
+              "1. Cognitive Branches",
+              "2. Normative Branches"
+            ],
+            "Position": {
+              "x": 131.6640625,
+              "y": 230.4921875
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Cognitive Branches",
+            "Descriptions": [],
+            "Position": {
+              "x": 133.328125,
+              "y": 302.640625
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Metaphysics",
+            "Descriptions": [],
+            "Position": {
+              "x": 61.3203125,
+              "y": 375
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Logic",
+            "Descriptions": [],
+            "Position": {
+              "x": 171.828125,
+              "y": 379.828125
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Epistemology",
+            "Descriptions": [],
+            "Position": {
+              "x": 233.15625,
+              "y": 373.5
+            },
+            "Branches": [
+              "2"
+            ]
+          },
+          {
+            "Title": "Normative Branches",
+            "Descriptions": [],
+            "Position": {
+              "x": 131,
+              "y": 158.6640625
+            },
+            "Branches": [
+              "1"
+            ]
+          },
+          {
+            "Title": "Ethics/Morality",
+            "Descriptions": [],
+            "Position": {
+              "x": 40.6640625,
+              "y": 103
+            },
+            "Branches": [
+              "6"
+            ]
+          },
+          {
+            "Title": "Politics",
+            "Descriptions": [],
+            "Position": {
+              "x": 165.828125,
+              "y": 105
+            },
+            "Branches": [
+              "6"
+            ]
+          },
+          {
+            "Title": "Aesthetics",
+            "Descriptions": [],
+            "Position": {
+              "x": 258.5,
+              "y": 107.46875
+            },
+            "Branches": [
+              "6"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Philosophical Tools and Truth",
+        "Topic_Info": [
+          {
+            "Title": "Philosophical Tools",
+            "Descriptions": [
+              "1. Philosophical Question.",
+              "2. Logical Reasoning."
+            ],
+            "Position": {
+              "x": 137.484375,
+              "y": 71.484375
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Philosophical Question",
+            "Descriptions": [
+              "1. Simple Question\n - Facts, information, observation.",
+              "2. Serious Question \n - Need Arguement",
+              "3. Deep Question \n - reflection"
+            ],
+            "Position": {
+              "x": 35.98958969116211,
+              "y": 110.66665649414062
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Logical Reasoning",
+            "Descriptions": [
+              "process of thinking about something ",
+              "to form conclusion and judgement",
+              "Made of two types: Deductive and Inductive Reasoning.",
+              "Deductive Reasoning \n - general arguement -> specific arguement.",
+              "Inductive Reasoning \n - specific arguement -> general arguement."
+            ],
+            "Position": {
+              "x": 232.640625,
+              "y": 125.8203125
+            },
+            "Branches": [
+              "0"
+            ]
+          },
+          {
+            "Title": "Truth",
+            "Descriptions": [
+              "It is considered truth because:\n 1. It has with evidence.\n 2. It's believable.\n 3. It has sincerity.\n 4. It's realistic.\n 5. It's consistent."
+            ],
+            "Position": {
+              "x": 170.328125,
+              "y": 162.484375
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "3 Domains of Truth",
+            "Descriptions": [
+              "The Domains of truth are: \n 1. Objective Domain.\n 2. Social Domain.\n 3. Personal Domain."
+            ],
+            "Position": {
+              "x": 49.4921875,
+              "y": 207.6640625
+            },
+            "Branches": [
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "Topic": "Opinion and Fallacy",
+        "Topic_Info": [
+          {
+            "Title": "Opinion",
+            "Descriptions": [
+              "Opinion is your own thoughts or comments on something.",
+              "Two types of Opinions: Strong Opinion and Weak Opinion."
+            ],
+            "Position": {
+              "x": 42.65625,
+              "y": 68.00000762939453
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Fallacy",
+            "Descriptions": [
+              "Fallacy is a group of statement that appeal to be an arguement but support fail to.",
+              "4 types of fallacy: \n 1. Argumentum ad Hominem\n  - Appeal to convince/ Bandwagon.\n 2. Argumentum ad Baculum \n  - Appeal to force.\n 3. Argumentum ad Misericordian\n  - Appeal to emotion.\n 4. Argumentum ad Populum Appeal to rejection."
+            ],
+            "Position": {
+              "x": 177.98959350585938,
+              "y": 67.98957824707031
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Reflection",
+            "Descriptions": [
+              "Reflection can be describe as:\n - thoughts\n - feelings\n - experience",
+              "Two types of Refection:\n 1. Primary Reflection \n  - Our ability to think logically.\n  - examine the object in specific part.\n 2. Secondary Reflection \n  - Analyzing the concept on deeper meaning or existence. "
+            ],
+            "Position": {
+              "x": 35.322914123535156,
+              "y": 127.33331298828125
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "Knowledge",
+            "Descriptions": [
+              "Knowledge can be describe as:\n - care awareness and understanding something.",
+              "Epicthimology \n - accuire knowledge\n - is to give a methods to demonstrating."
+            ],
+            "Position": {
+              "x": 176.65625,
+              "y": 130.00001525878906
+            },
+            "Branches": [
+              ""
+            ]
+          },
+          {
+            "Title": "How we aquire knowledge",
+            "Descriptions": [
+              "Two ways we can aquire knowledge: \n 1. Empericism\n  - using our senses.\n Authors: \n  1. John Locke\n  2. George Benky\n  3. David Hume\n\n 2. Rationalism\n  - is refering to thinking by the no our minds.\n  Authors:\n  1. Rene Descartes\n  2. Baruck Spiroza\n  3. Gottfried Villhelm Lebriz",
+              "1. Process \n2. Perception\n3. Concept\n4. Propisition\n5. Arguement"
+            ],
+            "Position": {
+              "x": 145.9895782470703,
+              "y": 183.9895782470703
+            },
+            "Branches": [
+              "3"
             ]
           }
         ]

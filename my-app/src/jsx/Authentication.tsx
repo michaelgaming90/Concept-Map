@@ -2,31 +2,63 @@ import "./../css/Authentication.css";
 import React, { useState, useRef } from "react";
 const Server = "https://concept-map.onrender.com";
 
-function Authentication(Props)
+type Authentication_Props =
 {
-	const [Authenticated, Set_Authenticated] = useState(() => false);
-	const Name_Ref = useRef(null);
-	const Password_Ref = useRef(null);
+	Admin_State: boolean;
 
-	function Authenticating()
+	Set_Authentication_State: React.Dispatch<React.SetStateAction<boolean>>
+	Set_Admin_State: React.Dispatch<React.SetStateAction<boolean>>
+	Set_Data: React.Dispatch<React.SetStateAction<Data[]>>
+}
+
+type Data = {
+	Subject: string;
+	Subject_Info: {
+		Topic: string;
+		Topic_Info: {
+			Title: string;
+			Descriptions: string[];
+			Position: {
+        x: number;
+        y: number;
+      };
+			Branches: string[];
+			}[];
+	}[];
+}
+
+const Authentication: React.FC<Authentication_Props> = (Props) =>
+{
+	const [Authenticated, Set_Authenticated] = useState<boolean>(() => false);
+	const Name_Ref = useRef<HTMLInputElement>(null);
+	const Password_Ref = useRef<HTMLInputElement>(null);
+
+	function Authenticating(): void
 	{
+		if(!Name_Ref.current || !Password_Ref.current) return;
 		if(Name_Ref.current.value === "Michael" && 
 			Password_Ref.current.value === "L0lipop")
 			Props.Set_Admin_State(() => true);
 		Set_Authenticated(() => true);
 	}
 
-	function Keep_Data()
+	function Keep_Data(): void
 	{
 		Props.Set_Authentication_State(() => false);
-		if(JSON.parse(localStorage.getItem("Data"))) Saved_Data();
-		if(JSON.parse(localStorage.getItem("Data"))) return;
+		let Information = localStorage.getItem("Data");
+		if(!Information) 
+		{
+			Saved_Data();
+		 	return;
+		}
 		Local_Storage_Set_Up();
 		Saved_Data();
-		Props.Set_Data(() => JSON.parse(localStorage.getItem("Data")));
+		Information = localStorage.getItem("Data");
+		if(!Information) return;
+		Props.Set_Data(() => JSON.parse(Information));
 	}
 
-	function Get_Data()
+	function Get_Data(): void
 	{
 		fetch(`${Server}/data`)
 			.then(response => response.json())
@@ -36,13 +68,17 @@ function Authentication(Props)
 				localStorage.setItem("Data", JSON.stringify(data));
 				Props.Set_Authentication_State(() => false);
 			})
-			.catch(err => 
+			.catch(() => 
 			{
-				console.log(err);
 				Props.Set_Authentication_State(() => false);
-				if(JSON.parse(localStorage.getItem("Data"))) return;
+				let Information = localStorage.getItem("Data");
+				if(!Information) return;
+				if(JSON.parse(Information)) return;
+
 				Local_Storage_Set_Up();
-				Props.Set_Data(() => JSON.parse(localStorage.getItem("Data")));
+				Information = localStorage.getItem("Data");
+				if(!Information) return;
+				Props.Set_Data(() => JSON.parse(Information));
 			});
 	}
 	
@@ -107,7 +143,10 @@ function Local_Storage_Set_Up()
 
 async function Saved_Data()
 {
-	const Data = JSON.parse(localStorage.getItem("Data"));
+	const Information = localStorage.getItem("Data");
+	if(!Information) return;
+
+	const Data = JSON.parse(Information);
 	try
 	{
 		 // eslint-disable-next-line

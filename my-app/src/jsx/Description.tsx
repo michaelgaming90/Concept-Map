@@ -1,40 +1,95 @@
 import "./../css/Description.css";
-import React, { useRef, useEffect, useState } from "react";
+import { useRef, useEffect, useState, ReactElement } from "react";
 
-function Description(Props) {
-	const Div = useRef(null);
-	const TextArea = useRef(null);
-	const TextAreas = useRef([]);
-	const [Class, Set_Class] = useState(() => `Description_Div`);
+type Description_Props = 
+{
+	Text: string;
+	Data: Data[];
+	Information_Index: number;
+	Subject_Index: number;
+	Topic_Index: number;
+	Switch_Value: boolean;
+	Edit_Text_Mode: boolean;
+	Description_State: boolean;
+	TextArea_Input: React.RefObject<HTMLTextAreaElement>
 
-	useEffect(() => {
+	Set_Menu_Mode: React.Dispatch<React.SetStateAction<string>>
+	Set_Text: React.Dispatch<React.SetStateAction<string>>
+	Set_Data: React.Dispatch<React.SetStateAction<Data[]>>
+	Set_Edit_Text_Mode: React.Dispatch<React.SetStateAction<boolean>>
+	Set_Force_Render_State: React.Dispatch<React.SetStateAction<boolean>>
+	Set_Description_State: React.Dispatch<React.SetStateAction<boolean>>
+	Set_Information_Index: React.Dispatch<React.SetStateAction<number>>
+}
+
+type Data = {
+	Subject: string;
+	Subject_Info: {
+		Topic: string;
+		Topic_Info: {
+			Title: string;
+			Descriptions: string[];
+			Position: {
+        x: number;
+        y: number;
+      };
+			Branches: string[];
+			}[];
+	}[];
+}
+
+const Description: React.FC<Description_Props> = (Props): ReactElement =>
+{
+	const Div = useRef<HTMLDivElement>(null);
+	const TextArea = useRef<HTMLTextAreaElement>(null);
+	const TextAreas = useRef<HTMLTextAreaElement[]>([]);
+	const [Class, Set_Class] = useState<string>(() => `Description_Div`);
+
+	useEffect(() => 
+	{
 		Adjust_TextArea();
 	}, [Props.Text, Props.Information_Index, Props.Switch_Value]);
 
-	useEffect(() => {
-		if (!Props.Description_State) {
+	useEffect(() => 
+	{
+		if (!Props.Description_State) 
+		{
 			if (!Div.current) return;
 			Set_Class(() => `Description_Div Unmounted`);
 		}
-		else {
+		else 
+		{
 			if (!Div.current) return;
 			Set_Class(() => `Description_Div Mounted`);
 			Div.current.style.display = "block";
 		}
 	}, [Props.Description_State])
 
-	function Display() {
+	function Display(): ReactElement[] | null
+ 	{
 		if (!Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index]) return null;
 		return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index]
 			.Descriptions.map((Description, Index) =>
-			(<textarea onClick={(e) => {
-				if (Props.Edit_Text_Mode) Edit_Text(e, Index);
-			}} readOnly ref={(Element) => TextAreas.current[Index] = Element} key={Index} value={`- ${Description}`} className="Descriptions" />)
+			(<textarea 
+				onClick={(e) =>
+				{
+					if (Props.Edit_Text_Mode) Edit_Text(e, Index);
+				}} 
+				readOnly 
+				ref = {(Element) => 
+				{
+					if(Element) TextAreas.current[Index] = Element}
+				} 
+				key={Index} 
+				value={`- ${Description}`} 
+				className="Descriptions" />)
 			)
 	}
 
-	function Adjust_TextArea() {
-		TextAreas.current.forEach(TextArea => {
+	function Adjust_TextArea(): void
+	{
+		TextAreas.current.forEach(TextArea => 
+		{
 			if (!TextArea) return;
 			TextArea.style.height = 'auto';
 			TextArea.style.height = `${TextArea.scrollHeight}px`;
@@ -45,17 +100,22 @@ function Description(Props) {
 		TextArea.current.style.height = `${TextArea.current.scrollHeight}px`;
 	}
 
-	function Edit_Text(e, Index) {
-		Props.TextArea_Input.current.value = e.target.value.slice(2);
+	function Edit_Text(e: React.MouseEvent<HTMLTextAreaElement>, Index: number): void
+	{
+		const target = e.target as HTMLInputElement;
+		const TextArea = Props.TextArea_Input.current;
+		if(!TextArea) return;
+
+		TextArea.value = target.value.slice(2);
 		Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index].Descriptions.splice(Index, 1);
 		localStorage.setItem("Data", JSON.stringify(Props.Data));
-		Props.Set_Text(() => Props.TextArea_Input.current.value);
+		Props.Set_Text(() => TextArea.value);
 		Props.Set_Data(() => Props.Data);
 		Props.Set_Edit_Text_Mode(() => false);
 		Props.Set_Force_Render_State((Prev) => !Prev);
 	}
 
-	function Set_Information_Index(newValue)
+	function Set_Information_Index(newValue: number): number
 	{
 		if(newValue < 0) return Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.length - 1
 		return newValue % Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.length

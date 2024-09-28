@@ -1,8 +1,16 @@
 import "./../css/Settings.css";
+import {ReactElement} from "react";
 
-function Settings(Props)
+type Settings_Props = 
 {
-  function Toggle_Switch()
+  Switch_Value: boolean;
+  
+  Set_Switch_Value: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+const Settings: React.FC<Settings_Props> = (Props): ReactElement =>
+{
+  function Toggle_Switch(): void
   {
     Props.Set_Switch_Value((value) => !value);
   }

@@ -1,28 +1,72 @@
 import "./../css/Menu.css";
-import React, {useState, useRef, useEffect} from "react";
+import {useState, useRef, useEffect, ReactElement} from "react";
 
-function Menu(Props)
+type Menu_Props = {
+  Edit_Label_Mode: boolean;
+  Switch_Value: boolean;
+  Menu_Mode: string;
+  Text: string;
+  Subject_Index: number;
+  Topic_Index: number;
+  Information_Index: number;
+  TextArea_Input: React.RefObject<HTMLTextAreaElement>;
+  Data: Data[];
+  Choosen_Option: {
+    Name: string;
+    Mode: string;
+  };
+
+  Set_Data: React.Dispatch<React.SetStateAction<Data[]>>;
+  Set_Subject_Index: React.Dispatch<React.SetStateAction<number>>;
+  Set_Topic_Index: React.Dispatch<React.SetStateAction<number>>;
+  Set_Text: React.Dispatch<React.SetStateAction<string>>;
+  Set_Description_State: React.Dispatch<React.SetStateAction<boolean>>;
+  Set_Edit_Text_Mode: React.Dispatch<React.SetStateAction<boolean>>; 
+  Set_Edit_Label_Mode: React.Dispatch<React.SetStateAction<boolean>>;
+  Set_Force_Render_State: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+type Data = {
+	Subject: string;
+	Subject_Info: {
+		Topic: string;
+		Topic_Info: {
+			Title: string;
+			Descriptions: string[];
+			Position: {
+        x: number;
+        y: number;
+      };
+			Branches: string[];
+			}[];
+	}[];
+}
+
+const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
 {
-  const [Option_State, Set_Option_State] = useState(() => false);
-  const [Hide_Button_Text, Set_Hide_Button_Text] = useState(() => "-");
+  const [Option_State, Set_Option_State] = useState<boolean>(() => false);
+  const [Hide_Button_Text, Set_Hide_Button_Text] = useState<string>(() => "-");
 
-  const Button_Div = useRef(null);
-  const Name_Input = useRef(null);
-  const Child_Input = useRef(null);
-  const Index_Input = useRef(null);
+  const Button_Div = useRef<HTMLDivElement>(null);
+  const Name_Input = useRef<HTMLInputElement>(null);
+  const Child_Input = useRef<HTMLInputElement>(null);
+  const Index_Input = useRef<HTMLInputElement>(null);
 
   useEffect(() =>
   {
     if(Props.Edit_Label_Mode) return;
     if(!Name_Input.current || !Child_Input.current) return;
-    const Information = JSON.parse(localStorage.getItem("Back_Up"));
-      
-    Name_Input.current.value = Information.Data.Title;
-    Child_Input.current.value = Information.Data.Branches.join(", ");
-    // eslint-disable-next-line
-  }, [Props.Edit_Label_Mode])
 
-  function Show_Option()
+    const Information = localStorage.getItem("Back_Up");
+    if(!Information) return;
+    const Back_Up = JSON.parse(Information);
+      
+    Name_Input.current.value = Back_Up.Data.Title;
+    Child_Input.current.value = Back_Up.Data.Branches.join(", ");
+    // eslint-disable-next-line
+  }, [Props.Edit_Label_Mode]);
+
+  function Show_Option(): ReactElement | null
   {
     if(!Option_State) return null;
     return(
@@ -37,14 +81,20 @@ function Menu(Props)
       </div>);
   }
 
-  function Add_Information()
+  function Add_Information(): void
   {
-    let Back_Up = JSON.parse(localStorage.getItem("Back_Up"));
+    if(!Name_Input.current || !Child_Input.current || !Index_Input.current) return;
+    let Information = localStorage.getItem("Back_Up");
+    if(!Information) return;
+
+    let Back_Up = JSON.parse(Information);
     if(!Back_Up) 
     {
       localStorage.setItem("Back_Up", 
       JSON.stringify(Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[0]));
-      Back_Up = JSON.parse(localStorage.getItem("Back_Up"));
+      Information = localStorage.getItem("Back_Up");
+      if(!Information) return;
+      Back_Up = JSON.parse(Information);
     }
 
     if(Name_Input.current.value === "") return;
@@ -52,7 +102,10 @@ function Menu(Props)
     {
       if(!Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[i]) continue;
       if(Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[i].Title === Name_Input.current.value) 
-        return Name_Input.current.value = "no";
+      {
+        Name_Input.current.value = "no";
+        return;
+      }
     }
 
     const Childs = Child_Input.current.value.split(", ");
@@ -84,10 +137,11 @@ function Menu(Props)
   }
 
   //Overview Menu
-  function Edit_Element(e)
+  function Edit_Element(e: React.MouseEvent<HTMLButtonElement>): void
   {
     Props.Set_Description_State(() => false);
-    if(e.target.textContent === "Edit Properties")
+    const target = e.target as HTMLElement;
+    if(target.textContent === "Edit Properties")
     {
       if(!Option_State) Set_Option_State(() => true);
       Props.Set_Edit_Label_Mode(() => true);
@@ -96,15 +150,22 @@ function Menu(Props)
     Props.Set_Edit_Label_Mode(() => false);
   }
 
-  function Hide_Menu()
+  function Hide_Menu(): void
   {
+    if(!Button_Div.current) return;
     if(Hide_Button_Text === "-") 
-      return Button_Div.current.style.display = "none";
-    return Button_Div.current.style.display = "flex";
+    {
+      Button_Div.current.style.display = "none";
+      return; 
+    }
+    Button_Div.current.style.display = "flex";
+    return;
   }
 
-  function Rename_Option(Mode)
+  function Rename_Option(Mode: string): void
   {
+    if(!Name_Input.current) return;
+
     Props.Set_Text(() => "");
     Props.Set_Force_Render_State((Prev) => !Prev);
     if(Mode === "Topic") Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic = Name_Input.current.value;
@@ -114,24 +175,20 @@ function Menu(Props)
     Name_Input.current.value = "";
   }
 
-  function Remove_Option(Mode)
+  function Remove_Option(Mode: string): void
   {
     if(Props.Choosen_Option.Mode !== Mode) return;
     if(Mode === "Topic")
     {
       Props.Data[Props.Subject_Index].Subject_Info = Props.Data[Props.Subject_Index].Subject_Info.filter(Subject_Info => 
-      {
-        return Subject_Info.Topic !== Props.Choosen_Option.Name;
-      })
+        Subject_Info.Topic !== Props.Choosen_Option.Name)
       Props.Set_Data(() => Props.Data);
       localStorage.setItem("Data", JSON.stringify(Props.Data));
     }
     if(Mode === "Subject")
     {
       let Data = Props.Data.filter(Subject => 
-      {
-        return Subject.Subject !== Props.Choosen_Option.Name;
-      })
+        Subject.Subject !== Props.Choosen_Option.Name)
       localStorage.setItem("Data", JSON.stringify(Data));
       Props.Set_Data(() => Data);
     }
@@ -140,8 +197,9 @@ function Menu(Props)
     Props.Set_Force_Render_State((Prev) => !Prev);
   }
 
-  function Add_Option(Mode)
+  function Add_Option(Mode: string): void
   {
+    if(!Name_Input.current) return;
     if(Mode === "Topic") 
       Props.Data[Props.Subject_Index].Subject_Info.push(
       {
@@ -165,42 +223,47 @@ function Menu(Props)
   }
 
   //Description Menu
-  function Change_Text(e)
+  function Change_Text(): void
 	{
-  	Props.Set_Text(() => Props.TextArea_Input.current.value);
+    const TextArea = Props.TextArea_Input.current;
+    if(!TextArea) return;
+  	Props.Set_Text(() => TextArea.value);
 	}
 
-	function Add_Text()
+	function Add_Text(): void
 	{
-  	if(Props.TextArea_Input.current.value === "") return;
+    const TextArea = Props.TextArea_Input.current;
+    if(!TextArea) return;
+  	if(TextArea.value === "") return;
   	
-    Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index].Descriptions.push(Props.TextArea_Input.current.value);
+    Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Props.Information_Index].Descriptions.push(TextArea.value);
     Props.Set_Data(() => Props.Data);
 		localStorage.setItem("Data", JSON.stringify(Props.Data));
-		Props.Set_Text(() => Props.TextArea_Input.current.value);
-  	Props.TextArea_Input.current.value = "";
+		Props.Set_Text(() => TextArea.value);
+  	TextArea.value = "";
 	}
 
-	function Remove_Text()
+	function Remove_Text(): void
 	{
   	Props.Set_Text(() => "");
 	}
 
-	function Edit_Text(e)
+	function Edit_Text(e: React.MouseEvent<HTMLButtonElement>): void
 	{
-		if(e.target.textContent === "Edit")
+    const target = e.target as HTMLElement;
+		if(target.textContent === "Edit")
     {
-      e.target.textContent = "Unedit";
+      target.textContent = "Unedit";
       Props.Set_Edit_Text_Mode(() => true);
       return;
     }
     
-   e.target.textContent = "Edit";
+   target.textContent = "Edit";
    Props.Set_Edit_Text_Mode(() => false);
 	}
 
   //Displays Menu
-  function Display_Overview_Menu()
+  function Display_Overview_Menu(): ReactElement
   {
     return (
       <>
@@ -223,7 +286,7 @@ function Menu(Props)
       </>);
   }
 
-  function Display_Topic_Menu()
+  function Display_Topic_Menu(): ReactElement
   {
     return (
       <div className = "Menu_Div">
@@ -273,7 +336,7 @@ function Menu(Props)
       );
   }
 
-  function Display_Description_Menu()
+  function Display_Description_Menu(): ReactElement
   {
     return(
       <>

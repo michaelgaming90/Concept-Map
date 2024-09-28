@@ -1,31 +1,47 @@
-import Description from "./Description.jsx";
-import Settings from "./Settings.jsx";
-import Overview from "./Overview.jsx";
-import Menu from "./Menu.jsx";
-import Information_Choosing from "./Information_Choosing.jsx";
-import Authentication from "./Authentication.jsx";
-import React, { useState, useRef } from "react";
+import Description from "./Description";
+import Settings from "./Settings";
+import Overview from "./Overview";
+import Menu from "./Menu";
+import Information_Choosing from "./Information_Choosing";
+import Authentication from "./Authentication";
+
+import React, { useState, useRef, ReactElement } from "react";
 import "./../css/Container.css";
 
-function Container()
+type Data = {
+	Subject: string;
+	Subject_Info: {
+		Topic: string;
+		Topic_Info: {
+			Title: string;
+			Descriptions: string[];
+			Position: {
+        x: number;
+        y: number;
+      };
+			Branches: string[];
+			}[];
+	}[];
+}
+
+const Container: React.FC = (): ReactElement| null =>
 {
-  const [Force_Render_State, Set_Force_Render_State] = useState(() => false);
-  const [Data, Set_Data] = useState(() => JSON.parse(localStorage.getItem("Data")));
-  const [Subject_Index, Set_Subject_Index] = useState(() => 0);
-	const [Topic_Index, Set_Topic_Index] = useState(() => 0);
-	const [Information_Index, Set_Information_Index] = useState(() => 0);
-	const [Description_State, Set_Description_State] = useState(() => false);
-  const [Switch_Value, Set_Switch_Value] = useState(() => false);
-	const [Menu_Mode, Set_Menu_Mode] = useState(() => "Description_Menu");
-	const [Text, Set_Text] = useState(() => "");
-	const [Choosen_Option, Set_Choosen_Option] = useState(() => {});
-	const [Choosen_Description, Set_Choosen_Description] = useState(() => "");
-	const [Edit_Text_Mode, Set_Edit_Text_Mode] = useState(() => false);
-	const [Edit_Label_Mode, Set_Edit_Label_Mode] = useState(() => false);
-	const [Authentication_State, Set_Authentication_State] = useState(() => true);
-	const [Admin_State, Set_Admin_State] = useState(() => false);
+  const [ , Set_Force_Render_State] = useState<boolean>(() => false);
+  const [Data, Set_Data] = useState<Data[]>(() => {	const Information =  localStorage.getItem("Data"); if(Information)return JSON.parse(Information)});
+  const [Subject_Index, Set_Subject_Index] = useState<number>(() => 0);
+	const [Topic_Index, Set_Topic_Index] = useState<number>(() => 0);
+	const [Information_Index, Set_Information_Index] = useState<number>(() => 0);
+	const [Description_State, Set_Description_State] = useState<boolean>(() => false);
+  const [Switch_Value, Set_Switch_Value] = useState<boolean>(() => false);
+	const [Menu_Mode, Set_Menu_Mode] = useState<string>(() => "Description_Menu");
+	const [Text, Set_Text] = useState<string>(() => "");
+	const [Choosen_Option, Set_Choosen_Option] = useState<{Mode: string, Name: string}>(() => ({Mode: "", Name: ""}));
+	const [Edit_Text_Mode, Set_Edit_Text_Mode] = useState<boolean>(() => false);
+	const [Edit_Label_Mode, Set_Edit_Label_Mode] = useState<boolean>(() => false);
+	const [Authentication_State, Set_Authentication_State] = useState<boolean>(() => true);
+	const [Admin_State, Set_Admin_State] = useState<boolean>(() => false);
 	
-	const TextArea_Input = useRef(null);
+	const TextArea_Input = useRef<HTMLTextAreaElement>(null);
 
 	if(!Data || Data.length === 0 || Authentication_State) 
 		return (
@@ -59,7 +75,6 @@ function Container()
       {Admin_State &&
 			<	Settings 
 				Set_Switch_Value = {Set_Switch_Value} 
-				Set_Description_State = {Set_Description_State}
 				Switch_Value = {Switch_Value} 
 			/>}
 			< Menu 
@@ -73,13 +88,10 @@ function Container()
 				Set_Force_Render_State = {Set_Force_Render_State}
 				Edit_Label_Mode = {Edit_Label_Mode}
 				Choosen_Option = {Choosen_Option}
-				Choosen_Description = {Choosen_Description}
 				Information_Index = {Information_Index} 
 				Switch_Value = {Switch_Value}
 				Data = {Data}
-				Text = {Text}
-				Description_State = {Description_State} 
-				Force_Render_State = {Force_Render_State}
+				Text = {Text} 
 				Subject_Index = {Subject_Index} 
 				Topic_Index = {Topic_Index}
 				Menu_Mode = {Menu_Mode}
@@ -89,7 +101,6 @@ function Container()
 				Set_Menu_Mode = {Set_Menu_Mode} 
 				Set_Force_Render_State = {Set_Force_Render_State}
 				Set_Description_State = {Set_Description_State} 
-				Set_Choosen_Description = {Set_Choosen_Description}
 				Set_Information_Index = {Set_Information_Index}
 				Set_Text = {Set_Text}
 				Set_Data = {Set_Data} 
@@ -112,7 +123,6 @@ function Container()
 				Set_Menu_Mode = {Set_Menu_Mode}
 				Set_Choosen_Option = {Set_Choosen_Option}
 				Subject_Index = {Subject_Index}
-				Topic_Index = {Topic_Index} 
 				Data = {Data}
 				Switch_Value = {Switch_Value}
 			/>
