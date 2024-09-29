@@ -26,20 +26,20 @@ type Data = {
 
 const Container: React.FC = (): ReactElement| null =>
 {
-  const [ , Set_Force_Render_State] = useState<boolean>(() => false);
-  const [Data, Set_Data] = useState<Data[]>(() => {	const Information =  localStorage.getItem("Data"); if(Information)return JSON.parse(Information)});
-  const [Subject_Index, Set_Subject_Index] = useState<number>(() => 0);
-	const [Topic_Index, Set_Topic_Index] = useState<number>(() => 0);
 	const [Information_Index, Set_Information_Index] = useState<number>(() => 0);
+	const [Subject_Index, Set_Subject_Index] = useState<number>(() => 0);
+	const [Topic_Index, Set_Topic_Index] = useState<number>(() => 0);
+	const [Authentication_State, Set_Authentication_State] = useState<boolean>(() => true);
 	const [Description_State, Set_Description_State] = useState<boolean>(() => false);
+	const [Edit_Label_Mode, Set_Edit_Label_Mode] = useState<boolean>(() => false);
+	const [Edit_Text_Mode, Set_Edit_Text_Mode] = useState<boolean>(() => false);
   const [Switch_Value, Set_Switch_Value] = useState<boolean>(() => false);
+	const [Admin_State, Set_Admin_State] = useState<boolean>(() => false);
+  const [ , Set_Force_Render_State] = useState<boolean>(() => false);
 	const [Menu_Mode, Set_Menu_Mode] = useState<string>(() => "Description_Menu");
 	const [Text, Set_Text] = useState<string>(() => "");
+	const [Data, Set_Data] = useState<Data[]>(() => {	const Information =  localStorage.getItem("Data"); if(Information)return JSON.parse(Information)});
 	const [Choosen_Option, Set_Choosen_Option] = useState<{Mode: string, Name: string}>(() => ({Mode: "", Name: ""}));
-	const [Edit_Text_Mode, Set_Edit_Text_Mode] = useState<boolean>(() => false);
-	const [Edit_Label_Mode, Set_Edit_Label_Mode] = useState<boolean>(() => false);
-	const [Authentication_State, Set_Authentication_State] = useState<boolean>(() => true);
-	const [Admin_State, Set_Admin_State] = useState<boolean>(() => false);
 	
 	const TextArea_Input = useRef<HTMLTextAreaElement>(null);
 
