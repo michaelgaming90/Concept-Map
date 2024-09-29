@@ -46,7 +46,7 @@ const Authentication: React.FC<Authentication_Props> = (Props) =>
 	{
 		Props.Set_Authentication_State(() => false);
 		let Information = localStorage.getItem("Data");
-		if(!Information) 
+		if(Information) 
 		{
 			Saved_Data();
 		 	return;
