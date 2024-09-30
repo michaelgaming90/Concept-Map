@@ -43,17 +43,17 @@ type Data = {
 }
 
 type Back_Up = {
+  Index: number;
   Data: 
   {
     Title: string;
-    Descriptions: string[]
+    Descriptions: string[];
     Position: 
     {
       x: number;
       y: number;
     }
   }
-  Index: number;
 }
 
 const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
@@ -142,7 +142,7 @@ const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
       if(Index_Input.current.value !== "")
       { 
         Index = Number(Index_Input.current.value)
-        Title = Index_Input.current.value; 
+        Title = Name_Input.current.value; 
         Descriptions = [];
         Position = {x: 0, y: 0}
       }
