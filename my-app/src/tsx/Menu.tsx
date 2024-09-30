@@ -42,6 +42,20 @@ type Data = {
 	}[];
 }
 
+type Back_Up = {
+  Data: 
+  {
+    Title: string;
+    Descriptions: string[]
+    Position: 
+    {
+      x: number;
+      y: number;
+    }
+  }
+  Index: number;
+}
+
 const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
 {
   const [Option_State, Set_Option_State] = useState<boolean>(() => false);
@@ -87,7 +101,7 @@ const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
     let Information = localStorage.getItem("Back_Up");
     if(!Information) return;
 
-    let Back_Up = JSON.parse(Information);
+    let Back_Up: Back_Up = JSON.parse(Information);
     if(!Back_Up) 
     {
       localStorage.setItem("Back_Up", 
@@ -120,12 +134,22 @@ const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
     }
     else
     {
-      let Index: number;
-      Index_Input.current.value !== ""? Index = Number(Index_Input.current.value) : Index = Back_Up.Index;
+      let Index = Back_Up.Index;
+      let Title = Back_Up.Data.Title;
+      let Descriptions = Back_Up.Data.Descriptions;
+      let Position = Back_Up.Data.Position;
+
+      if(Index_Input.current.value !== "")
+      { 
+        Index = Number(Index_Input.current.value)
+        Title = Index_Input.current.value; 
+        Descriptions = [];
+        Position = {x: 0, y: 0}
+      }
       Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Index, 0, {
-      Title: Back_Up.Data.Title,
-      Descriptions: Back_Up.Data.Descriptions,
-      Position: Back_Up.Data.Position,
+      Title: Title,
+      Descriptions: Descriptions,
+      Position: Position,
       Branches: Childs
       })
     }
