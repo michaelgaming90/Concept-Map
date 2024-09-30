@@ -1,0 +1,29 @@
+.Search_Bar_Div{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px;
+    margin-top: 20px;
+    min-height: 50px;
+    align-items: left;
+}
+
+.Search_Bar_Div input{
+    width: 100px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+}
+
+.Search_Bar_Div label{
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: left;
+    position: relative;
+    margin: 5px 0px;
+}

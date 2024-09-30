@@ -1,6 +1,6 @@
 .Description_Div{
     border: 1px solid black;
-    position: fixed;
+    position: absolute;
     z-index: 20;
     left: 30%;
     top: 10%;

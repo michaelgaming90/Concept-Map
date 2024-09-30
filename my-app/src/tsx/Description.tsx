@@ -46,24 +46,24 @@ const Description: React.FC<Description_Props> = (Props): ReactElement =>
 	const [Class, Set_Class] = useState<string>(() => `Description_Div`);
 
 	useEffect(() => 
-	{
-		Adjust_TextArea();
-	}, [Props.Text, Props.Information_Index, Props.Switch_Value]);
-
+		{
+			if (!Props.Description_State) 
+			{
+				if (!Div.current) return;
+				Set_Class(() => `Description_Div Unmounted`);
+			}
+			else 
+			{
+				if (!Div.current) return;
+				Set_Class(() => `Description_Div Mounted`);
+				Div.current.style.display = "block";
+			}
+	}, [Props.Description_State]);
+	
 	useEffect(() => 
 	{
-		if (!Props.Description_State) 
-		{
-			if (!Div.current) return;
-			Set_Class(() => `Description_Div Unmounted`);
-		}
-		else 
-		{
-			if (!Div.current) return;
-			Set_Class(() => `Description_Div Mounted`);
-			Div.current.style.display = "block";
-		}
-	}, [Props.Description_State])
+		Adjust_TextArea();
+	}, [Props.Text, Props.Information_Index, Props.Switch_Value, Props.Description_State]);	
 
 	function Display(): ReactElement[] | null
  	{
@@ -102,7 +102,7 @@ const Description: React.FC<Description_Props> = (Props): ReactElement =>
 
 	function Edit_Text(e: React.MouseEvent<HTMLTextAreaElement>, Index: number): void
 	{
-		const target = e.target as HTMLInputElement;
+		const target = e.target as HTMLTextAreaElement;
 		const TextArea = Props.TextArea_Input.current;
 		if(!TextArea) return;
 

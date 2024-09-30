@@ -7,8 +7,10 @@ import Authentication from "./Authentication";
 
 import React, { useState, useRef, ReactElement } from "react";
 import "./../css/Container.css";
+import Search_Bar from "./Search_Bar";
 
-type Data = {
+type Data = 
+{
 	Subject: string;
 	Subject_Info: {
 		Topic: string;
@@ -42,6 +44,7 @@ const Container: React.FC = (): ReactElement| null =>
 	const [Choosen_Option, Set_Choosen_Option] = useState<{Mode: string, Name: string}>(() => ({Mode: "", Name: ""}));
 	
 	const TextArea_Input = useRef<HTMLTextAreaElement>(null);
+	const Search_Bar_Div = useRef<HTMLDivElement>(null);
 
 	if(!Data || Data.length === 0 || Authentication_State) 
 		return (
@@ -59,6 +62,15 @@ const Container: React.FC = (): ReactElement| null =>
 	)
   return(
     <div className = "Container_Div">
+			{/*eslint-disable-next-line */}
+			<Search_Bar
+				Subject_Index = {Subject_Index}
+				Topic_Index = {Topic_Index}
+				Search_Bar_Div = {Search_Bar_Div}
+				Data = {Data}
+				Set_Description_State = {Set_Description_State}
+				Set_Information_Index = {Set_Information_Index}
+			/>
       < Overview 
 				Set_Information_Index = {Set_Information_Index} 
 				Set_Description_State = {Set_Description_State}
@@ -67,6 +79,7 @@ const Container: React.FC = (): ReactElement| null =>
 				Set_Data = {Set_Data}
 				Switch_Value = {Switch_Value}
 				Data = {Data}  
+				Search_Bar_Div = {Search_Bar_Div}
 				Edit_Label_Mode = {Edit_Label_Mode}
 				Subject_Index = {Subject_Index} 
 				Topic_Index = {Topic_Index}

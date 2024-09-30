@@ -3,11 +3,9 @@ const path = require('path');
 const app = express();
 const cors = require("cors");
 const fs = require("fs");
-const { error } = require('console');
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../", "my-app", "build")));
 
 app.put("/save", (req, res) =>
 {
@@ -32,11 +30,6 @@ app.put("/save", (req, res) =>
 app.get("/data", (req, res) =>
 {
   res.sendFile(path.join(__dirname, "Main_Data.json"));
-})
-
-app.get("/", (req, res) =>
-{
-  res.sendFile(path.join(__dirname, "../", "my-app", "build", "index.html"));
 })
 
 const PORT = process.env.PORT || 3000;

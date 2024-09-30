@@ -1,3 +1,7 @@
 .Container_Div{
+    display: block;
     position: relative;
+    height: 100vh;
+    max-height: 150vh;
+    overflow: hidden;
 }

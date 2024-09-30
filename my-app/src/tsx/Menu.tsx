@@ -120,7 +120,7 @@ const Menu: React.FC<Menu_Props> = (Props): ReactElement =>
     }
     else
     {
-      let Index;
+      let Index: number;
       Index_Input.current.value !== ""? Index = Number(Index_Input.current.value) : Index = Back_Up.Index;
       Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info.splice(Index, 0, {
       Title: Back_Up.Data.Title,

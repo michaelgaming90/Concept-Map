@@ -5,6 +5,7 @@ type Overview_Props = {
 	Topic_Index: number;
 	Subject_Index: number;
 	Information_Index: number;
+	Search_Bar_Div: React.RefObject<HTMLDivElement>
 	Data: Data[];
 	Switch_Value: boolean;
 	Edit_Label_Mode: boolean;
@@ -36,7 +37,7 @@ type Position = {
 
 const Overview: React.FC<Overview_Props> = (Props): ReactElement =>
 {
-	const [Position, Set_Position] = useState<Position>({x: 0, y: 0});
+	const [Position, Set_Position] = useState<Position>(() => ({x: 0, y: 0}));
 	const [Rerender, Set_Rerender] = useState<boolean>(() => true);
 	const Draggable_Label = useRef<HTMLLabelElement[]>([]);
 	const Offset = useRef<Position>({x: 0, y: 0});
@@ -48,19 +49,20 @@ const Overview: React.FC<Overview_Props> = (Props): ReactElement =>
 
 	function Drag_Start(e: React.DragEvent<HTMLLabelElement> | React.TouchEvent<HTMLLabelElement>): void
 	{
-		const target = e.target as HTMLElement;
+		const target = e.target as HTMLLabelElement;
+		if(!Props.Search_Bar_Div.current) return;
+		const Search_Bar_Div = window.getComputedStyle(Props.Search_Bar_Div.current)
 		const labelRect = target.getBoundingClientRect();
 		const Client_X = "touches" in e? e.touches[0].clientX: e.clientX;
 		const Client_Y = "touches" in e? e.touches[0].clientY: e.clientY;
     
 		Offset.current = {
       x: Client_X - labelRect.left,
-      y: Client_Y - labelRect.top,
+      y: Client_Y - labelRect.top + Number(Search_Bar_Div.height.slice(0, -2)) + Number(Search_Bar_Div.marginTop.slice(0, -2)),
     };
 
-		Draggable_Label.current.forEach((Label: HTMLLabelElement, Index) =>
+		Draggable_Label.current.forEach((Label, Index) =>
 		{
-			if(!Label) return;
 			if(target.textContent === Label.textContent)
 				Set_Position(() => Props.Data[Props.Subject_Index].Subject_Info[Props.Topic_Index].Topic_Info[Index].Position);
 		})
@@ -68,7 +70,7 @@ const Overview: React.FC<Overview_Props> = (Props): ReactElement =>
 
 	function Dragging(e: React.DragEvent<HTMLLabelElement> | React.TouchEvent<HTMLLabelElement>): void
 	{
-		const target = e.target as HTMLElement;
+		const target = e.target as HTMLLabelElement;
 		const Client_X = "touches" in e? e.touches[0].clientX: e.clientX;
 		const Client_Y = "touches" in e? e.touches[0].clientY: e.clientY;
 
@@ -87,7 +89,7 @@ const Overview: React.FC<Overview_Props> = (Props): ReactElement =>
 	function Drag_End(e: React.DragEvent<HTMLLabelElement> | React.TouchEvent<HTMLLabelElement>): void
 	{
 		let index = -1;
-		const target = e.target as HTMLElement;
+		const target = e.target as HTMLLabelElement;
 		for(let i = 0; i < Draggable_Label.current.length; i++)
 		{
 			if(!Draggable_Label.current[i]) continue;

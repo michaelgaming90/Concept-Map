@@ -1,0 +1,6 @@
+.App_Div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+}
