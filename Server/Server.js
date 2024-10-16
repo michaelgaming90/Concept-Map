@@ -6,6 +6,7 @@ const fs = require("fs");
 
 app.use(cors());
 app.use(express.json());
+app.use(bodyParser.json({limit: "100mb"}))
 
 app.put("/save", (req, res) =>
 {
